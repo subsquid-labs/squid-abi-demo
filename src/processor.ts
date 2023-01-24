@@ -8,7 +8,7 @@ const CONTRACT_ADDRESS = '0x2e645469f354bb4f5c8a05b3b30a929361cf77ec'
 
 const processor = new EvmBatchProcessor()
     .setDataSource({
-        archive: '[object Object]',
+        archive: 'https://eth.archive.subsquid.io',
     })
     .setBlockRange({
         from: 10000000

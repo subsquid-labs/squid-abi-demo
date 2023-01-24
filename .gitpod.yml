@@ -11,7 +11,8 @@ tasks:
   - name: GraphQL API
     init: npm install && npm run build && gp sync-await db
     command: make serve
-    openMode: split-right
   - name: Squid procesor
     init: npm install && npm run build && gp sync-await db
-    command: make process
+    command: |
+      gp ports await 23798
+      make process

@@ -9,9 +9,9 @@ tasks:
     init: make up && gp sync-done db
     command: make up
   - name: GraphQL API
-    init: npm install && npm run build
-    command: gp sync-await db && make process
+    init: npm install && npm run build && gp sync-await db
+    command: make serve
     openMode: split-right
   - name: Squid procesor
-    init: npm install && npm run build
-    command: gp sync-await db && make process
+    init: npm install && npm run build && gp sync-await db
+    command: make process

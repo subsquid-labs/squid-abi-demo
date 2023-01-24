@@ -11,7 +11,7 @@ const processor = new EvmBatchProcessor()
         archive: 'https://eth.archive.subsquid.io',
     })
     .setBlockRange({
-        from: 10000000
+        from: 6000000
     })
     .addLog(CONTRACT_ADDRESS, {
         filter: [

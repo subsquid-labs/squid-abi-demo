@@ -19,7 +19,6 @@ github:
 tasks:
   - init: |
       npm i
-      sqd build
       docker compose pull
       gp sync-done setup
   - name: DB
@@ -34,5 +33,6 @@ tasks:
   - name: Squid procesor
     command: |
       gp open src/processor.ts
+      npm run build
       gp ports await 23798
       npx sqd process

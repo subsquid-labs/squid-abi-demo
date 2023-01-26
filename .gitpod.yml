@@ -18,8 +18,8 @@ github:
 
 tasks:
   - init: |
-      npm install -g @subsquid/cli
       gp open src/processor.ts
+      npm install -g @subsquid/cli
       npm i
       sqd build
       sqd up

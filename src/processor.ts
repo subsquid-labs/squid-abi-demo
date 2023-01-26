@@ -1,14 +1,15 @@
 import * as abi from './abi/0x2E645469f354BB4F5c8a05B3b30A929361cf77eC'
 import {EvmBatchProcessor, BatchProcessorItem, BatchProcessorLogItem, BatchHandlerContext, BatchProcessorTransactionItem} from '@subsquid/evm-processor'
 import {Store, TypeormDatabase} from '@subsquid/typeorm-store'
-import {Transaction, Block, NewGravatarEvent, UpdatedGravatarEvent, CreateGravatarFunction} from './model'
+import {lookupArchive} from '@subsquid/archive-registry'
+import {Transaction, Block, NewGravatarEvent, UpdatedGravatarEvent} from './model'
 import {normalize} from './util'
 
 const CONTRACT_ADDRESS = '0x2e645469f354bb4f5c8a05b3b30a929361cf77ec'
 
 const processor = new EvmBatchProcessor()
     .setDataSource({
-        archive: 'https://eth.archive.subsquid.io',
+        archive: lookupArchive('eth-mainnet', {type: 'EVM'}),
     })
     .setBlockRange({
         from: 6000000
@@ -30,25 +31,12 @@ const processor = new EvmBatchProcessor()
             },
         } as const,
     })
-    .addTransaction(CONTRACT_ADDRESS, {
-        sighash: [
-            abi.functions['createGravatar'].sighash,
-        ],
-        data: {
-            transaction: {
-                hash: true,
-                input: true,
-            },
-        } as const,
-    })
 
 type SquidEventEntity = NewGravatarEvent | UpdatedGravatarEvent
-type SquidFunctionEntity = CreateGravatarFunction
-type SquidEntity = SquidEventEntity | SquidFunctionEntity
+type SquidEntity = SquidEventEntity
 
 processor.run(new TypeormDatabase(), async (ctx) => {
     let events: Record<string, SquidEventEntity[]> = {}
-    let functions: Record<string, SquidFunctionEntity[]> = {}
     let transactions: Transaction[] = []
     let blocks: Block[] = []
     for (let {header: block, items} of ctx.blocks) {
@@ -67,13 +55,6 @@ processor.run(new TypeormDatabase(), async (ctx) => {
                     if (e) {
                         if (events[e.name] == null) events[e.name] = []
                         events[e.name].push(e)
-                    }
-                    break
-                case 'transaction':
-                    let f = it = parseTransaction(ctx, item)
-                    if (f) {
-                        if (functions[f.name] == null) functions[f.name] = []
-                        functions[f.name].push(f)
                     }
                     break
                 default:
@@ -101,9 +82,6 @@ processor.run(new TypeormDatabase(), async (ctx) => {
     }
     await ctx.store.save(blocks)
     await ctx.store.save(transactions)
-    for (let f in functions) {
-        await ctx.store.save(functions[f])
-    }
     for (let e in events) {
         await ctx.store.save(events[e])
     }
@@ -134,20 +112,6 @@ function parseEvmLog(ctx: Context, item: BatchProcessorLogItem<typeof processor>
                 owner: e[1],
                 displayName: e[2],
                 imageUrl: e[3],
-            })
-        }
-    }
-}
-
-function parseTransaction(ctx: Context, item: BatchProcessorTransactionItem<typeof processor>): SquidFunctionEntity | undefined  {
-    switch (item.transaction.input.slice(0, 10)) {
-        case abi.functions['createGravatar'].sighash: {
-            let f = normalize(abi.functions['createGravatar'].decode(item.transaction.input))
-            return new CreateGravatarFunction({
-                id: item.transaction.id,
-                name: 'createGravatar',
-                displayName: f[0],
-                imageUrl: f[1],
             })
         }
     }

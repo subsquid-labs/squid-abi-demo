@@ -47,12 +47,3 @@ interface Function @query {
     transaction: Transaction!
     name: String!
 }
-
-type CreateGravatarFunction implements Function @entity {
-    id: ID!
-    block: Block!
-    transaction: Transaction!
-    name: String! @index
-    displayName: String
-    imageUrl: String
-}

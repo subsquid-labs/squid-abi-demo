@@ -18,7 +18,6 @@ github:
 
 tasks:
   - init: |
-      npm install -g @subsquid/cli
       npm i
       sqd build
       docker compose pull
@@ -28,7 +27,7 @@ tasks:
       make up
   - name: GraphQL API
     command: |
-      sqd serve
+      npx sqd serve
   - command: |
       gp ports await 4350 
       gp preview $(gp url 4350)/graphql
@@ -36,4 +35,4 @@ tasks:
     command: |
       gp open src/processor.ts
       gp ports await 23798
-      sqd process
+      npx sqd process

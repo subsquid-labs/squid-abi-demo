@@ -7,6 +7,7 @@
 tasks:
   - init: |
       npm install -g @subsquid/cli
+      npm i
       sqd build
       sqd up
       gp sync-done setup

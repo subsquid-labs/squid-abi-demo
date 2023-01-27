@@ -1,5 +1,5 @@
-module.exports = class Data1674558438585 {
-    name = 'Data1674558438585'
+module.exports = class Data1674748498692 {
+    name = 'Data1674748498692'
 
     async up(db) {
         await db.query(`CREATE TABLE "transaction" ("id" character varying NOT NULL, "hash" text NOT NULL, "contract" text, "block_id" character varying, CONSTRAINT "PK_89eadb93a89810556e1cbcd6ab9" PRIMARY KEY ("id"))`)
@@ -15,17 +15,11 @@ module.exports = class Data1674558438585 {
         await db.query(`CREATE INDEX "IDX_8988ea808e0d1af635e50b5253" ON "updated_gravatar_event" ("block_id") `)
         await db.query(`CREATE INDEX "IDX_59e53fe08a620d59a2837a072d" ON "updated_gravatar_event" ("transaction_id") `)
         await db.query(`CREATE INDEX "IDX_e40b718aa9d3ebd152bc415046" ON "updated_gravatar_event" ("name") `)
-        await db.query(`CREATE TABLE "create_gravatar_function" ("id" character varying NOT NULL, "name" text NOT NULL, "display_name" text, "image_url" text, "block_id" character varying, "transaction_id" character varying, CONSTRAINT "PK_28da2ec07f053db340f5695bbdd" PRIMARY KEY ("id"))`)
-        await db.query(`CREATE INDEX "IDX_1f9a76790f7c26fda8879035b6" ON "create_gravatar_function" ("block_id") `)
-        await db.query(`CREATE INDEX "IDX_882b9e344fad7f7586bf9b650c" ON "create_gravatar_function" ("transaction_id") `)
-        await db.query(`CREATE INDEX "IDX_cc7a5292c704c9ff68d65f6a8e" ON "create_gravatar_function" ("name") `)
         await db.query(`ALTER TABLE "transaction" ADD CONSTRAINT "FK_c0e1460f3c9eee975fee81002dc" FOREIGN KEY ("block_id") REFERENCES "block"("id") ON DELETE NO ACTION ON UPDATE NO ACTION`)
         await db.query(`ALTER TABLE "new_gravatar_event" ADD CONSTRAINT "FK_f777f9574caccff74e502179c55" FOREIGN KEY ("block_id") REFERENCES "block"("id") ON DELETE NO ACTION ON UPDATE NO ACTION`)
         await db.query(`ALTER TABLE "new_gravatar_event" ADD CONSTRAINT "FK_39c89369632da3da98b0825aa70" FOREIGN KEY ("transaction_id") REFERENCES "transaction"("id") ON DELETE NO ACTION ON UPDATE NO ACTION`)
         await db.query(`ALTER TABLE "updated_gravatar_event" ADD CONSTRAINT "FK_8988ea808e0d1af635e50b5253c" FOREIGN KEY ("block_id") REFERENCES "block"("id") ON DELETE NO ACTION ON UPDATE NO ACTION`)
         await db.query(`ALTER TABLE "updated_gravatar_event" ADD CONSTRAINT "FK_59e53fe08a620d59a2837a072d4" FOREIGN KEY ("transaction_id") REFERENCES "transaction"("id") ON DELETE NO ACTION ON UPDATE NO ACTION`)
-        await db.query(`ALTER TABLE "create_gravatar_function" ADD CONSTRAINT "FK_1f9a76790f7c26fda8879035b6e" FOREIGN KEY ("block_id") REFERENCES "block"("id") ON DELETE NO ACTION ON UPDATE NO ACTION`)
-        await db.query(`ALTER TABLE "create_gravatar_function" ADD CONSTRAINT "FK_882b9e344fad7f7586bf9b650c4" FOREIGN KEY ("transaction_id") REFERENCES "transaction"("id") ON DELETE NO ACTION ON UPDATE NO ACTION`)
     }
 
     async down(db) {
@@ -42,16 +36,10 @@ module.exports = class Data1674558438585 {
         await db.query(`DROP INDEX "public"."IDX_8988ea808e0d1af635e50b5253"`)
         await db.query(`DROP INDEX "public"."IDX_59e53fe08a620d59a2837a072d"`)
         await db.query(`DROP INDEX "public"."IDX_e40b718aa9d3ebd152bc415046"`)
-        await db.query(`DROP TABLE "create_gravatar_function"`)
-        await db.query(`DROP INDEX "public"."IDX_1f9a76790f7c26fda8879035b6"`)
-        await db.query(`DROP INDEX "public"."IDX_882b9e344fad7f7586bf9b650c"`)
-        await db.query(`DROP INDEX "public"."IDX_cc7a5292c704c9ff68d65f6a8e"`)
         await db.query(`ALTER TABLE "transaction" DROP CONSTRAINT "FK_c0e1460f3c9eee975fee81002dc"`)
         await db.query(`ALTER TABLE "new_gravatar_event" DROP CONSTRAINT "FK_f777f9574caccff74e502179c55"`)
         await db.query(`ALTER TABLE "new_gravatar_event" DROP CONSTRAINT "FK_39c89369632da3da98b0825aa70"`)
         await db.query(`ALTER TABLE "updated_gravatar_event" DROP CONSTRAINT "FK_8988ea808e0d1af635e50b5253c"`)
         await db.query(`ALTER TABLE "updated_gravatar_event" DROP CONSTRAINT "FK_59e53fe08a620d59a2837a072d4"`)
-        await db.query(`ALTER TABLE "create_gravatar_function" DROP CONSTRAINT "FK_1f9a76790f7c26fda8879035b6e"`)
-        await db.query(`ALTER TABLE "create_gravatar_function" DROP CONSTRAINT "FK_882b9e344fad7f7586bf9b650c4"`)
     }
 }

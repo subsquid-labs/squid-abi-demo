@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@subsquid/archive-registry': ^2.1.4
-  '@subsquid/cli': 2.1.2
+  '@subsquid/cli': 2.1.3
   '@subsquid/evm-processor': ^0.3.0
   '@subsquid/evm-typegen': ^2.0.4
   '@subsquid/graphql-server': ^3.3.2
@@ -31,7 +31,7 @@ dependencies:
   typeorm: 0.3.11_pg@8.8.0
 
 devDependencies:
-  '@subsquid/cli': 2.1.2
+  '@subsquid/cli': 2.1.3
   '@subsquid/evm-typegen': 2.1.0
   '@subsquid/squid-gen': 0.3.0_6cpw3xhrtfh76ia7lu23tvallu
   '@subsquid/typeorm-codegen': 0.3.3
@@ -1075,8 +1075,8 @@ packages:
     transitivePeerDependencies:
       - encoding
 
-  /@subsquid/cli/2.1.2:
-    resolution: {integrity: sha512-FV3jsAZAHruVULQLJqZdrLez96Ea4KqNsJnGh5AmZ1Gyp4xcC0Sq4WGDPf/APDhs7Z5dnmFrflDapEMGA4J5wQ==}
+  /@subsquid/cli/2.1.3:
+    resolution: {integrity: sha512-gXgjikI+txfCO337YWDgHJoi2xgg1YewU3jtlMD37hSWsUafcFgvIiLDksV+D9GNOLf98jdaoUUcQHl+CZFfFA==}
     hasBin: true
     dependencies:
       '@oclif/core': 1.26.1

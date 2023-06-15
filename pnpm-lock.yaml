@@ -38,8 +38,8 @@ dependencies:
 
 devDependencies:
   '@subsquid/cli':
-    specifier: 2.3.1
-    version: 2.3.1(mem-fs-editor@9.6.0)(mem-fs@2.2.1)
+    specifier: 2.4.1
+    version: 2.4.1(mem-fs-editor@9.6.0)(mem-fs@2.2.1)
   '@subsquid/evm-typegen':
     specifier: ^2.0.4
     version: 2.1.0
@@ -1099,8 +1099,8 @@ packages:
     transitivePeerDependencies:
       - encoding
 
-  /@subsquid/cli@2.3.1(mem-fs-editor@9.6.0)(mem-fs@2.2.1):
-    resolution: {integrity: sha512-j8HrHIlOO37VjcEwEhW4t/uABh0ZIJnsDqxyJ95i4MjvRohIksHh9gy/vHn6QefWwMQQEVovCAft6iQdYv2OmA==}
+  /@subsquid/cli@2.4.1(mem-fs-editor@9.6.0)(mem-fs@2.2.1):
+    resolution: {integrity: sha512-SeYRKQj3q8tR+9g52AATl9EFy9xyr0cW46AYhVXOUWLcTb+YRBvskq9GZlxWEr0DWEpj8RefqAJ321lemjnq7g==}
     hasBin: true
     dependencies:
       '@oclif/core': 1.26.1
@@ -2777,7 +2777,7 @@ packages:
     dependencies:
       call-bind: 1.0.2
       es-get-iterator: 1.1.3
-      get-intrinsic: 1.1.3
+      get-intrinsic: 1.2.1
       is-arguments: 1.1.1
       is-array-buffer: 3.0.1
       is-date-object: 1.0.5
@@ -3402,14 +3402,6 @@ packages:
   /get-caller-file@2.0.5:
     resolution: {integrity: sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==}
     engines: {node: 6.* || 8.* || >= 10.*}
-
-  /get-intrinsic@1.1.3:
-    resolution: {integrity: sha512-QJVz1Tj7MS099PevUG5jvnt9tSkXN8K14dxQlikJuPt4uD9hHAHjLyLBiLR5zELelBdD9QNRAXZzsJx0WaDL9A==}
-    dependencies:
-      function-bind: 1.1.1
-      has: 1.0.3
-      has-symbols: 1.0.3
-    dev: true
 
   /get-intrinsic@1.2.1:
     resolution: {integrity: sha512-2DcsyfABl+gVHEfCOaTrWgyt+tb6MSEGmKq+kI5HwLbIYgjgmMcV8KQ41uaKz1xxUcn9tJtgFbQUEVcEbd0FYw==}

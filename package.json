@@ -13,7 +13,7 @@
   "dependencies": {
     "@subsquid/archive-registry": "^3.0.0",
     "@subsquid/evm-processor": "^0.4.0",
-    "@subsquid/graphql-server": "^3.3.2",
+    "@subsquid/graphql-server": "^4.0.0",
     "@subsquid/typeorm-migration": "^0.1.6",
     "@subsquid/typeorm-store": "^0.2.2",
     "@subsquid/util-internal-json": "^0.2.1",

@@ -1,9 +1,13 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@subsquid/archive-registry':
-    specifier: ^2.1.4
-    version: 2.1.6
+    specifier: ^3.0.0
+    version: 3.0.0
   '@subsquid/evm-processor':
     specifier: ^0.4.0
     version: 0.4.0(typeorm@0.3.11)
@@ -41,7 +45,7 @@ devDependencies:
     version: 2.1.0
   '@subsquid/squid-gen':
     specifier: ^0.4.0
-    version: 0.4.2(@subsquid/archive-registry@2.1.6)(@subsquid/evm-processor@0.4.0)(@subsquid/evm-typegen@2.1.0)(@subsquid/typeorm-codegen@0.3.3)(@subsquid/typeorm-store@0.2.2)(@subsquid/util-internal-json@0.2.1)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4)
+    version: 0.4.2(@subsquid/archive-registry@3.0.0)(@subsquid/evm-processor@0.4.0)(@subsquid/evm-typegen@2.1.0)(@subsquid/typeorm-codegen@0.3.3)(@subsquid/typeorm-store@0.2.2)(@subsquid/util-internal-json@0.2.1)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4)
   '@subsquid/typeorm-codegen':
     specifier: ^0.3.3
     version: 0.3.3
@@ -1084,14 +1088,13 @@ packages:
   /@sqltools/formatter@1.2.5:
     resolution: {integrity: sha512-Uy0+khmZqUrUGm5dmMqVlnvufZRSK0FbYzVgp0UMstm+F5+W2/jnEEQyc9vo1ZR/E5ZI/B1WjjoTqBqwJL6Krw==}
 
-  /@subsquid/archive-registry@2.1.6:
-    resolution: {integrity: sha512-1twG6GPl8ffDZwv8f8WY3LRMePffdUwDNvLcoM+1DyTIoM5HjXFlASZiGa56U7Ts0FLqsxn90MeFH/k1733kLA==}
+  /@subsquid/archive-registry@3.0.0:
+    resolution: {integrity: sha512-d1gkQHMu+goAIHsmZWOB24dvP4LOaVJfowVE61jMtloHdEpZObE40OhuqTNl5mUR6daELJyouovI455awyn6gw==}
     hasBin: true
     dependencies:
-      '@subsquid/util-internal': 1.0.0
+      '@subsquid/util-internal': 1.1.0
       commander: 10.0.0
       easy-table: 1.2.0
-      node-abort-controller: 2.0.0
       node-fetch: 2.6.8
     transitivePeerDependencies:
       - encoding
@@ -1280,7 +1283,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@subsquid/squid-gen@0.4.2(@subsquid/archive-registry@2.1.6)(@subsquid/evm-processor@0.4.0)(@subsquid/evm-typegen@2.1.0)(@subsquid/typeorm-codegen@0.3.3)(@subsquid/typeorm-store@0.2.2)(@subsquid/util-internal-json@0.2.1)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4):
+  /@subsquid/squid-gen@0.4.2(@subsquid/archive-registry@3.0.0)(@subsquid/evm-processor@0.4.0)(@subsquid/evm-typegen@2.1.0)(@subsquid/typeorm-codegen@0.3.3)(@subsquid/typeorm-store@0.2.2)(@subsquid/util-internal-json@0.2.1)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4):
     resolution: {integrity: sha512-UeNvsDLmD7SW4lCLYd+6z5QaW7a0tNis32wQ2FnIHEq9T+9FG+1C2EoSjGm5Ydtecsmi6IqGhcUNIKHOh7cMPw==}
     hasBin: true
     peerDependencies:
@@ -1292,7 +1295,7 @@ packages:
       '@subsquid/util-internal-json': ^0.2.0
       ethers: ^5.7.2
     dependencies:
-      '@subsquid/archive-registry': 2.1.6
+      '@subsquid/archive-registry': 3.0.0
       '@subsquid/evm-processor': 0.4.0(typeorm@0.3.11)
       '@subsquid/evm-typegen': 2.1.0
       '@subsquid/logger': 0.3.1
@@ -1422,9 +1425,6 @@ packages:
     dependencies:
       '@subsquid/util-internal-http-server': 0.1.1
       prom-client: 14.1.1
-
-  /@subsquid/util-internal@1.0.0:
-    resolution: {integrity: sha512-uiGA6LwrgqZzg/1M8CL4CQdZ5k8yZmR1fEor6wGOf366RyL5tyXCETrhI5xsX/AXCO+nPAtahemOqqJKTAAbkQ==}
 
   /@subsquid/util-internal@1.1.0:
     resolution: {integrity: sha512-O6m666RDcWEw4vb3bmeNZKlAa1rGOHQvS0nhZFTBXnxZpqK/pU5N0jrQ7X/3is0pY2RKxFoxTurZjhv4QdxtqA==}
@@ -4350,9 +4350,6 @@ packages:
   /nice-try@1.0.5:
     resolution: {integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==}
     dev: true
-
-  /node-abort-controller@2.0.0:
-    resolution: {integrity: sha512-L8RfEgjBTHAISTuagw51PprVAqNZoG6KSB6LQ6H1bskMVkFs5E71IyjauLBv3XbuomJlguWF/VnRHdJ1gqiAqA==}
 
   /node-abort-controller@3.0.1:
     resolution: {integrity: sha512-/ujIVxthRs+7q6hsdjHMaj8hRG9NuWmwrz+JdRwZ14jdFoKSkm+vDsCbF9PLpnSqjaWQJuTmVtcWHNLr+vrOFw==}

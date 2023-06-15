@@ -23,7 +23,7 @@
     "typeorm": "^0.3.6"
   },
   "devDependencies": {
-    "@subsquid/cli": "2.3.1",
+    "@subsquid/cli": "2.4.1",
     "@subsquid/evm-typegen": "^2.0.4",
     "@subsquid/squid-gen": "^0.4.0",
     "@subsquid/typeorm-codegen": "^0.3.3",

@@ -41,11 +41,11 @@ devDependencies:
     specifier: 2.4.1
     version: 2.4.1(mem-fs-editor@9.6.0)(mem-fs@2.2.1)
   '@subsquid/evm-typegen':
-    specifier: ^2.0.4
-    version: 2.1.0
+    specifier: ^3.0.0
+    version: 3.0.0(ethers@5.7.2)
   '@subsquid/squid-gen':
     specifier: ^0.4.0
-    version: 0.4.2(@subsquid/archive-registry@3.0.0)(@subsquid/evm-processor@1.0.0)(@subsquid/evm-typegen@2.1.0)(@subsquid/typeorm-codegen@0.3.3)(@subsquid/typeorm-store@0.2.2)(@subsquid/util-internal-json@0.2.1)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4)
+    version: 0.4.2(@subsquid/archive-registry@3.0.0)(@subsquid/evm-processor@1.0.0)(@subsquid/evm-typegen@3.0.0)(@subsquid/typeorm-codegen@0.3.3)(@subsquid/typeorm-store@0.2.2)(@subsquid/util-internal-json@0.2.1)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4)
   '@subsquid/typeorm-codegen':
     specifier: ^0.3.3
     version: 0.3.3
@@ -1159,18 +1159,19 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@subsquid/evm-typegen@2.1.0:
-    resolution: {integrity: sha512-Iod84xEk8MzGx9ciyXhZs0F8u9eLSDen4rpXC5kSjgBoMRgA7zp2tqDswuXFi2qzQnvS066pzOBCvfpIcWoLnA==}
+  /@subsquid/evm-typegen@3.0.0(ethers@5.7.2):
+    resolution: {integrity: sha512-eecoCL5sE6hSiPr6A78Fv332PPo+4ZF6DK6w7mrHMG/wD/RXGa86aOPinCczVEHiBfypqoagStcvJw6KKdXsXA==}
     hasBin: true
+    peerDependencies:
+      ethers: ^6.3.0
     dependencies:
-      '@ethersproject/abi': 5.7.0
-      '@ethersproject/address': 5.7.0
-      '@subsquid/logger': 0.3.1
-      '@subsquid/util-internal': 1.1.0
-      '@subsquid/util-internal-code-printer': 0.1.1
-      '@subsquid/util-internal-commander': 0.0.2(commander@10.0.0)
-      '@subsquid/util-internal-http-client': 0.0.1
-      commander: 10.0.0
+      '@subsquid/http-client': 1.2.0
+      '@subsquid/logger': 1.2.0
+      '@subsquid/util-internal': 2.3.0
+      '@subsquid/util-internal-code-printer': 1.2.0
+      '@subsquid/util-internal-commander': 1.2.0(commander@10.0.1)
+      commander: 10.0.1
+      ethers: 5.7.2
     dev: true
 
   /@subsquid/graphiql-console@0.3.0:
@@ -1260,13 +1261,13 @@ packages:
       '@subsquid/graphiql-console': 0.3.0
       '@subsquid/logger': 0.3.1
       '@subsquid/util-internal': 1.1.0
-      '@subsquid/util-internal-commander': 0.0.2(commander@10.0.0)
+      '@subsquid/util-internal-commander': 0.0.2(commander@10.0.1)
       '@subsquid/util-internal-hex': 0.0.2
       '@subsquid/util-internal-http-server': 0.1.1
       '@subsquid/util-naming': 0.0.2
       apollo-server-core: 3.11.1(graphql@15.8.0)
       apollo-server-express: 3.11.1(express@4.18.2)(graphql@15.8.0)
-      commander: 10.0.0
+      commander: 10.0.1
       deep-equal: 2.2.0
       express: 4.18.2
       graphql: 15.8.0
@@ -1325,7 +1326,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@subsquid/squid-gen@0.4.2(@subsquid/archive-registry@3.0.0)(@subsquid/evm-processor@1.0.0)(@subsquid/evm-typegen@2.1.0)(@subsquid/typeorm-codegen@0.3.3)(@subsquid/typeorm-store@0.2.2)(@subsquid/util-internal-json@0.2.1)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4):
+  /@subsquid/squid-gen@0.4.2(@subsquid/archive-registry@3.0.0)(@subsquid/evm-processor@1.0.0)(@subsquid/evm-typegen@3.0.0)(@subsquid/typeorm-codegen@0.3.3)(@subsquid/typeorm-store@0.2.2)(@subsquid/util-internal-json@0.2.1)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4):
     resolution: {integrity: sha512-UeNvsDLmD7SW4lCLYd+6z5QaW7a0tNis32wQ2FnIHEq9T+9FG+1C2EoSjGm5Ydtecsmi6IqGhcUNIKHOh7cMPw==}
     hasBin: true
     peerDependencies:
@@ -1339,7 +1340,7 @@ packages:
     dependencies:
       '@subsquid/archive-registry': 3.0.0
       '@subsquid/evm-processor': 1.0.0
-      '@subsquid/evm-typegen': 2.1.0
+      '@subsquid/evm-typegen': 3.0.0(ethers@5.7.2)
       '@subsquid/logger': 0.3.1
       '@subsquid/typeorm-codegen': 0.3.3
       '@subsquid/typeorm-store': 0.2.2(typeorm@0.3.11)
@@ -1431,6 +1432,10 @@ packages:
   /@subsquid/util-internal-code-printer@0.1.1:
     resolution: {integrity: sha512-367YmYeLoLaOiBdlrYElEC4AeM4Kx0XYWM9mA9VBllGvT9qWNnGllaJ+mY9UBhlhWQtCbUnTRtHXhjR5qL8g1w==}
 
+  /@subsquid/util-internal-code-printer@1.2.0:
+    resolution: {integrity: sha512-UZgNiYs5C/aSBYXXi9LgWyjJ2Uy/0uYowNq8Hx4OhraJq8OoqS5Ef0K/RMf7+4tpgvuArocJUcpvtRCKWewvbA==}
+    dev: true
+
   /@subsquid/util-internal-commander@0.0.2(commander@10.0.0):
     resolution: {integrity: sha512-midCpkwu7NaXGhr0MiyQsJlIj284/0mAFBvVG8gRHqqRqb71GIAQq+aRcUSv8KNnAiRWnXK1OPak+gc40V9btw==}
     peerDependencies:
@@ -1439,13 +1444,20 @@ packages:
       commander: 10.0.0
     dev: true
 
+  /@subsquid/util-internal-commander@0.0.2(commander@10.0.1):
+    resolution: {integrity: sha512-midCpkwu7NaXGhr0MiyQsJlIj284/0mAFBvVG8gRHqqRqb71GIAQq+aRcUSv8KNnAiRWnXK1OPak+gc40V9btw==}
+    peerDependencies:
+      commander: ^10.0.0
+    dependencies:
+      commander: 10.0.1
+    dev: true
+
   /@subsquid/util-internal-commander@1.2.0(commander@10.0.1):
     resolution: {integrity: sha512-6Is1bpr/NwKLEEUEuE7HciQWFN69Cp95Dq/BivTyNT8sUBZMidLwe7U/zYpqN8dq3Vm0him7HpRrzNXiwQi05A==}
     peerDependencies:
       commander: ^10.0.1
     dependencies:
       commander: 10.0.1
-    dev: false
 
   /@subsquid/util-internal-config@1.0.1:
     resolution: {integrity: sha512-F5jr3OWerUQ+dn0ecCtcizdZunlFN6wXy50SmfLY+x8f8ggXsk3Z2waIxJjOAB4GnuNYyvvQREM7pusjCyN2RQ==}
@@ -1462,14 +1474,6 @@ packages:
 
   /@subsquid/util-internal-hex@1.2.0:
     resolution: {integrity: sha512-5Xf1Zp52gQlkNTeWFLGaf5ChXNCrOcz/nMYtylYASnfjEWXX8XutdDrUpz/YVQH88MP8CiQ/xkKprXAE9csqfg==}
-
-  /@subsquid/util-internal-http-client@0.0.1:
-    resolution: {integrity: sha512-jEtQMu/hYpdK4rU/kEyYwsQh95OC7HZexmWIyNRVMlS/3iRy2Ia6bSJKIUtb/baA4+KMU+l6xaWhvMKIHw8eoQ==}
-    dependencies:
-      '@subsquid/logger': 0.3.1
-      '@subsquid/util-internal': 1.1.0
-      node-fetch: 3.3.1
-    dev: true
 
   /@subsquid/util-internal-http-client@0.1.0:
     resolution: {integrity: sha512-LOSOX1Yv4t/NA/90qrmmCArOYTntxWV4dcnTXadKXQiM9gPnVNGLCa+Z17HYjBrvZFHDdYglV2F9kOikOqDd/Q==}
@@ -2630,7 +2634,6 @@ packages:
   /commander@10.0.1:
     resolution: {integrity: sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==}
     engines: {node: '>=14'}
-    dev: false
 
   /commander@2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}

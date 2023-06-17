@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@subsquid/cli": "2.4.1",
-    "@subsquid/evm-typegen": "^2.0.4",
+    "@subsquid/evm-typegen": "^3.0.0",
     "@subsquid/squid-gen": "^0.4.0",
     "@subsquid/typeorm-codegen": "^0.3.3",
     "@types/node": "^18.0.0",

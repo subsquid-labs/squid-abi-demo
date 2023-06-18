@@ -15,8 +15,8 @@ dependencies:
     specifier: ^4.0.0
     version: 4.0.0(typeorm@0.3.11)
   '@subsquid/typeorm-migration':
-    specifier: ^0.1.6
-    version: 0.1.6(typeorm@0.3.11)
+    specifier: ^1.0.0
+    version: 1.0.0(typeorm@0.3.11)
   '@subsquid/typeorm-store':
     specifier: ^0.2.2
     version: 0.2.2(typeorm@0.3.11)
@@ -1367,16 +1367,16 @@ packages:
       typeorm: 0.3.11(pg@8.8.0)
     dev: false
 
-  /@subsquid/typeorm-migration@0.1.6(typeorm@0.3.11):
-    resolution: {integrity: sha512-4J4VDJ96zf5b1qF7faHfcaK4x8oNmVXACJwzv/JidloNqt9TUkdkEnlXIpIw1oxijtzWByncnAW9jHU+gcO59Q==}
+  /@subsquid/typeorm-migration@1.0.0(typeorm@0.3.11):
+    resolution: {integrity: sha512-yP11s6mzp4ZSq3mPxrkgKy5EZqSRDWKUi+bh5Ev8m/zAaeLK+I1gR8TYw5TQlYJFzT8gBInKwy2J5KSwzbOQGg==}
     hasBin: true
     peerDependencies:
-      typeorm: ^0.3.11
+      typeorm: ^0.3.15
     dependencies:
-      '@subsquid/typeorm-config': 2.0.2(typeorm@0.3.11)
-      '@subsquid/util-internal': 1.1.0
-      '@subsquid/util-internal-code-printer': 0.1.1
-      commander: 10.0.0
+      '@subsquid/typeorm-config': 3.2.0(typeorm@0.3.11)
+      '@subsquid/util-internal': 2.3.0
+      '@subsquid/util-internal-code-printer': 1.2.0
+      commander: 10.0.1
       dotenv: 16.0.3
       typeorm: 0.3.11(pg@8.8.0)
     dev: false
@@ -1395,10 +1395,10 @@ packages:
 
   /@subsquid/util-internal-code-printer@0.1.1:
     resolution: {integrity: sha512-367YmYeLoLaOiBdlrYElEC4AeM4Kx0XYWM9mA9VBllGvT9qWNnGllaJ+mY9UBhlhWQtCbUnTRtHXhjR5qL8g1w==}
+    dev: true
 
   /@subsquid/util-internal-code-printer@1.2.0:
     resolution: {integrity: sha512-UZgNiYs5C/aSBYXXi9LgWyjJ2Uy/0uYowNq8Hx4OhraJq8OoqS5Ef0K/RMf7+4tpgvuArocJUcpvtRCKWewvbA==}
-    dev: true
 
   /@subsquid/util-internal-commander@0.0.2(commander@10.0.0):
     resolution: {integrity: sha512-midCpkwu7NaXGhr0MiyQsJlIj284/0mAFBvVG8gRHqqRqb71GIAQq+aRcUSv8KNnAiRWnXK1OPak+gc40V9btw==}

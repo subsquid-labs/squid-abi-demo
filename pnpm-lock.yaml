@@ -18,8 +18,8 @@ dependencies:
     specifier: ^1.0.0
     version: 1.0.0(typeorm@0.3.11)
   '@subsquid/typeorm-store':
-    specifier: ^0.2.2
-    version: 0.2.2(typeorm@0.3.11)
+    specifier: ^1.0.0
+    version: 1.0.0(typeorm@0.3.11)
   '@subsquid/util-internal-json':
     specifier: ^0.2.1
     version: 0.2.1
@@ -45,7 +45,7 @@ devDependencies:
     version: 3.0.0(ethers@5.7.2)
   '@subsquid/squid-gen':
     specifier: ^0.4.0
-    version: 0.4.2(@subsquid/archive-registry@3.0.0)(@subsquid/evm-processor@1.0.0)(@subsquid/evm-typegen@3.0.0)(@subsquid/typeorm-codegen@1.0.0)(@subsquid/typeorm-store@0.2.2)(@subsquid/util-internal-json@0.2.1)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4)
+    version: 0.4.2(@subsquid/archive-registry@3.0.0)(@subsquid/evm-processor@1.0.0)(@subsquid/evm-typegen@3.0.0)(@subsquid/typeorm-codegen@1.0.0)(@subsquid/typeorm-store@1.0.0)(@subsquid/util-internal-json@0.2.1)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4)
   '@subsquid/typeorm-codegen':
     specifier: ^1.0.0
     version: 1.0.0
@@ -1290,7 +1290,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@subsquid/squid-gen@0.4.2(@subsquid/archive-registry@3.0.0)(@subsquid/evm-processor@1.0.0)(@subsquid/evm-typegen@3.0.0)(@subsquid/typeorm-codegen@1.0.0)(@subsquid/typeorm-store@0.2.2)(@subsquid/util-internal-json@0.2.1)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4):
+  /@subsquid/squid-gen@0.4.2(@subsquid/archive-registry@3.0.0)(@subsquid/evm-processor@1.0.0)(@subsquid/evm-typegen@3.0.0)(@subsquid/typeorm-codegen@1.0.0)(@subsquid/typeorm-store@1.0.0)(@subsquid/util-internal-json@0.2.1)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4):
     resolution: {integrity: sha512-UeNvsDLmD7SW4lCLYd+6z5QaW7a0tNis32wQ2FnIHEq9T+9FG+1C2EoSjGm5Ydtecsmi6IqGhcUNIKHOh7cMPw==}
     hasBin: true
     peerDependencies:
@@ -1307,7 +1307,7 @@ packages:
       '@subsquid/evm-typegen': 3.0.0(ethers@5.7.2)
       '@subsquid/logger': 0.3.1
       '@subsquid/typeorm-codegen': 1.0.0
-      '@subsquid/typeorm-store': 0.2.2(typeorm@0.3.11)
+      '@subsquid/typeorm-store': 1.0.0(typeorm@0.3.11)
       '@subsquid/util-internal': 1.1.0
       '@subsquid/util-internal-code-printer': 0.1.1
       '@subsquid/util-internal-commander': 0.0.2(commander@10.0.0)
@@ -1344,17 +1344,6 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@subsquid/typeorm-config@2.0.2(typeorm@0.3.11):
-    resolution: {integrity: sha512-LoyWzhFeNSI9fXnhgYF4MizyGuiBVB7t3je9TFsOTCnOTYSIcDKJJkmCDzobDlA8PgkJ5bFLFilxIFKsVFqt4w==}
-    peerDependencies:
-      typeorm: ^0.3.11
-    peerDependenciesMeta:
-      typeorm:
-        optional: true
-    dependencies:
-      '@subsquid/util-naming': 0.0.2
-      typeorm: 0.3.11(pg@8.8.0)
-
   /@subsquid/typeorm-config@3.2.0(typeorm@0.3.11):
     resolution: {integrity: sha512-tINfnZN/LHy4qVi0JAAOS//rSuNJgHiXN4eGj8i26XDwRWrl9/O+WNuO7RSBhW+rpnSIFH0V0plRyCKNov08fA==}
     peerDependencies:
@@ -1365,7 +1354,6 @@ packages:
     dependencies:
       '@subsquid/util-naming': 1.2.0
       typeorm: 0.3.11(pg@8.8.0)
-    dev: false
 
   /@subsquid/typeorm-migration@1.0.0(typeorm@0.3.11):
     resolution: {integrity: sha512-yP11s6mzp4ZSq3mPxrkgKy5EZqSRDWKUi+bh5Ev8m/zAaeLK+I1gR8TYw5TQlYJFzT8gBInKwy2J5KSwzbOQGg==}
@@ -1381,13 +1369,13 @@ packages:
       typeorm: 0.3.11(pg@8.8.0)
     dev: false
 
-  /@subsquid/typeorm-store@0.2.2(typeorm@0.3.11):
-    resolution: {integrity: sha512-mzqiJCPFT/KBuwNuNAK8D3Wmf5Hws27wvYWw/bXAAT47rxAERz3oLMsAs/dSjXT30F63kMcQfJzvp5FOsa3Ohw==}
+  /@subsquid/typeorm-store@1.0.0(typeorm@0.3.11):
+    resolution: {integrity: sha512-HCcMsEJrnhY5mhcU9mIrqcQ5vlRe/PYe4QUwe4fwhx1h9zNU3jMLyxlfqpsek5HU6YFUBpiENMcm25jzZXWS0A==}
     peerDependencies:
-      typeorm: ^0.3.11
+      typeorm: ^0.3.15
     dependencies:
-      '@subsquid/typeorm-config': 2.0.2(typeorm@0.3.11)
-      '@subsquid/util-internal': 1.1.0
+      '@subsquid/typeorm-config': 3.2.0(typeorm@0.3.11)
+      '@subsquid/util-internal': 2.3.0
       typeorm: 0.3.11(pg@8.8.0)
 
   /@subsquid/util-internal-binary-heap@1.0.0:
@@ -1495,6 +1483,7 @@ packages:
     dependencies:
       camelcase: 6.3.0
       inflected: 2.1.0
+    dev: true
 
   /@subsquid/util-naming@1.2.0:
     resolution: {integrity: sha512-mFFFh3CLd4IOm5OIl0tyhGvL6s+LQqtGgq8mD4oCZuzC2IhRNJ7D1KAv8JTZsxzOhHfLeibF2xvdN5jBwSLEyg==}

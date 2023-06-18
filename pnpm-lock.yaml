@@ -21,8 +21,8 @@ dependencies:
     specifier: ^1.0.0
     version: 1.0.0(typeorm@0.3.11)
   '@subsquid/util-internal-json':
-    specifier: ^0.2.1
-    version: 0.2.1
+    specifier: ^1.0.0
+    version: 1.2.0
   dotenv:
     specifier: ^16.0.0
     version: 16.0.3
@@ -45,7 +45,7 @@ devDependencies:
     version: 3.0.0(ethers@5.7.2)
   '@subsquid/squid-gen':
     specifier: ^0.4.0
-    version: 0.4.2(@subsquid/archive-registry@3.0.0)(@subsquid/evm-processor@1.0.0)(@subsquid/evm-typegen@3.0.0)(@subsquid/typeorm-codegen@1.0.0)(@subsquid/typeorm-store@1.0.0)(@subsquid/util-internal-json@0.2.1)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4)
+    version: 0.4.2(@subsquid/archive-registry@3.0.0)(@subsquid/evm-processor@1.0.0)(@subsquid/evm-typegen@3.0.0)(@subsquid/typeorm-codegen@1.0.0)(@subsquid/typeorm-store@1.0.0)(@subsquid/util-internal-json@1.2.0)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4)
   '@subsquid/typeorm-codegen':
     specifier: ^1.0.0
     version: 1.0.0
@@ -1290,7 +1290,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@subsquid/squid-gen@0.4.2(@subsquid/archive-registry@3.0.0)(@subsquid/evm-processor@1.0.0)(@subsquid/evm-typegen@3.0.0)(@subsquid/typeorm-codegen@1.0.0)(@subsquid/typeorm-store@1.0.0)(@subsquid/util-internal-json@0.2.1)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4):
+  /@subsquid/squid-gen@0.4.2(@subsquid/archive-registry@3.0.0)(@subsquid/evm-processor@1.0.0)(@subsquid/evm-typegen@3.0.0)(@subsquid/typeorm-codegen@1.0.0)(@subsquid/typeorm-store@1.0.0)(@subsquid/util-internal-json@1.2.0)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4):
     resolution: {integrity: sha512-UeNvsDLmD7SW4lCLYd+6z5QaW7a0tNis32wQ2FnIHEq9T+9FG+1C2EoSjGm5Ydtecsmi6IqGhcUNIKHOh7cMPw==}
     hasBin: true
     peerDependencies:
@@ -1312,7 +1312,7 @@ packages:
       '@subsquid/util-internal-code-printer': 0.1.1
       '@subsquid/util-internal-commander': 0.0.2(commander@10.0.0)
       '@subsquid/util-internal-config': 1.0.1
-      '@subsquid/util-internal-json': 0.2.1
+      '@subsquid/util-internal-json': 1.2.0
       '@subsquid/util-naming': 0.0.2
       commander: 10.0.0
       ethers: 5.7.2

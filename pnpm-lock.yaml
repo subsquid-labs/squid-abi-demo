@@ -38,8 +38,8 @@ dependencies:
 
 devDependencies:
   '@subsquid/cli':
-    specifier: 2.4.1
-    version: 2.4.1(mem-fs-editor@9.6.0)(mem-fs@2.2.1)
+    specifier: 2.4.2
+    version: 2.4.2(mem-fs-editor@9.6.0)(mem-fs@2.2.1)
   '@subsquid/evm-typegen':
     specifier: ^3.0.0
     version: 3.0.0(ethers@5.7.2)
@@ -1099,8 +1099,8 @@ packages:
     transitivePeerDependencies:
       - encoding
 
-  /@subsquid/cli@2.4.1(mem-fs-editor@9.6.0)(mem-fs@2.2.1):
-    resolution: {integrity: sha512-SeYRKQj3q8tR+9g52AATl9EFy9xyr0cW46AYhVXOUWLcTb+YRBvskq9GZlxWEr0DWEpj8RefqAJ321lemjnq7g==}
+  /@subsquid/cli@2.4.2(mem-fs-editor@9.6.0)(mem-fs@2.2.1):
+    resolution: {integrity: sha512-/kNeGPj3k08R2AynkrO9pPjTpbMiZ3K8t+mtlJk/J5TNLtZQs6mPPl+ue9cQS1sDeOg5D17fYOZ1tcOaNMcN6Q==}
     hasBin: true
     dependencies:
       '@oclif/core': 1.26.1

@@ -38,8 +38,8 @@ dependencies:
 
 devDependencies:
   '@subsquid/cli':
-    specifier: 2.4.3
-    version: 2.4.3(mem-fs-editor@9.6.0)(mem-fs@2.2.1)
+    specifier: 2.4.4
+    version: 2.4.4(mem-fs-editor@9.6.0)(mem-fs@2.2.1)
   '@subsquid/evm-typegen':
     specifier: ^3.0.0
     version: 3.0.0(ethers@5.7.2)
@@ -815,6 +815,7 @@ packages:
   /@oclif/color@1.0.3:
     resolution: {integrity: sha512-E+KKAE5CKhXRBZEoZLe5yNR0VHmba1m1fxz8HlpcWjHF5Pdhhf6W/0XMmed6vwQCmyzL/YLwdspCRfu0A1cgGA==}
     engines: {node: '>=12.0.0'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dependencies:
       ansi-styles: 4.3.0
       chalk: 4.1.2
@@ -1099,8 +1100,8 @@ packages:
     transitivePeerDependencies:
       - encoding
 
-  /@subsquid/cli@2.4.3(mem-fs-editor@9.6.0)(mem-fs@2.2.1):
-    resolution: {integrity: sha512-1mBsJgxvXN17OqqlQTH6JxPKbpzwUN08340WJkPKMoB7fgP16a6Yk2/+8d/fKlEqfABXL3xKE0qG88b3Ko3tZg==}
+  /@subsquid/cli@2.4.4(mem-fs-editor@9.6.0)(mem-fs@2.2.1):
+    resolution: {integrity: sha512-CZQOdvagyiIOmO/c61yNkdu/m44NRP1QrEowpZN1wrBSK55tlAEzwFU1Ie49+WsRxm3LqLTwY1Sex4JlXX4TtA==}
     hasBin: true
     dependencies:
       '@oclif/core': 1.26.1
@@ -2399,6 +2400,7 @@ packages:
   /clone@1.0.4:
     resolution: {integrity: sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==}
     engines: {node: '>=0.8'}
+    requiresBuild: true
 
   /clone@2.1.2:
     resolution: {integrity: sha512-3Pe/CF1Nn94hyhIYpjtiLhdCoEoz0DqQ+988E9gmeEdQZlojxnOb74wctFyuwWQHzqyf9X7C7MG8juUpqBJT8w==}
@@ -2619,6 +2621,7 @@ packages:
 
   /debuglog@1.0.1:
     resolution: {integrity: sha512-syBZ+rnAK3EgMsH2aYEOLUW7mZSY9Gb+0wUMCFsZvcmiz+HigA0LOcq/HoQqVuGG+EKykunc7QG2bzrponfaSw==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dev: true
 
   /decode-uri-component@0.2.2:
@@ -2655,6 +2658,7 @@ packages:
 
   /defaults@1.0.4:
     resolution: {integrity: sha512-eFuaLoy/Rxalv2kr+lqMlUnrDWV+3j4pljOIJgLIhI058IQfWJ7vXhyEIHu+HtC738klGALYxOKDO0bQP3tg8A==}
+    requiresBuild: true
     dependencies:
       clone: 1.0.4
 
@@ -3549,6 +3553,7 @@ packages:
   /iconv-lite@0.6.3:
     resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
     engines: {node: '>=0.10.0'}
+    requiresBuild: true
     dependencies:
       safer-buffer: 2.1.2
     dev: true

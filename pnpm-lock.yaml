@@ -38,8 +38,8 @@ dependencies:
 
 devDependencies:
   '@subsquid/cli':
-    specifier: 2.4.4
-    version: 2.4.4(mem-fs-editor@9.6.0)(mem-fs@2.2.1)
+    specifier: 2.5.0
+    version: 2.5.0(mem-fs-editor@9.6.0)(mem-fs@2.2.1)
   '@subsquid/evm-typegen':
     specifier: ^3.0.0
     version: 3.0.0(ethers@5.7.2)
@@ -1100,8 +1100,8 @@ packages:
     transitivePeerDependencies:
       - encoding
 
-  /@subsquid/cli@2.4.4(mem-fs-editor@9.6.0)(mem-fs@2.2.1):
-    resolution: {integrity: sha512-CZQOdvagyiIOmO/c61yNkdu/m44NRP1QrEowpZN1wrBSK55tlAEzwFU1Ie49+WsRxm3LqLTwY1Sex4JlXX4TtA==}
+  /@subsquid/cli@2.5.0(mem-fs-editor@9.6.0)(mem-fs@2.2.1):
+    resolution: {integrity: sha512-cIn9b9qw3Vtmw4MZA8KYwwo9gZ6royVq9BeO5B1L8is0/xEVmaadPIP320FmQ2mM7+3RDZ29NYhfFCiP7T3aMQ==}
     hasBin: true
     dependencies:
       '@oclif/core': 1.26.1
@@ -1129,6 +1129,7 @@ packages:
       simple-git: 3.16.0
       split2: 4.1.0
       targz: 1.0.1
+      tree-kill: 1.2.2
       unique-names-generator: 4.7.1
     transitivePeerDependencies:
       - bluebird

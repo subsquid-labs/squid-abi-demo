@@ -38,8 +38,8 @@ dependencies:
 
 devDependencies:
   '@subsquid/cli':
-    specifier: 2.8.4
-    version: 2.8.4
+    specifier: 2.8.6
+    version: 2.8.6
   '@subsquid/evm-typegen':
     specifier: ^3.0.0
     version: 3.3.0(ethers@5.7.2)
@@ -802,15 +802,15 @@ packages:
     transitivePeerDependencies:
       - encoding
 
-  /@subsquid/cli@2.8.4:
-    resolution: {integrity: sha512-TDzL/B2jHRLPbOaoqYINHgkoG11/srYgqkarAller1mXXYnhNJUFoDK9soEwN2todJz+1aqj5hiVKK85M2b28A==}
+  /@subsquid/cli@2.8.6:
+    resolution: {integrity: sha512-Q4SwGDDo7N3SoTtE0gUsk0cyTGeOuJi+Xp9WNgdKTSOSlo+sAHqSyEMdviRfUug/PK6g6gLv/wU/4Pque41Kmw==}
     hasBin: true
     requiresBuild: true
     dependencies:
       '@oclif/core': 3.19.6
       '@oclif/plugin-autocomplete': 3.0.10
       '@subsquid/commands': 2.3.1
-      '@subsquid/manifest': 0.0.1-beta.16
+      '@subsquid/manifest': 0.0.1-beta.17
       '@subsquid/manifest-expr': 0.0.1
       '@types/fast-levenshtein': 0.0.4
       '@types/lodash': 4.14.202
@@ -967,8 +967,8 @@ packages:
     resolution: {integrity: sha512-QKrgq+BPVX03SPm/kxXr3kDRDFn+ddBAuA9ysvae3PBA0jlj5DUSFxNjIoGZoy+RBwu82t4T0Xt4oTXR8e0OBw==}
     dev: true
 
-  /@subsquid/manifest@0.0.1-beta.16:
-    resolution: {integrity: sha512-Xj3dVOCdOvgLMW0jVyGJ6xBK4xx29UQrfZq0tDrxhJ42Tm6h1itzudAP1BD/mkbDPNz0fe0E6+t1cimw3nEe5w==}
+  /@subsquid/manifest@0.0.1-beta.17:
+    resolution: {integrity: sha512-QrxvFSZglPpxdpobgKChBPW/+Pv+eivknlelsb/myOyaycKDFS0EYQd03MmwJK2Zzq6Y5g/ccLb6M2D3C4BFKQ==}
     dependencies:
       joi: 17.12.2
       js-yaml: 4.1.0
@@ -1308,7 +1308,7 @@ packages:
     resolution: {integrity: sha512-DxMhY+NAsTwMMFHBTtJFNp5qiHKJ7TeqOo23zVEM9alT1Ml27Q3xcTH0xwxn7Q0BbMcVEJOs/7aQtUWupUQN3Q==}
     dependencies:
       '@types/node': 18.11.18
-      '@types/qs': 6.9.11
+      '@types/qs': 6.9.12
       '@types/range-parser': 1.2.7
 
   /@types/express@4.17.14:
@@ -1316,7 +1316,7 @@ packages:
     dependencies:
       '@types/body-parser': 1.19.2
       '@types/express-serve-static-core': 4.17.31
-      '@types/qs': 6.9.11
+      '@types/qs': 6.9.12
       '@types/serve-static': 1.15.5
 
   /@types/fast-levenshtein@0.0.4:
@@ -1342,8 +1342,8 @@ packages:
   /@types/node@18.11.18:
     resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
 
-  /@types/qs@6.9.11:
-    resolution: {integrity: sha512-oGk0gmhnEJK4Yyk+oI7EfXsLayXatCWPHary1MtcmbAifkobT9cM9yutG/hZKIseOU0MqbIwQ/u2nn/Gb+ltuQ==}
+  /@types/qs@6.9.12:
+    resolution: {integrity: sha512-bZcOkJ6uWrL0Qb2NAWKa7TBU+mJHPzhx9jjLL1KHF+XpzEcR7EXHvjbHlGtR/IsP1vyPrehuS6XqkmaePy//mg==}
 
   /@types/range-parser@1.2.7:
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
@@ -3499,7 +3499,7 @@ packages:
   /pgpass@1.0.5:
     resolution: {integrity: sha512-FdW9r/jQZhSeohs1Z3sI1yxFQNFvMcnmfuj4WBMUTxOrAyLMaTcE1aAMBiTlbMNaXvBCQuVi0R7hd8udDSP7ug==}
     dependencies:
-      split2: 4.1.0
+      split2: 4.2.0
 
   /picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
@@ -3863,14 +3863,9 @@ packages:
       nopt: 2.1.2
     dev: true
 
-  /split2@4.1.0:
-    resolution: {integrity: sha512-VBiJxFkxiXRlUIeyMQi8s4hgvKCSjtknJv/LVYbrgALPwf5zSKmEwV9Lst25AkvMDnvxODugjdl6KZgwKM1WYQ==}
-    engines: {node: '>= 10.x'}
-
   /split2@4.2.0:
     resolution: {integrity: sha512-UcjcJOWknrNkF6PLX83qcHM6KHgVKNkV62Y8a5uYDVv9ydGQVwAHMKqHdJje1VTWpljG0WYpCDhrCdAOYH4TWg==}
     engines: {node: '>= 10.x'}
-    dev: true
 
   /sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}

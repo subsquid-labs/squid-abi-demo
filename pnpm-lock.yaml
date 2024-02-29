@@ -848,7 +848,7 @@ packages:
     resolution: {integrity: sha512-KV3PVO0daLV3+zB0A8iYdEAdTlm4pdOPhTuHT8oZoY/8o9uMYae+5iIUZs76ko6M/ELXgaX47L4+QizdPKCJlg==}
     hasBin: true
     dependencies:
-      '@subsquid/logger': 1.3.2
+      '@subsquid/logger': 1.3.3
       '@subsquid/util-internal': 3.0.0
       '@subsquid/util-internal-config': 2.2.2
       glob: 10.3.10
@@ -914,7 +914,7 @@ packages:
       '@graphql-tools/schema': 10.0.3(graphql@15.8.0)
       '@graphql-tools/utils': 10.1.0(graphql@15.8.0)
       '@keyv/redis': 2.5.8
-      '@subsquid/logger': 1.3.2
+      '@subsquid/logger': 1.3.3
       '@subsquid/openreader': 4.5.0
       '@subsquid/typeorm-config': 4.1.0(typeorm@0.3.11)
       '@subsquid/util-internal': 3.0.0
@@ -958,6 +958,13 @@ packages:
 
   /@subsquid/logger@1.3.2:
     resolution: {integrity: sha512-5YPdeRu0WD9iBak+r3S8blBeg2uyliPUlmCjj/ZE6dpXmXsSN9T+ZYrNeDr9eAbRV7OXVI49lSfCuAGenFcYjQ==}
+    dependencies:
+      '@subsquid/util-internal-hex': 1.2.2
+      '@subsquid/util-internal-json': 1.2.2
+      supports-color: 8.1.1
+
+  /@subsquid/logger@1.3.3:
+    resolution: {integrity: sha512-BdoRVIOrIRzKdMZPoJxzJzPLulf5Q09GeLtJn0whP+rhDV5nQ4ANDAzjPg9jmgH9WkMYAr2XH4lny/4PjhQUNA==}
     dependencies:
       '@subsquid/util-internal-hex': 1.2.2
       '@subsquid/util-internal-json': 1.2.2

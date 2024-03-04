@@ -689,8 +689,8 @@ packages:
       fastq: 1.17.1
     dev: true
 
-  /@oclif/core@3.21.0:
-    resolution: {integrity: sha512-xR7qGPOWtOnYmdYocSn6oEh2oTQLsPOXoj3HYGpb26V3WulwF8Cm33WPnMsSISv4ben3Rtc5i59u9O5NnuG42g==}
+  /@oclif/core@3.21.1:
+    resolution: {integrity: sha512-0uzUQm/u4xbChGlkrXp3amViYcsVV84XqrzAv+iAqAUFP/3oZjuz1GpwtlX2iFo1UzMf6zyNrVD3PpBHXuK+ig==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@types/cli-progress': 3.11.5
@@ -726,7 +726,7 @@ packages:
     resolution: {integrity: sha512-mlqRxrihN4cgG3SmDWeM7V4dsWbYxS9ftP4EVNq/wqx3DVcSDqxBoeM4rO3IG69zhJEnSilctErfWpxe/KzTrw==}
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@oclif/core': 3.21.0
+      '@oclif/core': 3.21.1
       chalk: 5.3.0
       debug: 4.3.4(supports-color@8.1.1)
       ejs: 3.1.9
@@ -807,7 +807,7 @@ packages:
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@oclif/core': 3.21.0
+      '@oclif/core': 3.21.1
       '@oclif/plugin-autocomplete': 3.0.11
       '@subsquid/commands': 2.3.1
       '@subsquid/manifest': 0.0.1-beta.17

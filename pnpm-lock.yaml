@@ -689,8 +689,8 @@ packages:
       fastq: 1.17.1
     dev: true
 
-  /@oclif/core@3.21.1:
-    resolution: {integrity: sha512-0uzUQm/u4xbChGlkrXp3amViYcsVV84XqrzAv+iAqAUFP/3oZjuz1GpwtlX2iFo1UzMf6zyNrVD3PpBHXuK+ig==}
+  /@oclif/core@3.22.0:
+    resolution: {integrity: sha512-w7V1la5PAS5Ojr5aOG904A245kdVJRMcvgcRr3NG28EX2vIm7jkg71gIULlbvhDrFRzljH2iX2VYqF7ho3x8GQ==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@types/cli-progress': 3.11.5
@@ -709,6 +709,7 @@ packages:
       indent-string: 4.0.0
       is-wsl: 2.2.0
       js-yaml: 3.14.1
+      minimatch: 9.0.3
       natural-orderby: 2.0.3
       object-treeify: 1.1.33
       password-prompt: 1.1.3
@@ -726,7 +727,7 @@ packages:
     resolution: {integrity: sha512-mlqRxrihN4cgG3SmDWeM7V4dsWbYxS9ftP4EVNq/wqx3DVcSDqxBoeM4rO3IG69zhJEnSilctErfWpxe/KzTrw==}
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@oclif/core': 3.21.1
+      '@oclif/core': 3.22.0
       chalk: 5.3.0
       debug: 4.3.4(supports-color@8.1.1)
       ejs: 3.1.9
@@ -807,7 +808,7 @@ packages:
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@oclif/core': 3.21.1
+      '@oclif/core': 3.22.0
       '@oclif/plugin-autocomplete': 3.0.11
       '@subsquid/commands': 2.3.1
       '@subsquid/manifest': 0.0.1-beta.17

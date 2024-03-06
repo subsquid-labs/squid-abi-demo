@@ -38,8 +38,8 @@ dependencies:
 
 devDependencies:
   '@subsquid/cli':
-    specifier: 2.8.6
-    version: 2.8.6
+    specifier: 2.8.7
+    version: 2.8.7
   '@subsquid/evm-typegen':
     specifier: ^3.0.0
     version: 3.3.0(ethers@5.7.2)
@@ -183,7 +183,7 @@ packages:
   /@apollographql/graphql-playground-html@1.6.29:
     resolution: {integrity: sha512-xCcXpoz52rI4ksJSdOCxeOCn2DLocxwHf9dVT/Q90Pte1LX+LY+91SFtJF3KXVHH8kEin+g1KKCQPKBjZJfWNA==}
     dependencies:
-      xss: 1.0.14
+      xss: 1.0.15
 
   /@colors/colors@1.5.0:
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
@@ -689,6 +689,39 @@ packages:
       fastq: 1.17.1
     dev: true
 
+  /@oclif/core@3.19.1:
+    resolution: {integrity: sha512-dd1h4Hz+LwpuYhKvgBjDmW3/HgUAm93JM95cnbzSv5VcmiBeC+utjLvY96PmPbYxxDoz7XazEOl8oOpSLSEgcg==}
+    engines: {node: '>=18.0.0'}
+    dependencies:
+      '@types/cli-progress': 3.11.5
+      ansi-escapes: 4.3.2
+      ansi-styles: 4.3.0
+      cardinal: 2.1.1
+      chalk: 4.1.2
+      clean-stack: 3.0.1
+      cli-progress: 3.12.0
+      color: 4.2.3
+      debug: 4.3.4(supports-color@8.1.1)
+      ejs: 3.1.9
+      get-package-type: 0.1.0
+      globby: 11.1.0
+      hyperlinker: 1.0.0
+      indent-string: 4.0.0
+      is-wsl: 2.2.0
+      js-yaml: 3.14.1
+      natural-orderby: 2.0.3
+      object-treeify: 1.1.33
+      password-prompt: 1.1.3
+      slice-ansi: 4.0.0
+      string-width: 4.2.3
+      strip-ansi: 6.0.1
+      supports-color: 8.1.1
+      supports-hyperlinks: 2.3.0
+      widest-line: 3.1.0
+      wordwrap: 1.0.0
+      wrap-ansi: 7.0.0
+    dev: true
+
   /@oclif/core@3.22.0:
     resolution: {integrity: sha512-w7V1la5PAS5Ojr5aOG904A245kdVJRMcvgcRr3NG28EX2vIm7jkg71gIULlbvhDrFRzljH2iX2VYqF7ho3x8GQ==}
     engines: {node: '>=18.0.0'}
@@ -723,8 +756,8 @@ packages:
       wrap-ansi: 7.0.0
     dev: true
 
-  /@oclif/plugin-autocomplete@3.0.11:
-    resolution: {integrity: sha512-mlqRxrihN4cgG3SmDWeM7V4dsWbYxS9ftP4EVNq/wqx3DVcSDqxBoeM4rO3IG69zhJEnSilctErfWpxe/KzTrw==}
+  /@oclif/plugin-autocomplete@3.0.8:
+    resolution: {integrity: sha512-8h9PU56msmSD+s+mZcS/b+YYJwyxDwONC8FFQUbfeWAB/rRqMFj2tOMbh7VGk6ZUTU5KcQvMDeDQ3UXfTKVPqA==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@oclif/core': 3.22.0
@@ -803,13 +836,12 @@ packages:
     transitivePeerDependencies:
       - encoding
 
-  /@subsquid/cli@2.8.6:
-    resolution: {integrity: sha512-Q4SwGDDo7N3SoTtE0gUsk0cyTGeOuJi+Xp9WNgdKTSOSlo+sAHqSyEMdviRfUug/PK6g6gLv/wU/4Pque41Kmw==}
+  /@subsquid/cli@2.8.7:
+    resolution: {integrity: sha512-1r3AawcnvISxi3uJxMzhg2fDiOM67HJjQUHEHDU3UaR9nh64U68wGZ0kVbHuMx1NB8QTw9A9nxXII+YRED0GHQ==}
     hasBin: true
-    requiresBuild: true
     dependencies:
-      '@oclif/core': 3.22.0
-      '@oclif/plugin-autocomplete': 3.0.11
+      '@oclif/core': 3.19.1
+      '@oclif/plugin-autocomplete': 3.0.8
       '@subsquid/commands': 2.3.1
       '@subsquid/manifest': 0.0.1-beta.17
       '@subsquid/manifest-expr': 0.0.1
@@ -2865,7 +2897,7 @@ packages:
     dependencies:
       es-errors: 1.3.0
       hasown: 2.0.1
-      side-channel: 1.0.5
+      side-channel: 1.0.6
 
   /ioredis@5.3.2:
     resolution: {integrity: sha512-1DKMMzlIHM02eBBVOFQ1+AolGjs6+xEcM4PDL7NqOS6szq7H9jSaEkIUH6/a5Hl241LzW6JLSiAbNvTQjUupUA==}
@@ -4496,8 +4528,8 @@ packages:
     resolution: {integrity: sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==}
     engines: {node: '>=4.0'}
 
-  /xss@1.0.14:
-    resolution: {integrity: sha512-og7TEJhXvn1a7kzZGQ7ETjdQVS2UfZyTlsEdDOqvQF7GoxNfY+0YLCzBy1kPdsDDx4QuNAonQPddpsn6Xl/7sw==}
+  /xss@1.0.15:
+    resolution: {integrity: sha512-FVdlVVC67WOIPvfOwhoMETV72f6GbW7aOabBC3WxN/oUdoEMDyLz4OgRv5/gck2ZeNqEQu+Tb0kloovXOfpYVg==}
     engines: {node: '>= 0.10.0'}
     hasBin: true
     dependencies:

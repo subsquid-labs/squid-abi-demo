@@ -538,7 +538,7 @@ packages:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       '@graphql-tools/merge': 9.0.3(graphql@15.8.0)
-      '@graphql-tools/utils': 10.1.0(graphql@15.8.0)
+      '@graphql-tools/utils': 10.1.1(graphql@15.8.0)
       graphql: 15.8.0
       tslib: 2.6.2
       value-or-promise: 1.0.12
@@ -577,6 +577,19 @@ packages:
       dset: 3.1.3
       graphql: 15.8.0
       tslib: 2.6.2
+
+  /@graphql-tools/utils@10.1.1(graphql@15.8.0):
+    resolution: {integrity: sha512-1kNkZsND12hPkb+YpuUeTRt8f9ZTGhYOfu23V5Z21HegYDjl1k9eX+Inher/eiHCf1eXCk5rKWL9Liol8MWixA==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      '@graphql-typed-document-node/core': 3.2.0(graphql@15.8.0)
+      cross-inspect: 1.0.0
+      dset: 3.1.3
+      graphql: 15.8.0
+      tslib: 2.6.2
+    dev: false
 
   /@graphql-tools/utils@8.9.0(graphql@15.8.0):
     resolution: {integrity: sha512-pjJIWH0XOVnYGXCqej8g/u/tsfV4LvLlj0eATKQu5zwnxd/TiTHq7Cg313qUPTFFHZ3PP5wJ15chYVtLDwaymg==}
@@ -819,7 +832,7 @@ packages:
       chalk: 4.1.2
       cli-select: 1.1.2
       cross-spawn: 7.0.3
-      date-fns: 3.3.1
+      date-fns: 3.4.0
       dotenv: 16.4.5
       fast-levenshtein: 3.0.0
       figlet: 1.7.0
@@ -911,7 +924,7 @@ packages:
       '@apollo/utils.keyvaluecache': 1.0.2
       '@graphql-tools/merge': 9.0.3(graphql@15.8.0)
       '@graphql-tools/schema': 10.0.3(graphql@15.8.0)
-      '@graphql-tools/utils': 10.1.0(graphql@15.8.0)
+      '@graphql-tools/utils': 10.1.1(graphql@15.8.0)
       '@keyv/redis': 2.5.8
       '@subsquid/logger': 1.3.3
       '@subsquid/openreader': 4.5.0
@@ -2103,8 +2116,8 @@ packages:
     resolution: {integrity: sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==}
     engines: {node: '>=0.11'}
 
-  /date-fns@3.3.1:
-    resolution: {integrity: sha512-y8e109LYGgoQDveiEBD3DYXKba1jWf5BA8YU1FL5Tvm0BTdEfy54WLCwnuYWZNnzzvALy/QQ4Hov+Q9RVRv+Zw==}
+  /date-fns@3.4.0:
+    resolution: {integrity: sha512-Akz4R8J9MXBsOgF1QeWeCsbv6pntT5KCPjU0Q9prBxVmWJYPLhwAIsNg3b0QAdr0ttiozYLD3L/af7Ra0jqYXw==}
     dev: true
 
   /debug@2.6.9:

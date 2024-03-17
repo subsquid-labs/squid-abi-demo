@@ -836,7 +836,7 @@ packages:
       pretty-bytes: 5.6.0
       qs: 6.12.0
       reblessed: 0.2.1
-      simple-git: 3.22.0
+      simple-git: 3.23.0
       split2: 4.2.0
       targz: 1.0.1
       tree-kill: 1.2.2
@@ -3944,8 +3944,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /simple-git@3.22.0:
-    resolution: {integrity: sha512-6JujwSs0ac82jkGjMHiCnTifvf1crOiY/+tfs/Pqih6iow7VrpNKRRNdWm6RtaXpvvv/JGNYhlUtLhGFqHF+Yw==}
+  /simple-git@3.23.0:
+    resolution: {integrity: sha512-P9ggTW8vb/21CAL/AmnACAhqBDfnqSSZVpV7WuFtsFR9HLunf5IqQvk+OXAQTfkcZep8pKnt3DV3o7w3TegEkQ==}
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1

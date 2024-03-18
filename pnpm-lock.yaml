@@ -13,7 +13,7 @@ dependencies:
     version: 1.16.0
   '@subsquid/graphql-server':
     specifier: ^4.0.0
-    version: 4.5.0(typeorm@0.3.11)
+    version: 4.5.1(typeorm@0.3.11)
   '@subsquid/typeorm-migration':
     specifier: ^1.0.0
     version: 1.3.0(typeorm@0.3.11)
@@ -821,7 +821,7 @@ packages:
       chalk: 4.1.2
       cli-select: 1.1.2
       cross-spawn: 7.0.3
-      date-fns: 3.5.0
+      date-fns: 3.6.0
       dotenv: 16.4.5
       fast-levenshtein: 3.0.0
       figlet: 1.7.0
@@ -851,7 +851,7 @@ packages:
     hasBin: true
     dependencies:
       '@subsquid/logger': 1.3.3
-      '@subsquid/util-internal': 3.0.0
+      '@subsquid/util-internal': 3.1.0
       '@subsquid/util-internal-config': 2.2.2
       glob: 10.3.10
       supports-color: 8.1.1
@@ -892,8 +892,8 @@ packages:
   /@subsquid/graphiql-console@0.3.0:
     resolution: {integrity: sha512-C89mus6IXnNi0xMQrZqUFBZwLj8tbuq9lye8Gq/lHmmERAUpi6UsWEyLdJLx2mneZzF3JtY8eNiiZ16jmjtvfw==}
 
-  /@subsquid/graphql-server@4.5.0(typeorm@0.3.11):
-    resolution: {integrity: sha512-SKCq6qF8FGrsrzFpjLzyDf3Cbcp4e8Z2M+t6Er3en7WLY3jZtdEGf3HbfCH6ukhQoJ72lUSNsESdwEoazOslRA==}
+  /@subsquid/graphql-server@4.5.1(typeorm@0.3.11):
+    resolution: {integrity: sha512-PMC5Kc9ptjhrBIBRvvhkHiSRUEGJqv6Bc838VnvLtF5kMrGjSI+pPUiA5t+rhdfxywX1j+ZEdBpaRypAGo6Otw==}
     hasBin: true
     peerDependencies:
       '@subsquid/big-decimal': ^1.0.0
@@ -917,11 +917,11 @@ packages:
       '@graphql-tools/utils': 10.1.2(graphql@15.8.0)
       '@keyv/redis': 2.5.8
       '@subsquid/logger': 1.3.3
-      '@subsquid/openreader': 4.5.0
+      '@subsquid/openreader': 4.5.1
       '@subsquid/typeorm-config': 4.1.0(typeorm@0.3.11)
-      '@subsquid/util-internal': 3.0.0
+      '@subsquid/util-internal': 3.1.0
       '@subsquid/util-internal-commander': 1.3.2(commander@11.1.0)
-      '@subsquid/util-internal-http-server': 1.2.2
+      '@subsquid/util-internal-http-server': 2.0.0
       '@subsquid/util-internal-ts-node': 0.0.0
       apollo-server-core: 3.13.0(graphql@15.8.0)
       apollo-server-express: 3.13.0(express@4.18.3)(graphql@15.8.0)
@@ -1017,6 +1017,42 @@ packages:
       - pg-native
       - supports-color
       - utf-8-validate
+    dev: true
+
+  /@subsquid/openreader@4.5.1:
+    resolution: {integrity: sha512-N4aFZ0AzYiFCzocqbW971M8LOIKo9E8d4lt5He4x8Jcm19hwYYlNy8wwnOv1USCxFO/uCPZm/RTkARlyjOL10A==}
+    hasBin: true
+    peerDependencies:
+      '@subsquid/big-decimal': ^1.0.0
+    peerDependenciesMeta:
+      '@subsquid/big-decimal':
+        optional: true
+    dependencies:
+      '@graphql-tools/merge': 9.0.3(graphql@15.8.0)
+      '@subsquid/graphiql-console': 0.3.0
+      '@subsquid/logger': 1.3.3
+      '@subsquid/util-internal': 3.1.0
+      '@subsquid/util-internal-commander': 1.3.2(commander@11.1.0)
+      '@subsquid/util-internal-hex': 1.2.2
+      '@subsquid/util-internal-http-server': 2.0.0
+      '@subsquid/util-naming': 1.2.2
+      apollo-server-core: 3.13.0(graphql@15.8.0)
+      apollo-server-express: 3.13.0(express@4.18.3)(graphql@15.8.0)
+      commander: 11.1.0
+      deep-equal: 2.2.3
+      express: 4.18.3
+      graphql: 15.8.0
+      graphql-parse-resolve-info: 4.14.0(graphql@15.8.0)
+      graphql-ws: 5.15.0(graphql@15.8.0)
+      pg: 8.11.3
+      ws: 8.16.0
+    transitivePeerDependencies:
+      - bufferutil
+      - encoding
+      - pg-native
+      - supports-color
+      - utf-8-validate
+    dev: false
 
   /@subsquid/rpc-client@4.6.0:
     resolution: {integrity: sha512-fVTsVOag6Ge7hRqV+st9p+E+BgQa5PPu1uJns5IXSrRtIuAuy++w0OsB3WNA+EC8DZarpllxi7I3snzJpis/xQ==}
@@ -1189,6 +1225,13 @@ packages:
     dependencies:
       stoppable: 1.1.0
 
+  /@subsquid/util-internal-http-server@2.0.0:
+    resolution: {integrity: sha512-MUAJGMuDjbA3B+KQFZmMkm9FuWVx067pINt+EWuq3fSZqYPr1kRkTCTSJK7uT6Q8omqJtJFRWveyOWlXmixvfg==}
+    dependencies:
+      '@subsquid/logger': 1.3.3
+      stoppable: 1.1.0
+    dev: false
+
   /@subsquid/util-internal-ingest-tools@1.1.0(@subsquid/util-internal-archive-client@0.1.0):
     resolution: {integrity: sha512-Zk5IPrclv+OrAV6EFQWGQS86YfN51/tLKKW137VzFPCWNEBSPCXu5lYe/hCwwW34k+gtf5TYLb3s69d2P1e/lg==}
     peerDependencies:
@@ -1255,6 +1298,9 @@ packages:
 
   /@subsquid/util-internal@3.0.0:
     resolution: {integrity: sha512-aGPTiLF21N9f67DgHS4PBR8d6mdvXHTOIhr2mFQPX7GQCgZhNlCZDM/1Sqn+teJawCy3w6Y9f6KOtVbN4T5SFQ==}
+
+  /@subsquid/util-internal@3.1.0:
+    resolution: {integrity: sha512-m1lIiy7Tc2+QR5Jcx9eGsVsB4ASR/bA5Z9gnB+qUy1BzYuz5FEiJOYCQm6J5Bt+VnYDYYyANEUMq4Cl3J5wuSg==}
 
   /@subsquid/util-naming@0.0.2:
     resolution: {integrity: sha512-t23kWD5kdRi03HXAhMSO1SesmM6dyD8kmMKfBR5SoFScij0Z2zf4dZ/jQT0bH9V59r4eZvv+NxR5XC+uR8GBAQ==}
@@ -1560,6 +1606,7 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
+    dev: true
 
   /apollo-server-express@3.13.0(express@4.18.3)(graphql@15.8.0):
     resolution: {integrity: sha512-iSxICNbDUyebOuM8EKb3xOrpIwOQgKxGbR2diSr4HP3IW8T3njKFOoMce50vr+moOCe1ev8BnLcw9SNbuUtf7g==}
@@ -1773,6 +1820,7 @@ packages:
       unpipe: 1.0.0
     transitivePeerDependencies:
       - supports-color
+    dev: true
 
   /body-parser@1.20.2:
     resolution: {integrity: sha512-ml9pReCu3M61kGlqoTm2umSXTlRTuGTx0bfYj+uIUKKYycG5NtSbeetV3faSU6R7ajOPw0g/J1PvK4qNy7s5bA==}
@@ -2125,8 +2173,8 @@ packages:
     resolution: {integrity: sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==}
     engines: {node: '>=0.11'}
 
-  /date-fns@3.5.0:
-    resolution: {integrity: sha512-a+DwyXn7NOfdJireCzAA0B9p7jIXEu/Q9JKCyMYvH6+0vPUNbQceA0neXrdfJ/xzl3mhOh5vibQQ3936Tssm6A==}
+  /date-fns@3.6.0:
+    resolution: {integrity: sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==}
     dev: true
 
   /debug@2.6.9:
@@ -2470,6 +2518,7 @@ packages:
       vary: 1.1.2
     transitivePeerDependencies:
       - supports-color
+    dev: true
 
   /express@4.18.3:
     resolution: {integrity: sha512-6VyCijWQ+9O7WuVMTRBTl+cjNNIzD5cY5mQ1WM8r/LEkI2u8EYpOotESNwzNlyCn3g+dmjKYI6BmNneSr/FSRw==}
@@ -3714,6 +3763,7 @@ packages:
       http-errors: 2.0.0
       iconv-lite: 0.4.24
       unpipe: 1.0.0
+    dev: true
 
   /raw-body@2.5.2:
     resolution: {integrity: sha512-8zGqypfENjCIqGhgXToC8aB2r7YrBX+AQAfIPs/Mlk+BtPTztOvTS01NRW/3Eh60J+a48lt8qsCzirQ6loCVfA==}

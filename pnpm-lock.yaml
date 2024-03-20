@@ -924,11 +924,11 @@ packages:
       '@subsquid/util-internal-http-server': 2.0.0
       '@subsquid/util-internal-ts-node': 0.0.0
       apollo-server-core: 3.13.0(graphql@15.8.0)
-      apollo-server-express: 3.13.0(express@4.19.0)(graphql@15.8.0)
+      apollo-server-express: 3.13.0(express@4.19.1)(graphql@15.8.0)
       apollo-server-plugin-response-cache: 3.7.1(graphql@15.8.0)
       commander: 11.1.0
       dotenv: 16.4.5
-      express: 4.19.0
+      express: 4.19.1
       graphql: 15.8.0
       graphql-ws: 5.15.0(graphql@15.8.0)
       keyv: 4.5.4
@@ -1037,10 +1037,10 @@ packages:
       '@subsquid/util-internal-http-server': 2.0.0
       '@subsquid/util-naming': 1.2.2
       apollo-server-core: 3.13.0(graphql@15.8.0)
-      apollo-server-express: 3.13.0(express@4.19.0)(graphql@15.8.0)
+      apollo-server-express: 3.13.0(express@4.19.1)(graphql@15.8.0)
       commander: 11.1.0
       deep-equal: 2.2.3
-      express: 4.19.0
+      express: 4.19.1
       graphql: 15.8.0
       graphql-parse-resolve-info: 4.14.0(graphql@15.8.0)
       graphql-ws: 5.15.0(graphql@15.8.0)
@@ -1608,7 +1608,7 @@ packages:
       - supports-color
     dev: true
 
-  /apollo-server-express@3.13.0(express@4.19.0)(graphql@15.8.0):
+  /apollo-server-express@3.13.0(express@4.19.1)(graphql@15.8.0):
     resolution: {integrity: sha512-iSxICNbDUyebOuM8EKb3xOrpIwOQgKxGbR2diSr4HP3IW8T3njKFOoMce50vr+moOCe1ev8BnLcw9SNbuUtf7g==}
     engines: {node: '>=12.0'}
     peerDependencies:
@@ -1625,7 +1625,7 @@ packages:
       apollo-server-types: 3.8.0(graphql@15.8.0)
       body-parser: 1.20.2
       cors: 2.8.5
-      express: 4.19.0
+      express: 4.19.1
       graphql: 15.8.0
       parseurl: 1.3.3
     transitivePeerDependencies:
@@ -2526,8 +2526,8 @@ packages:
       - supports-color
     dev: true
 
-  /express@4.19.0:
-    resolution: {integrity: sha512-/ERliX0l7UuHEgAy7HU2FRsiz3ScIKNl/iwnoYzHTJC0Sqj3ctWDD3MQ9CbUEfjshvxXImWaeukD0Xo7a2lWLA==}
+  /express@4.19.1:
+    resolution: {integrity: sha512-K4w1/Bp7y8iSiVObmCrtq8Cs79XjJc/RU2YYkZQ7wpUu5ZyZ7MtPHkqoMz4pf+mgXfNvo2qft8D9OnrH2ABk9w==}
     engines: {node: '>= 0.10.0'}
     dependencies:
       accepts: 1.3.8

@@ -1140,7 +1140,7 @@ packages:
       typeorm: ^0.3.17
     dependencies:
       '@subsquid/typeorm-config': 4.1.0(typeorm@0.3.11)
-      '@subsquid/util-internal': 3.0.0
+      '@subsquid/util-internal': 3.1.0
       '@subsquid/util-internal-code-printer': 1.2.2
       '@subsquid/util-internal-ts-node': 0.0.0
       commander: 11.1.0

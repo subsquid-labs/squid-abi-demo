@@ -38,8 +38,8 @@ dependencies:
 
 devDependencies:
   '@subsquid/cli':
-    specifier: 2.9.2
-    version: 2.9.2
+    specifier: 2.9.3
+    version: 2.9.3
   '@subsquid/evm-typegen':
     specifier: ^3.0.0
     version: 3.3.0(ethers@5.7.2)
@@ -484,10 +484,6 @@ packages:
       '@ethersproject/properties': 5.7.0
       '@ethersproject/strings': 5.7.0
 
-  /@exodus/schemasafe@1.0.0-rc.9:
-    resolution: {integrity: sha512-dGGHpb61hLwifAu7sotuHFDBw6GTdpG8aKC0fsK17EuTzMRvUrH7lEAr6LTJ+sx3AZYed9yZ77rltVDHyg2hRg==}
-    dev: true
-
   /@exodus/schemasafe@1.3.0:
     resolution: {integrity: sha512-5Aap/GaRupgNx/feGBwLLTVv8OQFfv3pq2lPRzPg9R+IOBnDgghTGW7l7EuVXOvg5cc/xSAlRW8rBrjIC3Nvqw==}
     dev: true
@@ -802,8 +798,8 @@ packages:
     transitivePeerDependencies:
       - encoding
 
-  /@subsquid/cli@2.9.2:
-    resolution: {integrity: sha512-bHNYV8iSGb+f2zLsvsyZiIIRMHFplQP6NIPbe4wpRJTpnWHuX93WoC5JKeWSGjz7OLY7WVBo+LjfVjvieDNDPQ==}
+  /@subsquid/cli@2.9.3:
+    resolution: {integrity: sha512-pDFqJBWYijoHttKUQhqq0R2aNPHRIZpdEgOSfmuPx3gKyPxOO85ySY+xruCPHuyMB7eYN0Kvv4iHT8FgauoCOg==}
     hasBin: true
     dependencies:
       '@oclif/core': 3.19.1
@@ -1199,7 +1195,7 @@ packages:
   /@subsquid/util-internal-config@1.0.1:
     resolution: {integrity: sha512-F5jr3OWerUQ+dn0ecCtcizdZunlFN6wXy50SmfLY+x8f8ggXsk3Z2waIxJjOAB4GnuNYyvvQREM7pusjCyN2RQ==}
     dependencies:
-      '@exodus/schemasafe': 1.0.0-rc.9
+      '@exodus/schemasafe': 1.3.0
       jsonc-parser: 3.2.1
     dev: true
 

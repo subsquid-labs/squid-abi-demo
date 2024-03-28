@@ -822,7 +822,7 @@ packages:
       fast-levenshtein: 3.0.0
       figlet: 1.7.0
       form-data: 4.0.0
-      glob: 10.3.10
+      glob: 10.3.12
       ignore: 5.3.1
       inquirer: 8.2.6
       js-yaml: 4.1.0
@@ -849,7 +849,7 @@ packages:
       '@subsquid/logger': 1.3.3
       '@subsquid/util-internal': 3.1.0
       '@subsquid/util-internal-config': 2.2.2
-      glob: 10.3.10
+      glob: 10.3.12
       supports-color: 8.1.1
     dev: true
 
@@ -2740,8 +2740,8 @@ packages:
       is-glob: 4.0.3
     dev: true
 
-  /glob@10.3.10:
-    resolution: {integrity: sha512-fa46+tv1Ak0UPK1TOy/pZrIybNNt4HCv7SDzwyfiOZkvZLEbjsZkJBPtDHVshZjbecAoAGSC20MjLDG/qr679g==}
+  /glob@10.3.12:
+    resolution: {integrity: sha512-TCNv8vJ+xz4QiqTpfOJA7HvYv+tNIRHKfUWw/q+v2jdgN4ebz+KY9tGx5J4rHP0o84mNP+ApH66HRX8us3Khqg==}
     engines: {node: '>=16 || 14 >=14.17'}
     hasBin: true
     dependencies:

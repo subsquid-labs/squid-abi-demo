@@ -976,7 +976,7 @@ packages:
   /@subsquid/manifest@0.0.1-beta.17:
     resolution: {integrity: sha512-QrxvFSZglPpxdpobgKChBPW/+Pv+eivknlelsb/myOyaycKDFS0EYQd03MmwJK2Zzq6Y5g/ccLb6M2D3C4BFKQ==}
     dependencies:
-      joi: 17.12.2
+      joi: 17.12.3
       js-yaml: 4.1.0
       lodash: 4.17.21
     dev: true
@@ -3151,8 +3151,8 @@ packages:
       minimatch: 3.1.2
     dev: true
 
-  /joi@17.12.2:
-    resolution: {integrity: sha512-RonXAIzCiHLc8ss3Ibuz45u28GOsWE1UpfDXLbN/9NKbL4tCJf8TWYVKsoYuuh+sAUt7fsSNpA+r2+TBA6Wjmw==}
+  /joi@17.12.3:
+    resolution: {integrity: sha512-2RRziagf555owrm9IRVtdKynOBeITiDpuZqIpgwqXShPncPKNiRQoiGsl/T8SQdq+8ugRzH2LqY67irr2y/d+g==}
     dependencies:
       '@hapi/hoek': 9.3.0
       '@hapi/topo': 5.1.0

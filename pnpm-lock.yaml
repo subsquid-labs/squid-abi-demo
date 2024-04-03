@@ -38,8 +38,8 @@ dependencies:
 
 devDependencies:
   '@subsquid/cli':
-    specifier: 2.9.3
-    version: 2.9.3
+    specifier: 2.10.1
+    version: 2.10.1
   '@subsquid/evm-typegen':
     specifier: ^3.0.0
     version: 3.3.0(ethers@5.7.2)
@@ -685,8 +685,8 @@ packages:
       fastq: 1.17.1
     dev: true
 
-  /@oclif/core@3.19.1:
-    resolution: {integrity: sha512-dd1h4Hz+LwpuYhKvgBjDmW3/HgUAm93JM95cnbzSv5VcmiBeC+utjLvY96PmPbYxxDoz7XazEOl8oOpSLSEgcg==}
+  /@oclif/core@3.26.0:
+    resolution: {integrity: sha512-TpMdfD4tfA2tVVbd4l0PrP02o5KoUXYmudBbTC7CeguDo/GLoprw4uL8cMsaVA26+cbcy7WYtOEydQiHVtJixA==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@types/cli-progress': 3.11.5
@@ -705,6 +705,7 @@ packages:
       indent-string: 4.0.0
       is-wsl: 2.2.0
       js-yaml: 3.14.1
+      minimatch: 9.0.4
       natural-orderby: 2.0.3
       object-treeify: 1.1.33
       password-prompt: 1.1.3
@@ -718,11 +719,11 @@ packages:
       wrap-ansi: 7.0.0
     dev: true
 
-  /@oclif/plugin-autocomplete@3.0.8:
-    resolution: {integrity: sha512-8h9PU56msmSD+s+mZcS/b+YYJwyxDwONC8FFQUbfeWAB/rRqMFj2tOMbh7VGk6ZUTU5KcQvMDeDQ3UXfTKVPqA==}
+  /@oclif/plugin-autocomplete@3.0.13:
+    resolution: {integrity: sha512-iRfRZmONzODC34/uyRjYitLOd0z7yD3+uDNMPn3bI8LuWgKPp15SXKdvdE3Cc1i1jdb5HHTwc0LQJuRJEpd8vg==}
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@oclif/core': 3.19.1
+      '@oclif/core': 3.26.0
       chalk: 5.3.0
       debug: 4.3.4(supports-color@8.1.1)
       ejs: 3.1.9
@@ -798,12 +799,12 @@ packages:
     transitivePeerDependencies:
       - encoding
 
-  /@subsquid/cli@2.9.3:
-    resolution: {integrity: sha512-pDFqJBWYijoHttKUQhqq0R2aNPHRIZpdEgOSfmuPx3gKyPxOO85ySY+xruCPHuyMB7eYN0Kvv4iHT8FgauoCOg==}
+  /@subsquid/cli@2.10.1:
+    resolution: {integrity: sha512-BC83YF6aRpRRLJhGJCrgiQRMhP6jCQMTj0YmJv5YV3Jo5hOW42M1clp11FI1UL5QC36+MDvL7+vGhZJp3RSFxQ==}
     hasBin: true
     dependencies:
-      '@oclif/core': 3.19.1
-      '@oclif/plugin-autocomplete': 3.0.8
+      '@oclif/core': 3.26.0
+      '@oclif/plugin-autocomplete': 3.0.13
       '@subsquid/commands': 2.3.1
       '@subsquid/manifest': 0.0.1-beta.17
       '@subsquid/manifest-expr': 0.0.1
@@ -928,7 +929,7 @@ packages:
       graphql: 15.8.0
       graphql-ws: 5.16.0(graphql@15.8.0)
       keyv: 4.5.4
-      pg: 8.11.4
+      pg: 8.11.5
       typeorm: 0.3.11(pg@8.8.0)
       ws: 8.16.0
     transitivePeerDependencies:
@@ -1040,7 +1041,7 @@ packages:
       graphql: 15.8.0
       graphql-parse-resolve-info: 4.14.0(graphql@15.8.0)
       graphql-ws: 5.16.0(graphql@15.8.0)
-      pg: 8.11.4
+      pg: 8.11.5
       ws: 8.16.0
     transitivePeerDependencies:
       - bufferutil
@@ -3593,8 +3594,8 @@ packages:
     resolution: {integrity: sha512-ch6OwaeaPYcova4kKZ15sbJ2hKb/VP48ZD2gE7i1J+L4MspCtBMAx8nMgz7bksc7IojCIIWuEhHibSMFH8m8oA==}
     dev: true
 
-  /pg-connection-string@2.6.3:
-    resolution: {integrity: sha512-77FxhhKJQH+xJx6tDqkhhMa0nZvv3U1HYLDQgwZxZafVD583++O5LXn5oo5HaQZ0vXwYcZA1koYAJM3JvD6Gtw==}
+  /pg-connection-string@2.6.4:
+    resolution: {integrity: sha512-v+Z7W/0EO707aNMaAEfiGnGL9sxxumwLl2fJvCQtMn9Fxsg+lPpPkdcyBSv/KFgpGdYkMfn+EI1Or2EHjpgLCA==}
     dev: false
 
   /pg-int8@1.0.1:
@@ -3616,12 +3617,12 @@ packages:
       pg: 8.11.3
     dev: true
 
-  /pg-pool@3.6.2(pg@8.11.4):
+  /pg-pool@3.6.2(pg@8.11.5):
     resolution: {integrity: sha512-Htjbg8BlwXqSBQ9V8Vjtc+vzf/6fVUuak/3/XXKA9oxZprwW3IMDQTGHP+KDmVL7rtd+R1QjbnCFPuTHm3G4hg==}
     peerDependencies:
       pg: '>=8.0'
     dependencies:
-      pg: 8.11.4
+      pg: 8.11.5
     dev: false
 
   /pg-protocol@1.5.0:
@@ -3665,8 +3666,8 @@ packages:
       pg-cloudflare: 1.1.1
     dev: true
 
-  /pg@8.11.4:
-    resolution: {integrity: sha512-pWb7JKPxGk1UFbtq7jQ0m3IfPpb7LLACCEyN8/u9DYEom+Q/BSKy+4TRl4+Hh003AOYhppB/z+QK87/hx/bk0w==}
+  /pg@8.11.5:
+    resolution: {integrity: sha512-jqgNHSKL5cbDjFlHyYsCXmQDrfIX/3RsNwYqpd4N0Kt8niLuNoRNH+aazv6cOd43gPh9Y4DjQCtb+X0MH0Hvnw==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
       pg-native: '>=3.0.1'
@@ -3674,8 +3675,8 @@ packages:
       pg-native:
         optional: true
     dependencies:
-      pg-connection-string: 2.6.3
-      pg-pool: 3.6.2(pg@8.11.4)
+      pg-connection-string: 2.6.4
+      pg-pool: 3.6.2(pg@8.11.5)
       pg-protocol: 1.6.1
       pg-types: 2.2.0
       pgpass: 1.0.5

@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@subsquid/archive-registry':
     specifier: ^3.0.0
-    version: 3.3.0
+    version: 3.3.1
   '@subsquid/evm-processor':
     specifier: ^1.0.0
     version: 1.16.0
@@ -38,14 +38,14 @@ dependencies:
 
 devDependencies:
   '@subsquid/cli':
-    specifier: 2.10.1
-    version: 2.10.1
+    specifier: 2.10.3
+    version: 2.10.3
   '@subsquid/evm-typegen':
     specifier: ^3.0.0
     version: 3.3.0(ethers@5.7.2)
   '@subsquid/squid-gen':
     specifier: ^0.4.0
-    version: 0.4.2(@subsquid/archive-registry@3.3.0)(@subsquid/evm-processor@1.16.0)(@subsquid/evm-typegen@3.3.0)(@subsquid/typeorm-codegen@1.3.3)(@subsquid/typeorm-store@1.2.6)(@subsquid/util-internal-json@1.2.2)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4)
+    version: 0.4.2(@subsquid/archive-registry@3.3.1)(@subsquid/evm-processor@1.16.0)(@subsquid/evm-typegen@3.3.0)(@subsquid/typeorm-codegen@1.3.3)(@subsquid/typeorm-store@1.2.6)(@subsquid/util-internal-json@1.2.2)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4)
   '@subsquid/typeorm-codegen':
     specifier: ^1.0.0
     version: 1.3.3
@@ -788,8 +788,8 @@ packages:
   /@sqltools/formatter@1.2.5:
     resolution: {integrity: sha512-Uy0+khmZqUrUGm5dmMqVlnvufZRSK0FbYzVgp0UMstm+F5+W2/jnEEQyc9vo1ZR/E5ZI/B1WjjoTqBqwJL6Krw==}
 
-  /@subsquid/archive-registry@3.3.0:
-    resolution: {integrity: sha512-moXnGNOSmKMHyuDvUiOHbpL7IePSo4XZOW9OnzESIND64eGxlKusIsCi8Nth1DgzbE/UTTFeNJvYKu0v7SOIqw==}
+  /@subsquid/archive-registry@3.3.1:
+    resolution: {integrity: sha512-FvGM1drQh6npnQckrd8L3DBHKu8gBomLOwPlEsVlMbcWdGMg94B2nmvAeq86Jd1H6Fim6QoHR0rrixy6CCgAtw==}
     hasBin: true
     dependencies:
       '@subsquid/util-internal': 1.1.0
@@ -799,8 +799,8 @@ packages:
     transitivePeerDependencies:
       - encoding
 
-  /@subsquid/cli@2.10.1:
-    resolution: {integrity: sha512-BC83YF6aRpRRLJhGJCrgiQRMhP6jCQMTj0YmJv5YV3Jo5hOW42M1clp11FI1UL5QC36+MDvL7+vGhZJp3RSFxQ==}
+  /@subsquid/cli@2.10.3:
+    resolution: {integrity: sha512-X7ReKDcVHIu00pwD8dK73v++Rn8tipTo3PUdIvBi1/at8apkt/uIDToMJVE9/7cDL86sXWyDz5g0yVn/bFKyxQ==}
     hasBin: true
     dependencies:
       '@oclif/core': 3.26.0
@@ -830,6 +830,7 @@ packages:
       lodash: 4.17.21
       ms: 2.1.3
       neo-blessed: 0.2.0
+      open: 8.4.2
       pretty-bytes: 5.6.0
       qs: 6.12.0
       reblessed: 0.2.1
@@ -1063,7 +1064,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@subsquid/squid-gen@0.4.2(@subsquid/archive-registry@3.3.0)(@subsquid/evm-processor@1.16.0)(@subsquid/evm-typegen@3.3.0)(@subsquid/typeorm-codegen@1.3.3)(@subsquid/typeorm-store@1.2.6)(@subsquid/util-internal-json@1.2.2)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4):
+  /@subsquid/squid-gen@0.4.2(@subsquid/archive-registry@3.3.1)(@subsquid/evm-processor@1.16.0)(@subsquid/evm-typegen@3.3.0)(@subsquid/typeorm-codegen@1.3.3)(@subsquid/typeorm-store@1.2.6)(@subsquid/util-internal-json@1.2.2)(@types/node@18.11.18)(ethers@5.7.2)(typescript@4.9.4):
     resolution: {integrity: sha512-UeNvsDLmD7SW4lCLYd+6z5QaW7a0tNis32wQ2FnIHEq9T+9FG+1C2EoSjGm5Ydtecsmi6IqGhcUNIKHOh7cMPw==}
     hasBin: true
     peerDependencies:
@@ -1075,7 +1076,7 @@ packages:
       '@subsquid/util-internal-json': ^0.2.0
       ethers: ^5.7.2
     dependencies:
-      '@subsquid/archive-registry': 3.3.0
+      '@subsquid/archive-registry': 3.3.1
       '@subsquid/evm-processor': 1.16.0
       '@subsquid/evm-typegen': 3.3.0(ethers@5.7.2)
       '@subsquid/logger': 0.3.1
@@ -1369,7 +1370,7 @@ packages:
       '@types/body-parser': 1.19.2
       '@types/express-serve-static-core': 4.17.31
       '@types/qs': 6.9.14
-      '@types/serve-static': 1.15.5
+      '@types/serve-static': 1.15.7
 
   /@types/fast-levenshtein@0.0.4:
     resolution: {integrity: sha512-tkDveuitddQCxut1Db8eEFfMahTjOumTJGPHmT9E7KUH+DkVq9WTpVvlfenf3S+uCBeu8j5FP2xik/KfxOEjeA==}
@@ -1385,8 +1386,8 @@ packages:
   /@types/long@4.0.2:
     resolution: {integrity: sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==}
 
-  /@types/mime@3.0.4:
-    resolution: {integrity: sha512-iJt33IQnVRkqeqC7PzBHPTC6fDlRNRW8vjrgqtScAhrmMwe8c4Eo7+fUGTa+XdWrpEgpyKWMYmi2dIwMAYRzPw==}
+  /@types/mime@1.3.5:
+    resolution: {integrity: sha512-/pyBZWSLD2n0dcHE3hq8s8ZvcETHtEuF+3E7XVt0Ig2nvsVQXdghHVcEkIWjy9A0wKfTn97a/PSDYohKIlnP/w==}
 
   /@types/node@10.17.60:
     resolution: {integrity: sha512-F0KIgDJfy2nA3zMLmWGKxcH2ZVEtCZXHHdOQs2gSaQ27+lNeEfGxzkIw90aXswATX7AZ33tahPbzy6KAfUreVw==}
@@ -1400,12 +1401,18 @@ packages:
   /@types/range-parser@1.2.7:
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
 
-  /@types/serve-static@1.15.5:
-    resolution: {integrity: sha512-PDRk21MnK70hja/YF8AHfC7yIsiQHn1rcXx7ijCFBX/k+XQJhQT/gw3xekXKJvx+5SXaMMS8oqQy09Mzvz2TuQ==}
+  /@types/send@0.17.4:
+    resolution: {integrity: sha512-x2EM6TJOybec7c52BX0ZspPodMsQUd5L6PRwOunVyVUhXiBSKf3AezDL8Dgvgt5o0UfKNfuA0eMLr2wLT4AiBA==}
+    dependencies:
+      '@types/mime': 1.3.5
+      '@types/node': 18.11.18
+
+  /@types/serve-static@1.15.7:
+    resolution: {integrity: sha512-W8Ym+h8nhuRwaKPaDw34QUkwsGi6Rc4yYqvKFo5rm2FUEhCFbzVWrxXUxuKK8TASjWsysJY0nsmNCGhCOIsrOw==}
     dependencies:
       '@types/http-errors': 2.0.4
-      '@types/mime': 3.0.4
       '@types/node': 18.11.18
+      '@types/send': 0.17.4
 
   /@types/tar-fs@2.0.4:
     resolution: {integrity: sha512-ipPec0CjTmVDWE+QKr9cTmIIoTl7dFG/yARCM5MqK8i6CNLIG1P8x4kwDsOQY1ChZOZjH0wO9nvfgBvWl4R3kA==}
@@ -2236,6 +2243,11 @@ packages:
       es-define-property: 1.0.0
       es-errors: 1.3.0
       gopd: 1.0.1
+
+  /define-lazy-prop@2.0.0:
+    resolution: {integrity: sha512-Ds09qNh8yw3khSjiJjiUInaGX9xlqZDY7JVryGxdxV7NPeuqQfplOpQ66yJFZut3jLa5zOwkXw1g9EI2uKh4Og==}
+    engines: {node: '>=8'}
+    dev: true
 
   /define-properties@1.2.1:
     resolution: {integrity: sha512-8QmQKqEASLd5nx0U1B1okLElbUuuttJ/AnYmRXbbbGDWh6uS208EjD4Xqq/I9wK7u0v6O08XhTWnt5XtEbR6Dg==}
@@ -3498,6 +3510,15 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       mimic-fn: 2.1.0
+    dev: true
+
+  /open@8.4.2:
+    resolution: {integrity: sha512-7x81NCL719oNbsq/3mh+hVrAWmFuEYUqrq/Iw3kUzH8ReypT9QQ0BLoJS7/G9k6N81XjW4qHWtjWwe/9eLy1EQ==}
+    engines: {node: '>=12'}
+    dependencies:
+      define-lazy-prop: 2.0.0
+      is-docker: 2.2.1
+      is-wsl: 2.2.0
     dev: true
 
   /optimist@0.2.8:

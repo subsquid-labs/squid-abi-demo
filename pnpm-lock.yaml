@@ -16,13 +16,13 @@ importers:
         version: 1.16.0
       '@subsquid/graphql-server':
         specifier: ^4.0.0
-        version: 4.5.1(bufferutil@4.0.8)(typeorm@0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))(utf-8-validate@5.0.10)
+        version: 4.5.1(bufferutil@4.0.8)(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))(utf-8-validate@5.0.10)
       '@subsquid/typeorm-migration':
         specifier: ^1.0.0
-        version: 1.3.0(typeorm@0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
+        version: 1.3.0(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
       '@subsquid/typeorm-store':
         specifier: ^1.0.0
-        version: 1.2.6(typeorm@0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
+        version: 1.2.6(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
       '@subsquid/util-internal-json':
         specifier: ^1.0.0
         version: 1.2.2
@@ -37,7 +37,7 @@ importers:
         version: 8.8.0
       typeorm:
         specifier: ^0.3.6
-        version: 0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
+        version: 0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
     devDependencies:
       '@subsquid/cli':
         specifier: 2.10.3
@@ -47,7 +47,7 @@ importers:
         version: 3.3.0(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@subsquid/squid-gen':
         specifier: ^0.4.0
-        version: 0.4.2(@subsquid/archive-registry@3.3.2)(@subsquid/evm-processor@1.16.0)(@subsquid/evm-typegen@3.3.0(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)))(@subsquid/typeorm-codegen@2.0.0(bufferutil@4.0.8)(utf-8-validate@5.0.10))(@subsquid/typeorm-store@1.2.6(typeorm@0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))))(@subsquid/util-internal-json@1.2.2)(@types/node@18.11.18)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@4.9.4)
+        version: 0.4.2(@subsquid/archive-registry@3.3.2)(@subsquid/evm-processor@1.16.0)(@subsquid/evm-typegen@3.3.0(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)))(@subsquid/typeorm-codegen@2.0.0(bufferutil@4.0.8)(utf-8-validate@5.0.10))(@subsquid/typeorm-store@1.2.6(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))))(@subsquid/util-internal-json@1.2.2)(@types/node@18.11.18)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@4.9.4)
       '@subsquid/typeorm-codegen':
         specifier: ^2.0.0
         version: 2.0.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
@@ -521,6 +521,11 @@ packages:
     peerDependencies:
       commander: ^11.1.0
 
+  '@subsquid/util-internal-commander@1.4.0':
+    resolution: {integrity: sha512-I+IztlLVow9z2S5lK/ON4aBRYXKtAKXl/rVPUn1Ue5vq+5JgEFbWEKJgnwXkd0qKnKeoYeaRFlcyQVfxirxzJw==}
+    peerDependencies:
+      commander: ^11.1.0
+
   '@subsquid/util-internal-config@1.0.1':
     resolution: {integrity: sha512-F5jr3OWerUQ+dn0ecCtcizdZunlFN6wXy50SmfLY+x8f8ggXsk3Z2waIxJjOAB4GnuNYyvvQREM7pusjCyN2RQ==}
 
@@ -586,6 +591,9 @@ packages:
 
   '@subsquid/util-internal@3.1.0':
     resolution: {integrity: sha512-m1lIiy7Tc2+QR5Jcx9eGsVsB4ASR/bA5Z9gnB+qUy1BzYuz5FEiJOYCQm6J5Bt+VnYDYYyANEUMq4Cl3J5wuSg==}
+
+  '@subsquid/util-internal@3.2.0':
+    resolution: {integrity: sha512-foNCjOmZaP8MKMa9sNe2GXTjFSDM9UqA0I0C0/ZvCxM1lCmG3mxZb70f8Wyi7TePXC/eV8eARbIqFyz0GjQmzA==}
 
   '@subsquid/util-naming@0.0.2':
     resolution: {integrity: sha512-t23kWD5kdRi03HXAhMSO1SesmM6dyD8kmMKfBR5SoFScij0Z2zf4dZ/jQT0bH9V59r4eZvv+NxR5XC+uR8GBAQ==}
@@ -1486,8 +1494,8 @@ packages:
     resolution: {integrity: sha512-NGnrKwXzSms2qUUih/ILZ5JBqNTSa1+ZmP6flaIp6KmSElgE9qdndzS3cqjrDovwFdmwsGsLdeFgB6suw+1e9g==}
     engines: {node: '>= 0.4'}
 
-  ioredis@5.4.0:
-    resolution: {integrity: sha512-lGiiZyWFOskPu3pH4P8+uicHOZHpzYpgfKZFre68wLK6059zBo+KDTQpwxAVibBajKqpcrRJ5k+jl/uNHcCo3A==}
+  ioredis@5.4.1:
+    resolution: {integrity: sha512-2YZsvl7jopIa1gaePkeMtd9rAcSjOOjPtpcLlOeusyO+XH2SK5ZcT+UCrElPP+WVIInh2TzeI4XW9ENaSLVVHA==}
     engines: {node: '>=12.22.0'}
 
   ipaddr.js@1.9.1:
@@ -3044,7 +3052,7 @@ snapshots:
 
   '@keyv/redis@2.5.8':
     dependencies:
-      ioredis: 5.4.0
+      ioredis: 5.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -3198,7 +3206,7 @@ snapshots:
   '@subsquid/commands@2.3.1':
     dependencies:
       '@subsquid/logger': 1.3.3
-      '@subsquid/util-internal': 3.1.0
+      '@subsquid/util-internal': 3.2.0
       '@subsquid/util-internal-config': 2.2.2
       glob: 10.3.12
       supports-color: 8.1.1
@@ -3231,7 +3239,7 @@ snapshots:
 
   '@subsquid/graphiql-console@0.3.0': {}
 
-  '@subsquid/graphql-server@4.5.1(bufferutil@4.0.8)(typeorm@0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))(utf-8-validate@5.0.10)':
+  '@subsquid/graphql-server@4.5.1(bufferutil@4.0.8)(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))(utf-8-validate@5.0.10)':
     dependencies:
       '@apollo/utils.keyvadapter': 1.1.2
       '@apollo/utils.keyvaluecache': 1.0.2
@@ -3241,9 +3249,9 @@ snapshots:
       '@keyv/redis': 2.5.8
       '@subsquid/logger': 1.3.3
       '@subsquid/openreader': 4.5.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
-      '@subsquid/typeorm-config': 4.1.0(typeorm@0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
-      '@subsquid/util-internal': 3.1.0
-      '@subsquid/util-internal-commander': 1.3.2(commander@11.1.0)
+      '@subsquid/typeorm-config': 4.1.0(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
+      '@subsquid/util-internal': 3.2.0
+      '@subsquid/util-internal-commander': 1.4.0(commander@11.1.0)
       '@subsquid/util-internal-http-server': 2.0.0
       '@subsquid/util-internal-ts-node': 0.0.0
       apollo-server-core: 3.13.0(graphql@15.8.0)
@@ -3258,7 +3266,7 @@ snapshots:
       pg: 8.11.5
       ws: 8.16.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
     optionalDependencies:
-      typeorm: 0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
+      typeorm: 0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -3303,8 +3311,8 @@ snapshots:
       '@graphql-tools/merge': 9.0.3(graphql@15.8.0)
       '@subsquid/graphiql-console': 0.3.0
       '@subsquid/logger': 1.3.3
-      '@subsquid/util-internal': 3.1.0
-      '@subsquid/util-internal-commander': 1.3.2(commander@11.1.0)
+      '@subsquid/util-internal': 3.2.0
+      '@subsquid/util-internal-commander': 1.4.0(commander@11.1.0)
       '@subsquid/util-internal-hex': 1.2.2
       '@subsquid/util-internal-http-server': 2.0.0
       '@subsquid/util-naming': 1.2.2
@@ -3336,14 +3344,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@subsquid/squid-gen@0.4.2(@subsquid/archive-registry@3.3.2)(@subsquid/evm-processor@1.16.0)(@subsquid/evm-typegen@3.3.0(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)))(@subsquid/typeorm-codegen@2.0.0(bufferutil@4.0.8)(utf-8-validate@5.0.10))(@subsquid/typeorm-store@1.2.6(typeorm@0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))))(@subsquid/util-internal-json@1.2.2)(@types/node@18.11.18)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@4.9.4)':
+  '@subsquid/squid-gen@0.4.2(@subsquid/archive-registry@3.3.2)(@subsquid/evm-processor@1.16.0)(@subsquid/evm-typegen@3.3.0(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)))(@subsquid/typeorm-codegen@2.0.0(bufferutil@4.0.8)(utf-8-validate@5.0.10))(@subsquid/typeorm-store@1.2.6(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))))(@subsquid/util-internal-json@1.2.2)(@types/node@18.11.18)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@4.9.4)':
     dependencies:
       '@subsquid/archive-registry': 3.3.2
       '@subsquid/evm-processor': 1.16.0
       '@subsquid/evm-typegen': 3.3.0(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@subsquid/logger': 0.3.1
       '@subsquid/typeorm-codegen': 2.0.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
-      '@subsquid/typeorm-store': 1.2.6(typeorm@0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
+      '@subsquid/typeorm-store': 1.2.6(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
       '@subsquid/util-internal': 1.1.0
       '@subsquid/util-internal-code-printer': 0.1.1
       '@subsquid/util-internal-commander': 0.0.2(commander@10.0.0)
@@ -3376,29 +3384,29 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@subsquid/typeorm-config@4.1.0(typeorm@0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))':
+  '@subsquid/typeorm-config@4.1.0(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))':
     dependencies:
       '@subsquid/logger': 1.3.3
       '@subsquid/util-internal-ts-node': 0.0.0
       '@subsquid/util-naming': 1.2.2
     optionalDependencies:
-      typeorm: 0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
+      typeorm: 0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
 
-  '@subsquid/typeorm-migration@1.3.0(typeorm@0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))':
+  '@subsquid/typeorm-migration@1.3.0(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))':
     dependencies:
-      '@subsquid/typeorm-config': 4.1.0(typeorm@0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
+      '@subsquid/typeorm-config': 4.1.0(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
       '@subsquid/util-internal': 3.0.0
       '@subsquid/util-internal-code-printer': 1.2.2
       '@subsquid/util-internal-ts-node': 0.0.0
       commander: 11.1.0
       dotenv: 16.4.5
-      typeorm: 0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
+      typeorm: 0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
 
-  '@subsquid/typeorm-store@1.2.6(typeorm@0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))':
+  '@subsquid/typeorm-store@1.2.6(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))':
     dependencies:
-      '@subsquid/typeorm-config': 4.1.0(typeorm@0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
+      '@subsquid/typeorm-config': 4.1.0(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
       '@subsquid/util-internal': 3.0.0
-      typeorm: 0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
+      typeorm: 0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
 
   '@subsquid/util-internal-archive-client@0.1.0(@subsquid/http-client@1.3.2)(@subsquid/logger@1.3.2)':
     dependencies:
@@ -3419,6 +3427,10 @@ snapshots:
       commander: 10.0.0
 
   '@subsquid/util-internal-commander@1.3.2(commander@11.1.0)':
+    dependencies:
+      commander: 11.1.0
+
+  '@subsquid/util-internal-commander@1.4.0(commander@11.1.0)':
     dependencies:
       commander: 11.1.0
 
@@ -3493,6 +3505,8 @@ snapshots:
   '@subsquid/util-internal@3.0.0': {}
 
   '@subsquid/util-internal@3.1.0': {}
+
+  '@subsquid/util-internal@3.2.0': {}
 
   '@subsquid/util-naming@0.0.2':
     dependencies:
@@ -4538,7 +4552,7 @@ snapshots:
       hasown: 2.0.2
       side-channel: 1.0.6
 
-  ioredis@5.4.0:
+  ioredis@5.4.1:
     dependencies:
       '@ioredis/commands': 1.2.0
       cluster-key-slot: 1.1.2
@@ -5363,7 +5377,7 @@ snapshots:
     dependencies:
       is-typedarray: 1.0.0
 
-  typeorm@0.3.11(ioredis@5.4.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)):
+  typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)):
     dependencies:
       '@sqltools/formatter': 1.2.5
       app-root-path: 3.1.0
@@ -5383,7 +5397,7 @@ snapshots:
       xml2js: 0.4.23
       yargs: 17.6.2
     optionalDependencies:
-      ioredis: 5.4.0
+      ioredis: 5.4.1
       pg: 8.8.0
       ts-node: 10.9.1(@types/node@18.11.18)(typescript@4.9.4)
     transitivePeerDependencies:

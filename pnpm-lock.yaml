@@ -40,8 +40,8 @@ importers:
         version: 0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
     devDependencies:
       '@subsquid/cli':
-        specifier: 2.10.3
-        version: 2.10.3
+        specifier: 2.10.4
+        version: 2.10.4
       '@subsquid/evm-typegen':
         specifier: ^3.0.0
         version: 3.3.0(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))
@@ -390,8 +390,8 @@ packages:
     resolution: {integrity: sha512-8Zt+Kr8z/mapouRsr90EbfMH2t5KaaSOg7oQYmIqF8ndUeEwa2b23Bb8xNaoo3uvVL2UUM9oxxuxmCf9ixZC7Q==}
     hasBin: true
 
-  '@subsquid/cli@2.10.3':
-    resolution: {integrity: sha512-X7ReKDcVHIu00pwD8dK73v++Rn8tipTo3PUdIvBi1/at8apkt/uIDToMJVE9/7cDL86sXWyDz5g0yVn/bFKyxQ==}
+  '@subsquid/cli@2.10.4':
+    resolution: {integrity: sha512-VCFt2PKyQOOezPRSooHhpCnsH3uywb841UMSNsMZFbQCq4CSMbVhIZ2hNZofiGOXXPskUxv7g8Woed75IJtmjA==}
     hasBin: true
 
   '@subsquid/commands@2.3.1':
@@ -3161,7 +3161,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@subsquid/cli@2.10.3':
+  '@subsquid/cli@2.10.4':
     dependencies:
       '@oclif/core': 3.26.0
       '@oclif/plugin-autocomplete': 3.0.13

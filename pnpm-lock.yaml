@@ -1625,8 +1625,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  joi@17.13.0:
-    resolution: {integrity: sha512-9qcrTyoBmFZRNHeVP4edKqIUEgFzq7MHvTNSDuHSqkpOPtiBkgNgcmTSqmiw1kw9tdKaiddvIDv/eCJDxmqWCA==}
+  joi@17.13.1:
+    resolution: {integrity: sha512-vaBlIKCyo4FCUtCm7Eu4QZd/q02bWcxfUO6YSXAZOWF6gzcLBeba8kwotUdYJjDLW8Cz8RywsSOqiNJZW0mNvg==}
 
   js-sha3@0.8.0:
     resolution: {integrity: sha512-gF1cRrHhIzNfToc802P800N8PpXS+evLLXfsVpowqmAFR9uwbi89WvXg2QspOmXL8QL86J4T1EpFu+yUkwJY3Q==}
@@ -3302,7 +3302,7 @@ snapshots:
 
   '@subsquid/manifest@0.0.1-beta.17':
     dependencies:
-      joi: 17.13.0
+      joi: 17.13.1
       js-yaml: 4.1.0
       lodash: 4.17.21
 
@@ -4672,7 +4672,7 @@ snapshots:
       filelist: 1.0.4
       minimatch: 3.1.2
 
-  joi@17.13.0:
+  joi@17.13.1:
     dependencies:
       '@hapi/hoek': 9.3.0
       '@hapi/topo': 5.1.0

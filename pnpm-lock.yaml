@@ -16,7 +16,7 @@ importers:
         version: 1.16.0
       '@subsquid/graphql-server':
         specifier: ^4.0.0
-        version: 4.5.1(bufferutil@4.0.8)(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))(utf-8-validate@5.0.10)
+        version: 4.6.0(bufferutil@4.0.8)(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))(utf-8-validate@5.0.10)
       '@subsquid/typeorm-migration':
         specifier: ^1.0.0
         version: 1.3.0(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
@@ -411,8 +411,8 @@ packages:
   '@subsquid/graphiql-console@0.3.0':
     resolution: {integrity: sha512-C89mus6IXnNi0xMQrZqUFBZwLj8tbuq9lye8Gq/lHmmERAUpi6UsWEyLdJLx2mneZzF3JtY8eNiiZ16jmjtvfw==}
 
-  '@subsquid/graphql-server@4.5.1':
-    resolution: {integrity: sha512-PMC5Kc9ptjhrBIBRvvhkHiSRUEGJqv6Bc838VnvLtF5kMrGjSI+pPUiA5t+rhdfxywX1j+ZEdBpaRypAGo6Otw==}
+  '@subsquid/graphql-server@4.6.0':
+    resolution: {integrity: sha512-urQr5yLgYaPKSkCDQQ7ZwmpnYDOFfUSIKGxA7qk5LFoJlIJ+ycO4rkzb3ln29LrhSw25D3E/ZfrDlS+PFnV4ZA==}
     hasBin: true
     peerDependencies:
       '@subsquid/big-decimal': ^1.0.0
@@ -456,6 +456,15 @@ packages:
       '@subsquid/big-decimal':
         optional: true
 
+  '@subsquid/openreader@4.6.0':
+    resolution: {integrity: sha512-/05vSoKP3UHxU6GJYfKcfSIi4bWfzbr9x/H2wW5XxE4uc8gFeaVZHCmQMTaO9941oK//9rk9BQTH5Slhwuj7gw==}
+    hasBin: true
+    peerDependencies:
+      '@subsquid/big-decimal': ^1.0.0
+    peerDependenciesMeta:
+      '@subsquid/big-decimal':
+        optional: true
+
   '@subsquid/rpc-client@4.6.0':
     resolution: {integrity: sha512-fVTsVOag6Ge7hRqV+st9p+E+BgQa5PPu1uJns5IXSrRtIuAuy++w0OsB3WNA+EC8DZarpllxi7I3snzJpis/xQ==}
 
@@ -477,6 +486,14 @@ packages:
 
   '@subsquid/typeorm-config@4.1.0':
     resolution: {integrity: sha512-onZsHQIypCTRguOeec1Gmm+6EPlTg63QNE7Y74nrbBb4sabZtrK3K+EQJId4KIdk/kxA2Wi/g5H/VDNZNFSe9A==}
+    peerDependencies:
+      typeorm: ^0.3.17
+    peerDependenciesMeta:
+      typeorm:
+        optional: true
+
+  '@subsquid/typeorm-config@4.1.1':
+    resolution: {integrity: sha512-3T2L2jmFIRYxWHL/w4rMuaSiHLhDywQWPKtfD3TaSohjXR+VdDG5XimDMmSwM4dzQTBToGpnfUEkzH3v1+EnCg==}
     peerDependencies:
       typeorm: ^0.3.17
     peerDependenciesMeta:
@@ -601,6 +618,9 @@ packages:
 
   '@subsquid/util-naming@1.2.2':
     resolution: {integrity: sha512-NveXOiAbWiWkWd3Iv2jEwSAKvQHOG/HfIsPmmNab8TPX/XgJ6J5Ngx6lHEiqs746m4sOhZ2yipxKAEDgrERaxA==}
+
+  '@subsquid/util-naming@1.3.0':
+    resolution: {integrity: sha512-PfYg1uFHwb7e6egbkzIbQTWf7DVlZIQr2gHy4VE35ZNiA15R9wkJLo/Mym6OkwLQyjJwhhq7pCFhkz6tm19m+A==}
 
   '@subsquid/util-timeout@2.3.2':
     resolution: {integrity: sha512-DVUnuiWAX7/4ZvbzuHENUShEEV4G0M38mQ/+R8DpHxwpCSrtEaSRaUMwdyUSn/WVqR7wo9+jkLCxFjE5feCURQ==}
@@ -3240,7 +3260,7 @@ snapshots:
 
   '@subsquid/graphiql-console@0.3.0': {}
 
-  '@subsquid/graphql-server@4.5.1(bufferutil@4.0.8)(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))(utf-8-validate@5.0.10)':
+  '@subsquid/graphql-server@4.6.0(bufferutil@4.0.8)(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))(utf-8-validate@5.0.10)':
     dependencies:
       '@apollo/utils.keyvadapter': 1.1.2
       '@apollo/utils.keyvaluecache': 1.0.2
@@ -3249,8 +3269,8 @@ snapshots:
       '@graphql-tools/utils': 10.2.0(graphql@15.8.0)
       '@keyv/redis': 2.5.8
       '@subsquid/logger': 1.3.3
-      '@subsquid/openreader': 4.5.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
-      '@subsquid/typeorm-config': 4.1.0(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
+      '@subsquid/openreader': 4.6.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
+      '@subsquid/typeorm-config': 4.1.1(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
       '@subsquid/util-internal': 3.2.0
       '@subsquid/util-internal-commander': 1.4.0(commander@11.1.0)
       '@subsquid/util-internal-http-server': 2.0.0
@@ -3312,11 +3332,38 @@ snapshots:
       '@graphql-tools/merge': 9.0.4(graphql@15.8.0)
       '@subsquid/graphiql-console': 0.3.0
       '@subsquid/logger': 1.3.3
-      '@subsquid/util-internal': 3.2.0
+      '@subsquid/util-internal': 3.1.0
       '@subsquid/util-internal-commander': 1.4.0(commander@11.1.0)
       '@subsquid/util-internal-hex': 1.2.2
       '@subsquid/util-internal-http-server': 2.0.0
       '@subsquid/util-naming': 1.2.2
+      apollo-server-core: 3.13.0(graphql@15.8.0)
+      apollo-server-express: 3.13.0(express@4.19.2)(graphql@15.8.0)
+      commander: 11.1.0
+      deep-equal: 2.2.3
+      express: 4.19.2
+      graphql: 15.8.0
+      graphql-parse-resolve-info: 4.14.0(graphql@15.8.0)
+      graphql-ws: 5.16.0(graphql@15.8.0)
+      pg: 8.11.5
+      ws: 8.17.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
+    transitivePeerDependencies:
+      - bufferutil
+      - encoding
+      - pg-native
+      - supports-color
+      - utf-8-validate
+
+  '@subsquid/openreader@4.6.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)':
+    dependencies:
+      '@graphql-tools/merge': 9.0.4(graphql@15.8.0)
+      '@subsquid/graphiql-console': 0.3.0
+      '@subsquid/logger': 1.3.3
+      '@subsquid/util-internal': 3.2.0
+      '@subsquid/util-internal-commander': 1.4.0(commander@11.1.0)
+      '@subsquid/util-internal-hex': 1.2.2
+      '@subsquid/util-internal-http-server': 2.0.0
+      '@subsquid/util-naming': 1.3.0
       apollo-server-core: 3.13.0(graphql@15.8.0)
       apollo-server-express: 3.13.0(express@4.19.2)(graphql@15.8.0)
       commander: 11.1.0
@@ -3390,6 +3437,14 @@ snapshots:
       '@subsquid/logger': 1.3.3
       '@subsquid/util-internal-ts-node': 0.0.0
       '@subsquid/util-naming': 1.2.2
+    optionalDependencies:
+      typeorm: 0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
+
+  '@subsquid/typeorm-config@4.1.1(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))':
+    dependencies:
+      '@subsquid/logger': 1.3.3
+      '@subsquid/util-internal-ts-node': 0.0.0
+      '@subsquid/util-naming': 1.3.0
     optionalDependencies:
       typeorm: 0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
 
@@ -3515,6 +3570,11 @@ snapshots:
       inflected: 2.1.0
 
   '@subsquid/util-naming@1.2.2':
+    dependencies:
+      camelcase: 6.3.0
+      inflected: 2.1.0
+
+  '@subsquid/util-naming@1.3.0':
     dependencies:
       camelcase: 6.3.0
       inflected: 2.1.0

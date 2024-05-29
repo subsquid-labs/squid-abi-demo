@@ -451,8 +451,8 @@ packages:
   '@subsquid/manifest-expr@0.0.1':
     resolution: {integrity: sha512-QKrgq+BPVX03SPm/kxXr3kDRDFn+ddBAuA9ysvae3PBA0jlj5DUSFxNjIoGZoy+RBwu82t4T0Xt4oTXR8e0OBw==}
 
-  '@subsquid/manifest@0.0.1-beta.18':
-    resolution: {integrity: sha512-dosRA2pNSiRhhmMHcaupK7mxSQFgNn8rApEsIyIIVTWpa+c8vpJoDTXdxhed05utgjQPWduOogROFRinMxYg5g==}
+  '@subsquid/manifest@0.0.1-beta.19':
+    resolution: {integrity: sha512-7j8Ji9F/4zX9+iPRqVF9ohW+7XYK7hzywrO2AVdFRIS18VSJnqTGa43riKVNfO5hE4Ws+NnPMrQNLIPC53cQuA==}
 
   '@subsquid/openreader@4.5.1':
     resolution: {integrity: sha512-N4aFZ0AzYiFCzocqbW971M8LOIKo9E8d4lt5He4x8Jcm19hwYYlNy8wwnOv1USCxFO/uCPZm/RTkARlyjOL10A==}
@@ -3205,7 +3205,7 @@ snapshots:
       '@oclif/core': 3.26.0
       '@oclif/plugin-autocomplete': 3.0.13
       '@subsquid/commands': 2.3.1
-      '@subsquid/manifest': 0.0.1-beta.18
+      '@subsquid/manifest': 0.0.1-beta.19
       '@subsquid/manifest-expr': 0.0.1
       '@types/fast-levenshtein': 0.0.4
       '@types/lodash': 4.17.4
@@ -3353,7 +3353,7 @@ snapshots:
 
   '@subsquid/manifest-expr@0.0.1': {}
 
-  '@subsquid/manifest@0.0.1-beta.18':
+  '@subsquid/manifest@0.0.1-beta.19':
     dependencies:
       joi: 17.13.1
       js-yaml: 4.1.0

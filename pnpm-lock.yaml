@@ -1650,8 +1650,8 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  jackspeak@3.2.3:
-    resolution: {integrity: sha512-htOzIMPbpLid/Gq9/zaz9SfExABxqRe1sSCdxntlO/aMD6u0issZQiY25n2GKQUtJ02j7z5sfptlAOMpWWOmvw==}
+  jackspeak@3.2.5:
+    resolution: {integrity: sha512-a1hopwtr4NawFIrSmFgufzrN1Qy2BAfMJ0yScJBs/olJhTcctCy3YIDx4hTY2DOTJD1pUMTly80kmlYZxjZr5w==}
     engines: {node: '>=14'}
 
   jake@10.9.1:
@@ -2010,6 +2010,15 @@ packages:
 
   pg@8.11.5:
     resolution: {integrity: sha512-jqgNHSKL5cbDjFlHyYsCXmQDrfIX/3RsNwYqpd4N0Kt8niLuNoRNH+aazv6cOd43gPh9Y4DjQCtb+X0MH0Hvnw==}
+    engines: {node: '>= 8.0.0'}
+    peerDependencies:
+      pg-native: '>=3.0.1'
+    peerDependenciesMeta:
+      pg-native:
+        optional: true
+
+  pg@8.12.0:
+    resolution: {integrity: sha512-A+LHUSnwnxrnL/tZ+OLfqR1SxLN3c/pgDztZ47Rpbsd4jUytsTtwQo/TLPRzPJMp/1pbhYVhH9cuSZLAajNfjQ==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
       pg-native: '>=3.0.1'
@@ -3319,7 +3328,7 @@ snapshots:
       graphql: 15.8.0
       graphql-ws: 5.16.0(graphql@15.8.0)
       keyv: 4.5.4
-      pg: 8.11.5
+      pg: 8.12.0
       ws: 8.17.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
     optionalDependencies:
       typeorm: 0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
@@ -3413,7 +3422,7 @@ snapshots:
       graphql: 15.8.0
       graphql-parse-resolve-info: 4.14.0(graphql@15.8.0)
       graphql-ws: 5.16.0(graphql@15.8.0)
-      pg: 8.11.5
+      pg: 8.12.0
       ws: 8.17.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
@@ -4516,7 +4525,7 @@ snapshots:
   glob@10.4.1:
     dependencies:
       foreground-child: 3.1.1
-      jackspeak: 3.2.3
+      jackspeak: 3.2.5
       minimatch: 9.0.4
       minipass: 7.1.2
       path-scurry: 1.11.1
@@ -4761,7 +4770,7 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  jackspeak@3.2.3:
+  jackspeak@3.2.5:
     dependencies:
       '@isaacs/cliui': 8.0.2
     optionalDependencies:
@@ -5069,6 +5078,10 @@ snapshots:
     dependencies:
       pg: 8.11.5
 
+  pg-pool@3.6.2(pg@8.12.0):
+    dependencies:
+      pg: 8.12.0
+
   pg-protocol@1.5.0: {}
 
   pg-protocol@1.6.1: {}
@@ -5085,6 +5098,16 @@ snapshots:
     dependencies:
       pg-connection-string: 2.6.4
       pg-pool: 3.6.2(pg@8.11.5)
+      pg-protocol: 1.6.1
+      pg-types: 2.2.0
+      pgpass: 1.0.5
+    optionalDependencies:
+      pg-cloudflare: 1.1.1
+
+  pg@8.12.0:
+    dependencies:
+      pg-connection-string: 2.6.4
+      pg-pool: 3.6.2(pg@8.12.0)
       pg-protocol: 1.6.1
       pg-types: 2.2.0
       pgpass: 1.0.5

@@ -2652,8 +2652,8 @@ packages:
       utf-8-validate:
         optional: true
 
-  ws@8.17.1:
-    resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
+  ws@8.18.0:
+    resolution: {integrity: sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -3527,7 +3527,7 @@ snapshots:
       graphql-ws: 5.16.0(graphql@15.9.0)
       keyv: 4.5.4
       pg: 8.12.0
-      ws: 8.17.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
+      ws: 8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
     optionalDependencies:
       typeorm: 0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
     transitivePeerDependencies:
@@ -3621,7 +3621,7 @@ snapshots:
       graphql-parse-resolve-info: 4.14.0(graphql@15.9.0)
       graphql-ws: 5.16.0(graphql@15.9.0)
       pg: 8.12.0
-      ws: 8.17.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
+      ws: 8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -5990,7 +5990,7 @@ snapshots:
       bufferutil: 4.0.8
       utf-8-validate: 5.0.10
 
-  ws@8.17.1(bufferutil@4.0.8)(utf-8-validate@5.0.10):
+  ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10):
     optionalDependencies:
       bufferutil: 4.0.8
       utf-8-validate: 5.0.10

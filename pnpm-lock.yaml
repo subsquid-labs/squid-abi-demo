@@ -336,16 +336,16 @@ packages:
     resolution: {integrity: sha512-TpMdfD4tfA2tVVbd4l0PrP02o5KoUXYmudBbTC7CeguDo/GLoprw4uL8cMsaVA26+cbcy7WYtOEydQiHVtJixA==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/core@4.0.13':
-    resolution: {integrity: sha512-xZAOTK6f0Dk+DidDI7SvmbMpmBXYmzRA1YrAw5g+/cMTSmmOojq/DGNCgdUf2i+S/DEMIOs0uEUIUidYBnIfkQ==}
+  '@oclif/core@4.0.14':
+    resolution: {integrity: sha512-oXXlUuDw6gWjIBI+mR5i4/SJRv9fz8N/d1xr1yMhW1incx/u0oYO2CpUNKn0sGDyONMdyOIVPMqgsU+as7jdrQ==}
     engines: {node: '>=18.0.0'}
 
   '@oclif/plugin-autocomplete@3.0.13':
     resolution: {integrity: sha512-iRfRZmONzODC34/uyRjYitLOd0z7yD3+uDNMPn3bI8LuWgKPp15SXKdvdE3Cc1i1jdb5HHTwc0LQJuRJEpd8vg==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-warn-if-update-available@3.1.9':
-    resolution: {integrity: sha512-4iIU+q9abyH3JbrQolL5AmcopSSorXLGCjSDH+KsIqYrGSgpwEnBXuAXLNzzO0E9A1Q8LO6zIYHKZ8yr0uE3lw==}
+  '@oclif/plugin-warn-if-update-available@3.1.10':
+    resolution: {integrity: sha512-4qQr4Yo9xMfYhCEU5Hz4pRyJz1EPIUVHJ1c+FNTBfiTQc1SzAmqr934uN8luTld5nmaX/MCCRVZb7Pyxsd03qA==}
     engines: {node: '>=18.0.0'}
 
   '@pkgjs/parseargs@0.11.0':
@@ -3328,7 +3328,7 @@ snapshots:
       wordwrap: 1.0.0
       wrap-ansi: 7.0.0
 
-  '@oclif/core@4.0.13':
+  '@oclif/core@4.0.14':
     dependencies:
       ansi-escapes: 4.3.2
       ansis: 3.3.2
@@ -3357,9 +3357,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@oclif/plugin-warn-if-update-available@3.1.9':
+  '@oclif/plugin-warn-if-update-available@3.1.10':
     dependencies:
-      '@oclif/core': 4.0.13
+      '@oclif/core': 4.0.14
       ansis: 3.3.2
       debug: 4.3.5(supports-color@8.1.1)
       http-call: 5.3.0
@@ -3416,7 +3416,7 @@ snapshots:
     dependencies:
       '@oclif/core': 3.26.0
       '@oclif/plugin-autocomplete': 3.0.13
-      '@oclif/plugin-warn-if-update-available': 3.1.9
+      '@oclif/plugin-warn-if-update-available': 3.1.10
       '@subsquid/commands': 2.3.1
       '@subsquid/manifest': 0.0.1-beta.19
       '@subsquid/manifest-expr': 0.0.1

@@ -465,8 +465,8 @@ packages:
   '@subsquid/manifest-expr@0.0.1':
     resolution: {integrity: sha512-QKrgq+BPVX03SPm/kxXr3kDRDFn+ddBAuA9ysvae3PBA0jlj5DUSFxNjIoGZoy+RBwu82t4T0Xt4oTXR8e0OBw==}
 
-  '@subsquid/manifest@1.0.0-beta.13':
-    resolution: {integrity: sha512-C93/xR+NncLcw0wM14PBPTfqzZ0aDU2S7IyXdqpnY5X8onDwhzzi7/bUWo8ZrMdgwu8XR4TLuQJpHKoqc1REmA==}
+  '@subsquid/manifest@1.0.0-beta.14':
+    resolution: {integrity: sha512-03AX/orQFAwaDrIaDe63UEwXpQ8DjOZaR1RYqlsXdnzsdRcdKy4iSe5UAOVPutvw7hBTCvtPQ6EIbIoG7noW3A==}
 
   '@subsquid/openreader@4.5.1':
     resolution: {integrity: sha512-N4aFZ0AzYiFCzocqbW971M8LOIKo9E8d4lt5He4x8Jcm19hwYYlNy8wwnOv1USCxFO/uCPZm/RTkARlyjOL10A==}
@@ -3436,7 +3436,7 @@ snapshots:
       '@oclif/plugin-autocomplete': 3.0.13
       '@oclif/plugin-warn-if-update-available': 3.1.13
       '@subsquid/commands': 2.3.1
-      '@subsquid/manifest': 1.0.0-beta.13
+      '@subsquid/manifest': 1.0.0-beta.14
       '@subsquid/manifest-expr': 0.0.1
       '@types/fast-levenshtein': 0.0.4
       '@types/lodash': 4.17.7
@@ -3584,7 +3584,7 @@ snapshots:
 
   '@subsquid/manifest-expr@0.0.1': {}
 
-  '@subsquid/manifest@1.0.0-beta.13':
+  '@subsquid/manifest@1.0.0-beta.14':
     dependencies:
       '@subsquid/manifest-expr': 0.0.1
       joi: 17.13.3

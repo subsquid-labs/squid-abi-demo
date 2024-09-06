@@ -489,8 +489,8 @@ packages:
       '@subsquid/big-decimal':
         optional: true
 
-  '@subsquid/openreader@5.1.0':
-    resolution: {integrity: sha512-TXYquDKE8ixTXA2omunqhG/L925LcnR4Jaepx+trHYopJTSyvKqsIZdxQ3TkEPZgNx/F8k+fW10bSMGfX9TExw==}
+  '@subsquid/openreader@5.1.1':
+    resolution: {integrity: sha512-rT5TnIJlkff+dtwDCwiBscNG6GqNGmXoUbRFDhTxz6NypYIBhxdwKLVFROFs7kwftjgt4IRKnCPcAfuq+Zs4Bw==}
     hasBin: true
     peerDependencies:
       '@subsquid/big-decimal': ^1.0.0
@@ -3558,7 +3558,7 @@ snapshots:
       '@graphql-tools/utils': 10.5.4(graphql@15.9.0)
       '@keyv/redis': 2.5.8
       '@subsquid/logger': 1.3.3
-      '@subsquid/openreader': 5.1.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
+      '@subsquid/openreader': 5.1.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@subsquid/typeorm-config': 4.1.1(typeorm@0.3.11(ioredis@5.4.1)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4)))
       '@subsquid/util-internal': 3.2.0
       '@subsquid/util-internal-commander': 1.4.0(commander@11.1.0)
@@ -3650,7 +3650,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@subsquid/openreader@5.1.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)':
+  '@subsquid/openreader@5.1.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)':
     dependencies:
       '@graphql-tools/merge': 9.0.7(graphql@15.9.0)
       '@subsquid/graphiql-console': 0.3.0

@@ -342,8 +342,8 @@ packages:
     resolution: {integrity: sha512-TpMdfD4tfA2tVVbd4l0PrP02o5KoUXYmudBbTC7CeguDo/GLoprw4uL8cMsaVA26+cbcy7WYtOEydQiHVtJixA==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/core@4.0.22':
-    resolution: {integrity: sha512-aXM2O4g7f+kPNzhhOfqGOVRVYDxTVrH7Y720MuH0Twq5WHMxI4XwntnyBaRscoCPG6FWhItZLtiZxsvaUdupGg==}
+  '@oclif/core@4.0.23':
+    resolution: {integrity: sha512-wDl/eis7XDIM1pQWUGKLB+EQKJO9UrjaQ5NcwIbz7GW0gWuJfo9QAK75csgNUN/9Pbok9Ryt+sJgogS4RCIp5g==}
     engines: {node: '>=18.0.0'}
 
   '@oclif/plugin-autocomplete@3.0.13':
@@ -2300,6 +2300,11 @@ packages:
   scrypt-js@3.0.1:
     resolution: {integrity: sha512-cdwTTnqPu0Hyvf5in5asVdZocVDTNRmR7XEcJuIzMjJeSHybHl7vpB66AzwTaIg6CLSbtjcxc8fqcySfnTkccA==}
 
+  semver@7.6.3:
+    resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   send@0.18.0:
     resolution: {integrity: sha512-qqWzuOjSFOuqPjFe4NOsMLafToQQwBSOEpS+FwEt3A2V3vKubTquT3vmLTQpFgMXp8AlFWFuP1qKaJZOtPpVXg==}
     engines: {node: '>= 0.8.0'}
@@ -3406,7 +3411,7 @@ snapshots:
       wordwrap: 1.0.0
       wrap-ansi: 7.0.0
 
-  '@oclif/core@4.0.22':
+  '@oclif/core@4.0.23':
     dependencies:
       ansi-escapes: 4.3.2
       ansis: 3.3.2
@@ -3420,6 +3425,7 @@ snapshots:
       is-wsl: 2.2.0
       lilconfig: 3.1.2
       minimatch: 9.0.5
+      semver: 7.6.3
       string-width: 4.2.3
       supports-color: 8.1.1
       widest-line: 3.1.0
@@ -3437,7 +3443,7 @@ snapshots:
 
   '@oclif/plugin-warn-if-update-available@3.1.17':
     dependencies:
-      '@oclif/core': 4.0.22
+      '@oclif/core': 4.0.23
       ansis: 3.3.2
       debug: 4.3.7(supports-color@8.1.1)
       http-call: 5.3.0
@@ -5769,6 +5775,8 @@ snapshots:
   sax@1.2.4: {}
 
   scrypt-js@3.0.1: {}
+
+  semver@7.6.3: {}
 
   send@0.18.0:
     dependencies:

@@ -2522,8 +2522,8 @@ packages:
   tslib@2.7.0:
     resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
 
-  tslib@2.8.0:
-    resolution: {integrity: sha512-jWVzBLplnCmoaTr13V9dYbiQ99wvZRd0vNWaDRg+aVYRcjDF3nDksxFDE/+fkXnKhpnUUkmx5pK/v8mCtLVqZA==}
+  tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
   tunnel-agent@0.6.0:
     resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
@@ -3201,25 +3201,25 @@ snapshots:
     dependencies:
       '@graphql-tools/utils': 8.9.0(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   '@graphql-tools/merge@8.3.1(graphql@15.9.0)':
     dependencies:
       '@graphql-tools/utils': 8.9.0(graphql@15.9.0)
       graphql: 15.9.0
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   '@graphql-tools/merge@8.4.2(graphql@15.8.0)':
     dependencies:
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   '@graphql-tools/merge@8.4.2(graphql@15.9.0)':
     dependencies:
       '@graphql-tools/utils': 9.2.1(graphql@15.9.0)
       graphql: 15.9.0
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   '@graphql-tools/merge@9.0.4(graphql@15.8.0)':
     dependencies:
@@ -3231,7 +3231,7 @@ snapshots:
     dependencies:
       '@graphql-tools/utils': 10.5.5(graphql@15.9.0)
       graphql: 15.9.0
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   '@graphql-tools/mock@8.7.20(graphql@15.8.0)':
     dependencies:
@@ -3239,7 +3239,7 @@ snapshots:
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       fast-json-stable-stringify: 2.1.0
       graphql: 15.8.0
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   '@graphql-tools/mock@8.7.20(graphql@15.9.0)':
     dependencies:
@@ -3247,14 +3247,14 @@ snapshots:
       '@graphql-tools/utils': 9.2.1(graphql@15.9.0)
       fast-json-stable-stringify: 2.1.0
       graphql: 15.9.0
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   '@graphql-tools/schema@10.0.7(graphql@15.9.0)':
     dependencies:
       '@graphql-tools/merge': 9.0.8(graphql@15.9.0)
       '@graphql-tools/utils': 10.5.5(graphql@15.9.0)
       graphql: 15.9.0
-      tslib: 2.8.0
+      tslib: 2.8.1
       value-or-promise: 1.0.12
 
   '@graphql-tools/schema@8.5.1(graphql@15.8.0)':
@@ -3262,7 +3262,7 @@ snapshots:
       '@graphql-tools/merge': 8.3.1(graphql@15.8.0)
       '@graphql-tools/utils': 8.9.0(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.8.0
+      tslib: 2.8.1
       value-or-promise: 1.0.11
 
   '@graphql-tools/schema@8.5.1(graphql@15.9.0)':
@@ -3270,7 +3270,7 @@ snapshots:
       '@graphql-tools/merge': 8.3.1(graphql@15.9.0)
       '@graphql-tools/utils': 8.9.0(graphql@15.9.0)
       graphql: 15.9.0
-      tslib: 2.8.0
+      tslib: 2.8.1
       value-or-promise: 1.0.11
 
   '@graphql-tools/schema@9.0.19(graphql@15.8.0)':
@@ -3278,7 +3278,7 @@ snapshots:
       '@graphql-tools/merge': 8.4.2(graphql@15.8.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.8.0
+      tslib: 2.8.1
       value-or-promise: 1.0.12
 
   '@graphql-tools/schema@9.0.19(graphql@15.9.0)':
@@ -3286,7 +3286,7 @@ snapshots:
       '@graphql-tools/merge': 8.4.2(graphql@15.9.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.9.0)
       graphql: 15.9.0
-      tslib: 2.8.0
+      tslib: 2.8.1
       value-or-promise: 1.0.12
 
   '@graphql-tools/utils@10.5.5(graphql@15.8.0)':
@@ -3295,7 +3295,7 @@ snapshots:
       cross-inspect: 1.0.1
       dset: 3.1.4
       graphql: 15.8.0
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   '@graphql-tools/utils@10.5.5(graphql@15.9.0)':
     dependencies:
@@ -3303,29 +3303,29 @@ snapshots:
       cross-inspect: 1.0.1
       dset: 3.1.4
       graphql: 15.9.0
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   '@graphql-tools/utils@8.9.0(graphql@15.8.0)':
     dependencies:
       graphql: 15.8.0
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   '@graphql-tools/utils@8.9.0(graphql@15.9.0)':
     dependencies:
       graphql: 15.9.0
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   '@graphql-tools/utils@9.2.1(graphql@15.8.0)':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   '@graphql-tools/utils@9.2.1(graphql@15.9.0)':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.9.0)
       graphql: 15.9.0
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   '@graphql-typed-document-node/core@3.2.0(graphql@15.8.0)':
     dependencies:
@@ -4532,7 +4532,7 @@ snapshots:
 
   cross-inspect@1.0.1:
     dependencies:
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   cross-spawn@7.0.3:
     dependencies:
@@ -5026,12 +5026,12 @@ snapshots:
   graphql-tag@2.12.6(graphql@15.8.0):
     dependencies:
       graphql: 15.8.0
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   graphql-tag@2.12.6(graphql@15.9.0):
     dependencies:
       graphql: 15.9.0
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   graphql-ws@5.16.0(graphql@15.8.0):
     dependencies:
@@ -5775,7 +5775,7 @@ snapshots:
 
   rxjs@7.8.1:
     dependencies:
-      tslib: 2.8.0
+      tslib: 2.8.1
 
   safe-buffer@5.1.2: {}
 
@@ -6054,7 +6054,7 @@ snapshots:
 
   tslib@2.7.0: {}
 
-  tslib@2.8.0: {}
+  tslib@2.8.1: {}
 
   tunnel-agent@0.6.0:
     dependencies:

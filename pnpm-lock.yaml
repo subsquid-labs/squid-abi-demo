@@ -1150,8 +1150,8 @@ packages:
     resolution: {integrity: sha512-0R9ikRb668HB7QDxT1vkpuUBtqc53YyAwMwGeUFKRojY/NWKvdZ+9UYtRfGmhqNbRkTSVpMbmyhXipFFv2cb/A==}
     engines: {node: '>= 12'}
 
-  dataloader@2.2.2:
-    resolution: {integrity: sha512-8YnDaaf7N3k/q5HnTJVuzSyLETjoZjVmHc4AeKAzOvKHEFQKcn64OKBfzHYtE9zGjctNM7V9I0MfnUVLpi7M5g==}
+  dataloader@2.2.3:
+    resolution: {integrity: sha512-y2krtASINtPFS1rSDjacrFgn1dcUuoREVabwlOGOe4SdxenREqwjwjElAdwvbGM7kgZz9a3KVicWR7vcz8rnzA==}
 
   date-fns@2.29.3:
     resolution: {integrity: sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==}
@@ -2873,7 +2873,7 @@ snapshots:
   '@apollo/utils.keyvadapter@1.1.2':
     dependencies:
       '@apollo/utils.keyvaluecache': 1.0.2
-      dataloader: 2.2.2
+      dataloader: 2.2.3
       keyv: 4.5.4
 
   '@apollo/utils.keyvaluecache@1.0.2':
@@ -4565,7 +4565,7 @@ snapshots:
 
   data-uri-to-buffer@4.0.1: {}
 
-  dataloader@2.2.2: {}
+  dataloader@2.2.3: {}
 
   date-fns@2.29.3: {}
 

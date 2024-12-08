@@ -342,16 +342,16 @@ packages:
     resolution: {integrity: sha512-TpMdfD4tfA2tVVbd4l0PrP02o5KoUXYmudBbTC7CeguDo/GLoprw4uL8cMsaVA26+cbcy7WYtOEydQiHVtJixA==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/core@4.0.34':
-    resolution: {integrity: sha512-jHww7lIqyifamynDSjDNNjNOwFTQdKYeOSYaxUaoWhqXnRwacZ+pfUN4Y0L9lqSN4MQtlWM9mwnBD7FvlT9kPw==}
+  '@oclif/core@4.0.35':
+    resolution: {integrity: sha512-YLkkNqqP7XxEo9bP1+WWdLno8KS2iIfqb3RHIxuq6tuavM3/sPoqU4qeSjO8QTalkTDMNn9BFOtdwCl+96lp2A==}
     engines: {node: '>=18.0.0'}
 
   '@oclif/plugin-autocomplete@3.0.13':
     resolution: {integrity: sha512-iRfRZmONzODC34/uyRjYitLOd0z7yD3+uDNMPn3bI8LuWgKPp15SXKdvdE3Cc1i1jdb5HHTwc0LQJuRJEpd8vg==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-warn-if-update-available@3.1.24':
-    resolution: {integrity: sha512-VXlVCJO+Pmv5r4FM7ZA3fp8NkYpaySW1CO3DubQOehpPzjNhRuAFz9xngl9CI5Huh/4exUuwm2JmcJ6+EauKSg==}
+  '@oclif/plugin-warn-if-update-available@3.1.25':
+    resolution: {integrity: sha512-/BBXAR49i3mCVzFtDFMCTPSE7EkcHx6Asr24MvyBJZPMaiBw7EGpww3fJrLo5rtwcuHxBQ0uEIj5zrV0/csa6A==}
     engines: {node: '>=18.0.0'}
 
   '@pkgjs/parseargs@0.11.0':
@@ -3465,7 +3465,7 @@ snapshots:
       wordwrap: 1.0.0
       wrap-ansi: 7.0.0
 
-  '@oclif/core@4.0.34':
+  '@oclif/core@4.0.35':
     dependencies:
       ansi-escapes: 4.3.2
       ansis: 3.3.2
@@ -3495,9 +3495,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@oclif/plugin-warn-if-update-available@3.1.24':
+  '@oclif/plugin-warn-if-update-available@3.1.25':
     dependencies:
-      '@oclif/core': 4.0.34
+      '@oclif/core': 4.0.35
       ansis: 3.3.2
       debug: 4.4.0(supports-color@8.1.1)
       http-call: 5.3.0
@@ -3567,7 +3567,7 @@ snapshots:
     dependencies:
       '@oclif/core': 3.26.0
       '@oclif/plugin-autocomplete': 3.0.13
-      '@oclif/plugin-warn-if-update-available': 3.1.24
+      '@oclif/plugin-warn-if-update-available': 3.1.25
       '@subsquid/commands': 2.3.1
       '@subsquid/manifest': 1.0.0-beta.14
       '@subsquid/manifest-expr': 0.0.1

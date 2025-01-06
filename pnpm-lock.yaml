@@ -236,8 +236,8 @@ packages:
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
-  '@graphql-tools/merge@9.0.16':
-    resolution: {integrity: sha512-Ek2ee3e4qMsMM2pBBZpDmL7j51b3F5qYsHtckO05e8zvOWuS28yBu+VhZYOtUPr/q+lBWhL+0rvFXaUwHZEuQQ==}
+  '@graphql-tools/merge@9.0.17':
+    resolution: {integrity: sha512-3K4g8KKbIqfdmK0L5+VtZsqwAeElPkvT5ejiH+KEhn2wyKNCi4HYHxpQk8xbu+dSwLlm9Lhet1hylpo/mWCkuQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
@@ -253,8 +253,8 @@ packages:
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
-  '@graphql-tools/schema@10.0.15':
-    resolution: {integrity: sha512-QAD9XeC/iaVugMYWet73Vz/4wp1qmKHYPj1z/TyIW/fX41oNmNSBGNqdstMsvSG97PWLhFgbUqVCvY+1KesQKw==}
+  '@graphql-tools/schema@10.0.16':
+    resolution: {integrity: sha512-G2zgb8hNg9Sx6Z2FSXm57ToNcwMls9A9cUm+EsCrnGGDsryzN5cONYePUpSGj5NCFivVp3o1FT5dg19P/1qeqQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
@@ -269,8 +269,8 @@ packages:
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
-  '@graphql-tools/utils@10.7.1':
-    resolution: {integrity: sha512-mpHAA5EddtxvnkHIBEEon5++tvL5T+j3OeOP4CAXbguAK2RBRM9DVVsoc9U68vSPLJjBRGp+b5NjlRn04g9rMA==}
+  '@graphql-tools/utils@10.7.2':
+    resolution: {integrity: sha512-Wn85S+hfkzfVFpXVrQ0hjnePa3p28aB6IdAGCiD1SqBCSMDRzL+OFEtyAyb30nV9Mqflqs9lCqjqlR2puG857Q==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
@@ -3266,15 +3266,15 @@ snapshots:
       graphql: 15.9.0
       tslib: 2.8.1
 
-  '@graphql-tools/merge@9.0.16(graphql@15.9.0)':
+  '@graphql-tools/merge@9.0.17(graphql@15.9.0)':
     dependencies:
-      '@graphql-tools/utils': 10.7.1(graphql@15.9.0)
+      '@graphql-tools/utils': 10.7.2(graphql@15.9.0)
       graphql: 15.9.0
       tslib: 2.8.1
 
   '@graphql-tools/merge@9.0.4(graphql@15.8.0)':
     dependencies:
-      '@graphql-tools/utils': 10.7.1(graphql@15.8.0)
+      '@graphql-tools/utils': 10.7.2(graphql@15.8.0)
       graphql: 15.8.0
       tslib: 2.6.3
 
@@ -3294,10 +3294,10 @@ snapshots:
       graphql: 15.9.0
       tslib: 2.8.1
 
-  '@graphql-tools/schema@10.0.15(graphql@15.9.0)':
+  '@graphql-tools/schema@10.0.16(graphql@15.9.0)':
     dependencies:
-      '@graphql-tools/merge': 9.0.16(graphql@15.9.0)
-      '@graphql-tools/utils': 10.7.1(graphql@15.9.0)
+      '@graphql-tools/merge': 9.0.17(graphql@15.9.0)
+      '@graphql-tools/utils': 10.7.2(graphql@15.9.0)
       graphql: 15.9.0
       tslib: 2.8.1
       value-or-promise: 1.0.12
@@ -3334,7 +3334,7 @@ snapshots:
       tslib: 2.8.1
       value-or-promise: 1.0.12
 
-  '@graphql-tools/utils@10.7.1(graphql@15.8.0)':
+  '@graphql-tools/utils@10.7.2(graphql@15.8.0)':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.8.0)
       cross-inspect: 1.0.1
@@ -3342,7 +3342,7 @@ snapshots:
       graphql: 15.8.0
       tslib: 2.8.1
 
-  '@graphql-tools/utils@10.7.1(graphql@15.9.0)':
+  '@graphql-tools/utils@10.7.2(graphql@15.9.0)':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.9.0)
       cross-inspect: 1.0.1
@@ -3654,9 +3654,9 @@ snapshots:
     dependencies:
       '@apollo/utils.keyvadapter': 1.1.2
       '@apollo/utils.keyvaluecache': 1.0.2
-      '@graphql-tools/merge': 9.0.16(graphql@15.9.0)
-      '@graphql-tools/schema': 10.0.15(graphql@15.9.0)
-      '@graphql-tools/utils': 10.7.1(graphql@15.9.0)
+      '@graphql-tools/merge': 9.0.17(graphql@15.9.0)
+      '@graphql-tools/schema': 10.0.16(graphql@15.9.0)
+      '@graphql-tools/utils': 10.7.2(graphql@15.9.0)
       '@keyv/redis': 2.5.8
       '@subsquid/logger': 1.3.3
       '@subsquid/openreader': 5.2.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
@@ -3753,7 +3753,7 @@ snapshots:
 
   '@subsquid/openreader@5.2.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)':
     dependencies:
-      '@graphql-tools/merge': 9.0.16(graphql@15.9.0)
+      '@graphql-tools/merge': 9.0.17(graphql@15.9.0)
       '@subsquid/graphiql-console': 0.3.0
       '@subsquid/logger': 1.3.3
       '@subsquid/util-internal': 3.2.0

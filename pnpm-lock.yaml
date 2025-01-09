@@ -1526,6 +1526,12 @@ packages:
     peerDependencies:
       graphql: '>=0.11 <=16'
 
+  graphql-ws@5.16.1:
+    resolution: {integrity: sha512-/U3sZOhiZ36ZtSFhdnT8Fj5novy2E+Fnr6P5KjMSDv6E72yfvnWRJN7hll9G/mlzhWPuK+8xRtZ8RJIw++vV3w==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      graphql: '>=0.11 <=16'
+
   graphql@15.8.0:
     resolution: {integrity: sha512-5gghUc24tP9HRznNpV2+FIoq3xKkj5dTQqf4v0CpdPbFVwFkWoxOM+o+2OC9ZSvjEMTjfmG9QT+gcvggTwW1zw==}
     engines: {node: '>= 10.x'}
@@ -3672,7 +3678,7 @@ snapshots:
       dotenv: 16.4.7
       express: 4.21.2
       graphql: 15.9.0
-      graphql-ws: 5.16.0(graphql@15.9.0)
+      graphql-ws: 5.16.1(graphql@15.9.0)
       keyv: 4.5.4
       pg: 8.13.1
       ws: 8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
@@ -3768,7 +3774,7 @@ snapshots:
       express: 4.21.2
       graphql: 15.9.0
       graphql-parse-resolve-info: 4.14.0(graphql@15.9.0)
-      graphql-ws: 5.16.0(graphql@15.9.0)
+      graphql-ws: 5.16.1(graphql@15.9.0)
       inflected: 2.1.0
       pg: 8.13.1
       ws: 8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
@@ -5109,7 +5115,7 @@ snapshots:
     dependencies:
       graphql: 15.8.0
 
-  graphql-ws@5.16.0(graphql@15.9.0):
+  graphql-ws@5.16.1(graphql@15.9.0):
     dependencies:
       graphql: 15.9.0
 

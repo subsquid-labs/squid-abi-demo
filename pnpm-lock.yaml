@@ -789,8 +789,8 @@ packages:
   ansicolors@0.3.2:
     resolution: {integrity: sha512-QXu7BPrP29VllRxH8GwB7x5iX5qWKAAMLqKQGWTeLWVlNHNOpVMJ91dsxQAIWXpjuW5wqvxu3Jd/nRjrJ+0pqg==}
 
-  ansis@3.8.0:
-    resolution: {integrity: sha512-9cvbRlXv2evXl/OEFrdLxvorgbL9shTjqXthKyD1Gm42ZhzWYVjOOEKujaqKWmk+hMzX8XYMIDcCarsqxEW8nw==}
+  ansis@3.8.1:
+    resolution: {integrity: sha512-gzGUTqsBugYCegbhldz7Ox9NrizAlCSAP5Y6rRD9agN76osoyhKznznmaB4G5BAVvrqwksPOGdnYh1Q000cUqw==}
     engines: {node: '>=16'}
 
   any-promise@1.3.0:
@@ -1526,8 +1526,8 @@ packages:
     peerDependencies:
       graphql: '>=0.11 <=16'
 
-  graphql-ws@5.16.1:
-    resolution: {integrity: sha512-/U3sZOhiZ36ZtSFhdnT8Fj5novy2E+Fnr6P5KjMSDv6E72yfvnWRJN7hll9G/mlzhWPuK+8xRtZ8RJIw++vV3w==}
+  graphql-ws@5.16.2:
+    resolution: {integrity: sha512-E1uccsZxt/96jH/OwmLPuXMACILs76pKF2i3W861LpKBCYtGIyPQGtWLuBLkND4ox1KHns70e83PS4te50nvPQ==}
     engines: {node: '>=10'}
     peerDependencies:
       graphql: '>=0.11 <=16'
@@ -3474,7 +3474,7 @@ snapshots:
   '@oclif/core@4.2.2':
     dependencies:
       ansi-escapes: 4.3.2
-      ansis: 3.8.0
+      ansis: 3.8.1
       clean-stack: 3.0.1
       cli-spinners: 2.9.2
       debug: 4.4.0(supports-color@8.1.1)
@@ -3504,7 +3504,7 @@ snapshots:
   '@oclif/plugin-warn-if-update-available@3.1.29':
     dependencies:
       '@oclif/core': 4.2.2
-      ansis: 3.8.0
+      ansis: 3.8.1
       debug: 4.4.0(supports-color@8.1.1)
       http-call: 5.3.0
       lodash: 4.17.21
@@ -3678,7 +3678,7 @@ snapshots:
       dotenv: 16.4.7
       express: 4.21.2
       graphql: 15.9.0
-      graphql-ws: 5.16.1(graphql@15.9.0)
+      graphql-ws: 5.16.2(graphql@15.9.0)
       keyv: 4.5.4
       pg: 8.13.1
       ws: 8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
@@ -3774,7 +3774,7 @@ snapshots:
       express: 4.21.2
       graphql: 15.9.0
       graphql-parse-resolve-info: 4.14.0(graphql@15.9.0)
-      graphql-ws: 5.16.1(graphql@15.9.0)
+      graphql-ws: 5.16.2(graphql@15.9.0)
       inflected: 2.1.0
       pg: 8.13.1
       ws: 8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
@@ -4104,7 +4104,7 @@ snapshots:
 
   ansicolors@0.3.2: {}
 
-  ansis@3.8.0: {}
+  ansis@3.8.1: {}
 
   any-promise@1.3.0: {}
 
@@ -5115,7 +5115,7 @@ snapshots:
     dependencies:
       graphql: 15.8.0
 
-  graphql-ws@5.16.1(graphql@15.9.0):
+  graphql-ws@5.16.2(graphql@15.9.0):
     dependencies:
       graphql: 15.9.0
 

@@ -2504,8 +2504,8 @@ packages:
     resolution: {integrity: sha512-6gBqqkHrYvkH65WI2bzrDwrIKmt3U10s4Exnz3dYuE5Ah62FIfNv/F63inrNhu2Nyh3GH5f42GKU3RrSJoaUyQ==}
     engines: {node: '>=14'}
 
-  tar-fs@1.16.3:
-    resolution: {integrity: sha512-NvCeXpYx7OsmOh8zIOP/ebG55zZmxLE0etfWRbWok+q2Qo8x/vOR/IJT1taADXPe+jsiu9axDb3X4B+iIgNlKw==}
+  tar-fs@1.16.4:
+    resolution: {integrity: sha512-u3XczWoYAIVXe5GOKK6+VeWaHjtc47W7hyuTo3+4cNakcCcuDmlkYiiHEsECwTkcI3h1VUgtwBQ54+RvY6cM4w==}
 
   tar-stream@1.6.2:
     resolution: {integrity: sha512-rzS0heiNf8Xn7/mpdSVVSMAWAoy9bfb1WOTYC78Z0UQKeKa/CWS8FOq0lKGNa8DWKAn9gxjCvMLYc5PGXYlK2A==}
@@ -6099,7 +6099,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  tar-fs@1.16.3:
+  tar-fs@1.16.4:
     dependencies:
       chownr: 1.1.4
       mkdirp: 0.5.6
@@ -6118,7 +6118,7 @@ snapshots:
 
   targz@1.0.1:
     dependencies:
-      tar-fs: 1.16.3
+      tar-fs: 1.16.4
 
   tdigest@0.1.2:
     dependencies:

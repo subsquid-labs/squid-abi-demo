@@ -342,8 +342,8 @@ packages:
     resolution: {integrity: sha512-TpMdfD4tfA2tVVbd4l0PrP02o5KoUXYmudBbTC7CeguDo/GLoprw4uL8cMsaVA26+cbcy7WYtOEydQiHVtJixA==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/core@4.2.3':
-    resolution: {integrity: sha512-JVEONwSZAfTNZCS81ah2u42Ya1mSeutCtHpoqMq/U+vP9Ka3Ni15/AqtcVtpH1afdUUn5RgtJYj+zlsrvMwksA==}
+  '@oclif/core@4.2.4':
+    resolution: {integrity: sha512-JDqdhX6fBbijY3ouubfmX7yFBXy95YSpiAVk0TAaXXCoSqoo/2WMcV2Ufv2V+8zriafPU/rvKgI+ZE07/7HwfQ==}
     engines: {node: '>=18.0.0'}
 
   '@oclif/plugin-autocomplete@3.0.13':
@@ -3471,7 +3471,7 @@ snapshots:
       wordwrap: 1.0.0
       wrap-ansi: 7.0.0
 
-  '@oclif/core@4.2.3':
+  '@oclif/core@4.2.4':
     dependencies:
       ansi-escapes: 4.3.2
       ansis: 3.9.0
@@ -3503,7 +3503,7 @@ snapshots:
 
   '@oclif/plugin-warn-if-update-available@3.1.31':
     dependencies:
-      '@oclif/core': 4.2.3
+      '@oclif/core': 4.2.4
       ansis: 3.9.0
       debug: 4.4.0(supports-color@8.1.1)
       http-call: 5.3.0

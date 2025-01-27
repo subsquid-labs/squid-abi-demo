@@ -789,8 +789,8 @@ packages:
   ansicolors@0.3.2:
     resolution: {integrity: sha512-QXu7BPrP29VllRxH8GwB7x5iX5qWKAAMLqKQGWTeLWVlNHNOpVMJ91dsxQAIWXpjuW5wqvxu3Jd/nRjrJ+0pqg==}
 
-  ansis@3.9.0:
-    resolution: {integrity: sha512-PcDrVe15ldexeZMsVLBAzBwF2KhZgaU0R+CHxH+x5kqn/pO+UWVBZJ+NEXMPpEOLUFeNsnNdoWYc2gwO+MVkDg==}
+  ansis@3.10.0:
+    resolution: {integrity: sha512-hxDKLYT7hy3Y4sF3HxI926A3urzPxi73mZBB629m9bCVF+NyKNxbwCqqm+C/YrGPtxLwnl6d8/ZASCsz6SyvJA==}
     engines: {node: '>=16'}
 
   any-promise@1.3.0:
@@ -3474,7 +3474,7 @@ snapshots:
   '@oclif/core@4.2.4':
     dependencies:
       ansi-escapes: 4.3.2
-      ansis: 3.9.0
+      ansis: 3.10.0
       clean-stack: 3.0.1
       cli-spinners: 2.9.2
       debug: 4.4.0(supports-color@8.1.1)
@@ -3504,7 +3504,7 @@ snapshots:
   '@oclif/plugin-warn-if-update-available@3.1.31':
     dependencies:
       '@oclif/core': 4.2.4
-      ansis: 3.9.0
+      ansis: 3.10.0
       debug: 4.4.0(supports-color@8.1.1)
       http-call: 5.3.0
       lodash: 4.17.21
@@ -4104,7 +4104,7 @@ snapshots:
 
   ansicolors@0.3.2: {}
 
-  ansis@3.9.0: {}
+  ansis@3.10.0: {}
 
   any-promise@1.3.0: {}
 

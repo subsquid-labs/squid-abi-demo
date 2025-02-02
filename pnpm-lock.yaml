@@ -350,8 +350,8 @@ packages:
     resolution: {integrity: sha512-iRfRZmONzODC34/uyRjYitLOd0z7yD3+uDNMPn3bI8LuWgKPp15SXKdvdE3Cc1i1jdb5HHTwc0LQJuRJEpd8vg==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-warn-if-update-available@3.1.31':
-    resolution: {integrity: sha512-0ZN7o+Tv00gYrwlKsfMQ8VvJGb9Vhr3UYStFJh1AbEdGTPlURv51aatTW27AIV2atfluCh0MMntVZSzoDcuxSQ==}
+  '@oclif/plugin-warn-if-update-available@3.1.32':
+    resolution: {integrity: sha512-KDbLvWxXS1aBfjUDFBiZqvONVhTOmOLzgwvJ4dpNiZVfONhZZRl0k4muJy2UdHtCYUV5GoMHyRzhfDi+eLOL3w==}
     engines: {node: '>=18.0.0'}
 
   '@pkgjs/parseargs@0.11.0':
@@ -3501,7 +3501,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@oclif/plugin-warn-if-update-available@3.1.31':
+  '@oclif/plugin-warn-if-update-available@3.1.32':
     dependencies:
       '@oclif/core': 4.2.6
       ansis: 3.10.0
@@ -3573,7 +3573,7 @@ snapshots:
     dependencies:
       '@oclif/core': 3.26.0
       '@oclif/plugin-autocomplete': 3.0.13
-      '@oclif/plugin-warn-if-update-available': 3.1.31
+      '@oclif/plugin-warn-if-update-available': 3.1.32
       '@subsquid/commands': 2.3.1
       '@subsquid/manifest': 1.0.0-beta.14
       '@subsquid/manifest-expr': 0.0.1

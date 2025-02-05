@@ -725,8 +725,8 @@ packages:
   '@types/tar-stream@3.1.3':
     resolution: {integrity: sha512-Zbnx4wpkWBMBSu5CytMbrT5ZpMiF55qgM+EpHzR4yIDu7mv52cej8hTkOc6K+LzpkOAbxwn/m7j3iO+/l42YkQ==}
 
-  '@types/targz@1.0.4':
-    resolution: {integrity: sha512-4i2weIjweWsnrvutLH7dM/+FPVSFSqxb+XKWo61tAiHxyYYHveImqys5JijMboKJz+jhFu24SlFrdVAB0xAMIw==}
+  '@types/targz@1.0.5':
+    resolution: {integrity: sha512-ynClZIqAKyu9vVDlgCHoyxFy5w7lcyfCkrCdyZvYj6TbST/H/zKgIgmWirhUZyhF6mZEq5CzV+RpKyjlxosMuA==}
 
   abbrev@1.1.1:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
@@ -3579,7 +3579,7 @@ snapshots:
       '@subsquid/manifest-expr': 0.0.1
       '@types/fast-levenshtein': 0.0.4
       '@types/lodash': 4.17.15
-      '@types/targz': 1.0.4
+      '@types/targz': 1.0.5
       async-retry: 1.3.3
       axios: 1.7.9
       axios-retry: 4.5.0(axios@1.7.9)
@@ -4059,8 +4059,9 @@ snapshots:
     dependencies:
       '@types/node': 18.11.18
 
-  '@types/targz@1.0.4':
+  '@types/targz@1.0.5':
     dependencies:
+      '@types/node': 18.11.18
       '@types/tar-fs': 2.0.4
 
   abbrev@1.1.1: {}

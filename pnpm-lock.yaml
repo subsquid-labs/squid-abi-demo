@@ -795,8 +795,8 @@ packages:
   ansicolors@0.3.2:
     resolution: {integrity: sha512-QXu7BPrP29VllRxH8GwB7x5iX5qWKAAMLqKQGWTeLWVlNHNOpVMJ91dsxQAIWXpjuW5wqvxu3Jd/nRjrJ+0pqg==}
 
-  ansis@3.12.0:
-    resolution: {integrity: sha512-SxhlInpMkv9QCyI2yHyrhVrTF8dH93M/S86DT5f9brFgr92uJLOCg0RNmtx3YKWKcRmNAaU+gyUfHMdUiqxvFw==}
+  ansis@3.14.0:
+    resolution: {integrity: sha512-R1LnSpYZWMDEFoAyCrfgToVz4ES25luDpjlZsUlD5GXdPWb91U+TZGkxWAOvt+7zWRY/ctOxhtTx5HUtL3qmbA==}
     engines: {node: '>=14'}
 
   any-promise@1.3.0:
@@ -2175,8 +2175,8 @@ packages:
       pg-native:
         optional: true
 
-  pg@8.13.2:
-    resolution: {integrity: sha512-L5QkPvTjVWWHbLaFjCkOSplpb2uCiRYbg0IJ2okCy5ClYfWlSgDDnvdR6dyw3EWAH2AfS4j8E61QFI7gLfTtlw==}
+  pg@8.13.3:
+    resolution: {integrity: sha512-P6tPt9jXbL9HVu/SSRERNYaYG++MjnscnegFh9pPHihfoBSujsrka0hyuymMzeJKFWrcG8wvCKy8rCe8e5nDUQ==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
       pg-native: '>=3.0.1'
@@ -3483,7 +3483,7 @@ snapshots:
   '@oclif/core@4.2.6':
     dependencies:
       ansi-escapes: 4.3.2
-      ansis: 3.12.0
+      ansis: 3.14.0
       clean-stack: 3.0.1
       cli-spinners: 2.9.2
       debug: 4.4.0(supports-color@8.1.1)
@@ -3513,7 +3513,7 @@ snapshots:
   '@oclif/plugin-warn-if-update-available@3.1.33':
     dependencies:
       '@oclif/core': 4.2.6
-      ansis: 3.12.0
+      ansis: 3.14.0
       debug: 4.4.0(supports-color@8.1.1)
       http-call: 5.3.0
       lodash: 4.17.21
@@ -3689,7 +3689,7 @@ snapshots:
       graphql: 15.10.1
       graphql-ws: 5.16.2(graphql@15.10.1)
       keyv: 4.5.4
-      pg: 8.13.2
+      pg: 8.13.3
       ws: 8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
     optionalDependencies:
       typeorm: 0.3.11(ioredis@5.5.0)(pg@8.8.0)(ts-node@10.9.1(@types/node@18.11.18)(typescript@4.9.4))
@@ -3791,7 +3791,7 @@ snapshots:
       graphql-parse-resolve-info: 4.14.0(graphql@15.10.1)
       graphql-ws: 5.16.2(graphql@15.10.1)
       inflected: 2.1.0
-      pg: 8.13.2
+      pg: 8.13.3
       ws: 8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
@@ -4124,7 +4124,7 @@ snapshots:
 
   ansicolors@0.3.2: {}
 
-  ansis@3.12.0: {}
+  ansis@3.14.0: {}
 
   any-promise@1.3.0: {}
 
@@ -5703,9 +5703,9 @@ snapshots:
     dependencies:
       pg: 8.11.5
 
-  pg-pool@3.7.1(pg@8.13.2):
+  pg-pool@3.7.1(pg@8.13.3):
     dependencies:
-      pg: 8.13.2
+      pg: 8.13.3
 
   pg-protocol@1.5.0: {}
 
@@ -5731,10 +5731,10 @@ snapshots:
     optionalDependencies:
       pg-cloudflare: 1.1.1
 
-  pg@8.13.2:
+  pg@8.13.3:
     dependencies:
       pg-connection-string: 2.7.0
-      pg-pool: 3.7.1(pg@8.13.2)
+      pg-pool: 3.7.1(pg@8.13.3)
       pg-protocol: 1.7.1
       pg-types: 2.2.0
       pgpass: 1.0.5

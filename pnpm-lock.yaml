@@ -734,8 +734,8 @@ packages:
   '@types/targz@1.0.5':
     resolution: {integrity: sha512-ynClZIqAKyu9vVDlgCHoyxFy5w7lcyfCkrCdyZvYj6TbST/H/zKgIgmWirhUZyhF6mZEq5CzV+RpKyjlxosMuA==}
 
-  '@whatwg-node/promise-helpers@1.2.4':
-    resolution: {integrity: sha512-daEUfaHbaMuAcor+FPAVK+pOCSzsAYhK6LN1y81EcakdqQEPQvjm74PTmfwfv8POg8pw4RyCv9LXB1e+mQDwqg==}
+  '@whatwg-node/promise-helpers@1.2.5':
+    resolution: {integrity: sha512-YvjgRxBfkCiBgSvNW3ex5666TpPs3BPKOAr7/Rd76BUgThi41GM8b84daIx9Vskzh5OJvgGke1qLHZPR35wgpA==}
     engines: {node: '>=16.0.0'}
 
   abbrev@1.1.1:
@@ -3373,7 +3373,7 @@ snapshots:
   '@graphql-tools/utils@10.8.6(graphql@15.10.1)':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.10.1)
-      '@whatwg-node/promise-helpers': 1.2.4
+      '@whatwg-node/promise-helpers': 1.2.5
       cross-inspect: 1.0.1
       dset: 3.1.4
       graphql: 15.10.1
@@ -3382,7 +3382,7 @@ snapshots:
   '@graphql-tools/utils@10.8.6(graphql@15.8.0)':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.8.0)
-      '@whatwg-node/promise-helpers': 1.2.4
+      '@whatwg-node/promise-helpers': 1.2.5
       cross-inspect: 1.0.1
       dset: 3.1.4
       graphql: 15.8.0
@@ -4106,7 +4106,7 @@ snapshots:
       '@types/node': 18.11.18
       '@types/tar-fs': 2.0.4
 
-  '@whatwg-node/promise-helpers@1.2.4':
+  '@whatwg-node/promise-helpers@1.2.5':
     dependencies:
       tslib: 2.8.1
 

@@ -1255,8 +1255,8 @@ packages:
     resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
     engines: {node: '>=12'}
 
-  dotenv@16.4.7:
-    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
+  dotenv@16.5.0:
+    resolution: {integrity: sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg==}
     engines: {node: '>=12'}
 
   drawille-blessed-contrib@1.0.0:
@@ -3605,7 +3605,7 @@ snapshots:
       cli-select: 1.1.2
       cross-spawn: 7.0.6
       date-fns: 3.6.0
-      dotenv: 16.4.7
+      dotenv: 16.5.0
       fast-levenshtein: 3.0.0
       figlet: 1.8.0
       form-data: 4.0.2
@@ -3692,7 +3692,7 @@ snapshots:
       apollo-server-express: 3.13.0(express@4.21.2)(graphql@15.10.1)
       apollo-server-plugin-response-cache: 3.7.1(graphql@15.10.1)
       commander: 11.1.0
-      dotenv: 16.4.7
+      dotenv: 16.5.0
       express: 4.21.2
       graphql: 15.10.1
       graphql-ws: 5.16.2(graphql@15.10.1)
@@ -4718,7 +4718,7 @@ snapshots:
 
   dotenv@16.4.5: {}
 
-  dotenv@16.4.7: {}
+  dotenv@16.5.0: {}
 
   drawille-blessed-contrib@1.0.0: {}
 

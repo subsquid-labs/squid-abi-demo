@@ -1446,8 +1446,8 @@ packages:
   graceful-fs@4.2.10:
     resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
 
-  graphql-parse-resolve-info@4.14.0:
-    resolution: {integrity: sha512-5Fbquh3IZMciLYgtiWeFxAeZOwpPyonhbaN05fzL/Gll0HS0hMqJh1Q88NQLHiASD6//cJ3LTXLncuajRqsUcA==}
+  graphql-parse-resolve-info@4.14.1:
+    resolution: {integrity: sha512-WKHukfEuZamP1ZONR84b8iT+4sJgEhtXMDArm1jpXEsU2vTb5EgkCZ4Obfl+v09oNTKXm0CJjPfBUZ5jcJ2Ykg==}
     engines: {node: '>=8.6'}
     peerDependencies:
       graphql: '>=0.9 <0.14 || ^14.0.2 || ^15.4.0 || ^16.3.0'
@@ -3447,7 +3447,7 @@ snapshots:
       deep-equal: 2.2.3
       express: 4.21.2
       graphql: 15.10.1
-      graphql-parse-resolve-info: 4.14.0(graphql@15.10.1)
+      graphql-parse-resolve-info: 4.14.1(graphql@15.10.1)
       graphql-ws: 5.16.2(graphql@15.10.1)
       inflected: 2.1.0
       pg: 8.15.6
@@ -4600,7 +4600,7 @@ snapshots:
 
   graceful-fs@4.2.10: {}
 
-  graphql-parse-resolve-info@4.14.0(graphql@15.10.1):
+  graphql-parse-resolve-info@4.14.1(graphql@15.10.1):
     dependencies:
       debug: 4.4.0(supports-color@8.1.1)
       graphql: 15.10.1

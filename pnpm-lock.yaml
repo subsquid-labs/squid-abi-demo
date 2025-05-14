@@ -4715,7 +4715,7 @@ snapshots:
 
   graphql-parse-resolve-info@4.14.1(graphql@15.10.1):
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1(supports-color@8.1.1)
       graphql: 15.10.1
       tslib: 2.8.1
     transitivePeerDependencies:

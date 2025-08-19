@@ -487,6 +487,9 @@ packages:
   '@subsquid/http-client@1.6.0':
     resolution: {integrity: sha512-0QnOiMLTjR7j5RA33qJpAEOj2Eu9SIEqOp773ItbMObdAhWVNXL54Tu0a/p2Gk3Rq5+lYa4oFEpeFGbEdjtajg==}
 
+  '@subsquid/http-client@1.6.1':
+    resolution: {integrity: sha512-jzHUxNopsEfHQilS0v/T9oSKTRcooT7ezSG1/sRILAMtYR4b11VUkrxVCFWCUDEwahfDDPw1g/Cw68rMnRqkzg==}
+
   '@subsquid/logger@0.3.1':
     resolution: {integrity: sha512-Hi0aWeVgK0OZ3L2KxRejLCHIBIs6k3AR8FEb9RCKgQvqHK8DDNuMFANo4obHqXDZpDF+Ef+T050Oz5n4O1u3lA==}
 
@@ -949,6 +952,9 @@ packages:
 
   bn.js@5.2.1:
     resolution: {integrity: sha512-eXRvHzWyYPBuB4NBy0cmYQjGitUrtqwbvlzP3G6VFnNRbsZQIxQ10PbKKHt8gZ/HW/D/747aDl+QkDqg3KQLMQ==}
+
+  bn.js@5.2.2:
+    resolution: {integrity: sha512-v2YAxEmKaBLahNwE1mjp4WON6huMNeuDvagFZW+ASCuA/ku0bXR9hSMw0XpiqMoA3+rmnyck/tPRSFQkoC9Cuw==}
 
   body-parser@1.20.3:
     resolution: {integrity: sha512-7rAxByjUMqQ3/bHJy7D6OGXvx/MMc4IqBn/X0fcM1QUcAItpZrBEYhWGem+tzXH90c+G01ypMcYJBO9Y30203g==}
@@ -3504,7 +3510,7 @@ snapshots:
     dependencies:
       '@subsquid/evm-abi': 0.3.1
       '@subsquid/evm-codec': 0.3.0
-      '@subsquid/http-client': 1.6.0
+      '@subsquid/http-client': 1.6.1
       '@subsquid/logger': 1.4.0
       '@subsquid/util-internal': 3.2.0
       '@subsquid/util-internal-code-printer': 1.2.2
@@ -3550,6 +3556,12 @@ snapshots:
       - utf-8-validate
 
   '@subsquid/http-client@1.6.0':
+    dependencies:
+      '@subsquid/logger': 1.4.0
+      '@subsquid/util-internal': 3.2.0
+      node-fetch: 3.3.2
+
+  '@subsquid/http-client@1.6.1':
     dependencies:
       '@subsquid/logger': 1.4.0
       '@subsquid/util-internal': 3.2.0
@@ -4142,6 +4154,8 @@ snapshots:
   bn.js@4.12.1: {}
 
   bn.js@5.2.1: {}
+
+  bn.js@5.2.2: {}
 
   body-parser@1.20.3:
     dependencies:
@@ -5060,7 +5074,7 @@ snapshots:
 
   keccak256@1.0.6:
     dependencies:
-      bn.js: 5.2.1
+      bn.js: 5.2.2
       buffer: 6.0.3
       keccak: 3.0.4
 

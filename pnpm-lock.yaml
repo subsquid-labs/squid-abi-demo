@@ -1403,8 +1403,8 @@ packages:
     resolution: {integrity: sha512-7yAQpD2UMJzLi1Dqv7qFYnPbaPx7ZfFK6PiIxQ4PfkGPyNyl2Ugx+a/umUonmKqjhM4DnfbMvdX6otXq83soQQ==}
     engines: {node: ^12.20 || >= 14.13}
 
-  figlet@1.9.1:
-    resolution: {integrity: sha512-DpKC89iXFjq6NCaIQ1O91R+ofpfyvkwuBfoVd8LpP/JZGZQpelMXgiTStGOfksuMYaDoBAwFlvx7mk+wX+3rrA==}
+  figlet@1.9.2:
+    resolution: {integrity: sha512-rRnXvw0JtuEQtN6jlqa7nZ/N2RY49VsGTKTSj8rk5D7z9gY/0F7Gkt57Er7r/xZZ7UGNHsHUwhIA09URknhyVA==}
     engines: {node: '>= 17.0.0'}
     hasBin: true
 
@@ -2411,8 +2411,8 @@ packages:
     resolution: {integrity: sha512-6gBqqkHrYvkH65WI2bzrDwrIKmt3U10s4Exnz3dYuE5Ah62FIfNv/F63inrNhu2Nyh3GH5f42GKU3RrSJoaUyQ==}
     engines: {node: '>=14'}
 
-  tar-fs@1.16.5:
-    resolution: {integrity: sha512-1ergVCCysmwHQNrOS+Pjm4DQ4nrGp43+Xnu4MRGjCnQu/m3hEgLNS78d5z+B8OJ1hN5EejJdCSFZE1oM6AQXAQ==}
+  tar-fs@1.16.6:
+    resolution: {integrity: sha512-JkOgFt3FxM/2v2CNpAVHqMW2QASjc/Hxo7IGfNd3MHaDYSW/sBFiS7YVmmhmr8x6vwN1VFQDQGdT2MWpmIuVKA==}
 
   tar-stream@1.6.2:
     resolution: {integrity: sha512-rzS0heiNf8Xn7/mpdSVVSMAWAoy9bfb1WOTYC78Z0UQKeKa/CWS8FOq0lKGNa8DWKAn9gxjCvMLYc5PGXYlK2A==}
@@ -3448,7 +3448,7 @@ snapshots:
       date-fns: 3.6.0
       dotenv: 16.5.0
       fast-levenshtein: 3.0.0
-      figlet: 1.9.1
+      figlet: 1.9.2
       form-data: 4.0.4
       glob: 10.4.5
       ignore: 5.3.2
@@ -4670,7 +4670,7 @@ snapshots:
       node-domexception: 1.0.0
       web-streams-polyfill: 3.3.3
 
-  figlet@1.9.1:
+  figlet@1.9.2:
     dependencies:
       commander: 14.0.1
 
@@ -5689,7 +5689,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  tar-fs@1.16.5:
+  tar-fs@1.16.6:
     dependencies:
       chownr: 1.1.4
       mkdirp: 0.5.6
@@ -5708,7 +5708,7 @@ snapshots:
 
   targz@1.0.1:
     dependencies:
-      tar-fs: 1.16.5
+      tar-fs: 1.16.6
 
   tdigest@0.1.2:
     dependencies:

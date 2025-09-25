@@ -2434,8 +2434,8 @@ packages:
     resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
     engines: {node: '>=12.0.0'}
 
-  to-buffer@1.2.1:
-    resolution: {integrity: sha512-tB82LpAIWjhLYbqjx3X4zEeHN6M8CiuOEy2JY8SEQVdYRe3CCHOFaqrBW1doLDrfpWhplcW7BL+bO3/6S3pcDQ==}
+  to-buffer@1.2.2:
+    resolution: {integrity: sha512-db0E3UJjcFhpDhAF4tLo03oli3pwl3dbnzXOUIlRKrp+ldk/VUxzpWYZENsw2SZiuBjHAk7DfB0VU7NKdpb6sw==}
     engines: {node: '>= 0.4'}
 
   to-regex-range@5.0.1:
@@ -5552,7 +5552,7 @@ snapshots:
     dependencies:
       inherits: 2.0.4
       safe-buffer: 5.2.1
-      to-buffer: 1.2.1
+      to-buffer: 1.2.2
 
   shebang-command@2.0.0:
     dependencies:
@@ -5703,7 +5703,7 @@ snapshots:
       end-of-stream: 1.4.5
       fs-constants: 1.0.0
       readable-stream: 2.3.8
-      to-buffer: 1.2.1
+      to-buffer: 1.2.2
       xtend: 4.0.2
 
   targz@1.0.1:
@@ -5723,7 +5723,7 @@ snapshots:
       fdir: 6.5.0(picomatch@4.0.3)
       picomatch: 4.0.3
 
-  to-buffer@1.2.1:
+  to-buffer@1.2.2:
     dependencies:
       isarray: 2.0.5
       safe-buffer: 5.2.1

@@ -242,8 +242,8 @@ packages:
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
-  '@graphql-tools/merge@9.1.2':
-    resolution: {integrity: sha512-Ny9YhWKv+KxZFdXYt+wlyEW55GzhFiq4daV4wYgpP0aRbwQaczNJd1L3VjjBsPKjmW8lctZXUoqYTqU5QPcBGw==}
+  '@graphql-tools/merge@9.1.3':
+    resolution: {integrity: sha512-O53kiNwGU/moJxX8m4BKpf9xHxVhmThhrctZ1gqHkdC3fYmafzWdzyNGkBsZcoh9x0wKM1ORPPuaE6Bwp3OFBA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
@@ -253,8 +253,8 @@ packages:
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
-  '@graphql-tools/schema@10.0.26':
-    resolution: {integrity: sha512-KOmjuiWa9poP/Lza4HV0ZBPYGJI3VE3QzXA/8e0+wjcsRuEmxMLP82re1PUg0QRzp2UzifAB/gd7DoXmVGG9Fg==}
+  '@graphql-tools/schema@10.0.27':
+    resolution: {integrity: sha512-Lb5mJG8eF3TPnW0TXS9qoqR40S5rrnS3DFaY9dGf+8y3petTF2nc1khcOaLlOsvyvfSWSMUgkB/U6LRofRjb6w==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
@@ -269,8 +269,8 @@ packages:
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
-  '@graphql-tools/utils@10.10.0':
-    resolution: {integrity: sha512-OOeab5Y9qeKq0zfoJCSScMcDfGcIxp05+LW2xYVCS2l3su+K3lYcg5+cAAx9n0SFxpJl8zF5denq2QDsfM7NnQ==}
+  '@graphql-tools/utils@10.10.1':
+    resolution: {integrity: sha512-9iOZ7x6tuIpp/dviNmTCSH1cDDNLIcrj6T3WKH9lU4nRWx5Pr0e7Faj7T/HmP2Njrjik63dJWuDVRxfQSTOc4g==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
@@ -911,8 +911,8 @@ packages:
     peerDependencies:
       axios: 0.x || 1.x
 
-  axios@1.13.1:
-    resolution: {integrity: sha512-hU4EGxxt+j7TQijx1oYdAjw4xuIp1wRQSsbMFwSthCWeBQur1eF+qJ5iQ5sN3Tw8YRzQNKb8jszgBdMDVqwJcw==}
+  axios@1.13.2:
+    resolution: {integrity: sha512-VPk9ebNqPcy5lRGuSlKx752IlDatOjT9paPlm8A7yOuW2Fbvp4X3JznJtT4f0GzGLLiWE9W8onz51SqLYwzGaA==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -1247,10 +1247,6 @@ packages:
 
   drawille-canvas-blessed-contrib@0.1.3:
     resolution: {integrity: sha512-bdDvVJOxlrEoPLifGDPaxIzFh3cD7QH05ePoQ4fwnqfi08ZSxzEhOUpI5Z0/SQMlWgcCQOEtuw0zrwezacXglw==}
-
-  dset@3.1.4:
-    resolution: {integrity: sha512-2QF/g9/zTaPDc3BjNcVTGoBbXBgYfMTTceLaYcFJ/W9kggFUkhxD/hMEeuLKbugyef9SqAx8cpgwlIP/jinUTA==}
-    engines: {node: '>=4'}
 
   dunder-proto@1.0.1:
     resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
@@ -2241,8 +2237,8 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  sax@1.4.2:
-    resolution: {integrity: sha512-FySGAa0RGcFiN6zfrO9JvK1r7TB59xuzCcTHOBXBNoKgDejlOQCR2KL/FGk3/iDlsqyYg1ELZpOmlg09B01Czw==}
+  sax@1.4.3:
+    resolution: {integrity: sha512-yqYn1JhPczigF94DMS+shiDMjDowYO6y9+wB/4WgO0Y19jWYk0lQ4tuG5KI7kj4FTp1wxPj5IFfcrz/s1c3jjQ==}
 
   scrypt-js@3.0.1:
     resolution: {integrity: sha512-cdwTTnqPu0Hyvf5in5asVdZocVDTNRmR7XEcJuIzMjJeSHybHl7vpB66AzwTaIg6CLSbtjcxc8fqcySfnTkccA==}
@@ -3114,13 +3110,13 @@ snapshots:
 
   '@graphql-tools/merge@9.0.24(graphql@15.10.1)':
     dependencies:
-      '@graphql-tools/utils': 10.10.0(graphql@15.10.1)
+      '@graphql-tools/utils': 10.10.1(graphql@15.10.1)
       graphql: 15.10.1
       tslib: 2.8.1
 
-  '@graphql-tools/merge@9.1.2(graphql@15.10.1)':
+  '@graphql-tools/merge@9.1.3(graphql@15.10.1)':
     dependencies:
-      '@graphql-tools/utils': 10.10.0(graphql@15.10.1)
+      '@graphql-tools/utils': 10.10.1(graphql@15.10.1)
       graphql: 15.10.1
       tslib: 2.8.1
 
@@ -3132,10 +3128,10 @@ snapshots:
       graphql: 15.10.1
       tslib: 2.8.1
 
-  '@graphql-tools/schema@10.0.26(graphql@15.10.1)':
+  '@graphql-tools/schema@10.0.27(graphql@15.10.1)':
     dependencies:
-      '@graphql-tools/merge': 9.1.2(graphql@15.10.1)
-      '@graphql-tools/utils': 10.10.0(graphql@15.10.1)
+      '@graphql-tools/merge': 9.1.3(graphql@15.10.1)
+      '@graphql-tools/utils': 10.10.1(graphql@15.10.1)
       graphql: 15.10.1
       tslib: 2.8.1
 
@@ -3155,12 +3151,11 @@ snapshots:
       tslib: 2.8.1
       value-or-promise: 1.0.12
 
-  '@graphql-tools/utils@10.10.0(graphql@15.10.1)':
+  '@graphql-tools/utils@10.10.1(graphql@15.10.1)':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.10.1)
       '@whatwg-node/promise-helpers': 1.3.2
       cross-inspect: 1.0.1
-      dset: 3.1.4
       graphql: 15.10.1
       tslib: 2.8.1
 
@@ -3433,8 +3428,8 @@ snapshots:
       '@types/lodash': 4.17.20
       '@types/targz': 1.0.5
       async-retry: 1.3.3
-      axios: 1.13.1
-      axios-retry: 4.5.0(axios@1.13.1)
+      axios: 1.13.2
+      axios-retry: 4.5.0(axios@1.13.2)
       blessed-contrib: 4.11.0
       chalk: 4.1.2
       cli-select: 1.1.2
@@ -3515,9 +3510,9 @@ snapshots:
     dependencies:
       '@apollo/utils.keyvadapter': 1.1.2
       '@apollo/utils.keyvaluecache': 1.0.2
-      '@graphql-tools/merge': 9.1.2(graphql@15.10.1)
-      '@graphql-tools/schema': 10.0.26(graphql@15.10.1)
-      '@graphql-tools/utils': 10.10.0(graphql@15.10.1)
+      '@graphql-tools/merge': 9.1.3(graphql@15.10.1)
+      '@graphql-tools/schema': 10.0.27(graphql@15.10.1)
+      '@graphql-tools/utils': 10.10.1(graphql@15.10.1)
       '@keyv/redis': 2.5.8
       '@subsquid/apollo-server-core': 3.14.0(graphql@15.10.1)
       '@subsquid/apollo-server-express': 3.14.1(express@4.21.2)(graphql@15.10.1)
@@ -3606,7 +3601,7 @@ snapshots:
 
   '@subsquid/openreader@5.3.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@graphql-tools/merge': 9.1.2(graphql@15.10.1)
+      '@graphql-tools/merge': 9.1.3(graphql@15.10.1)
       '@subsquid/apollo-server-core': 3.14.0(graphql@15.10.1)
       '@subsquid/apollo-server-express': 3.14.1(express@4.21.2)(graphql@15.10.1)
       '@subsquid/graphiql-console': 0.3.0
@@ -4078,12 +4073,12 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.1.0
 
-  axios-retry@4.5.0(axios@1.13.1):
+  axios-retry@4.5.0(axios@1.13.2):
     dependencies:
-      axios: 1.13.1
+      axios: 1.13.2
       is-retry-allowed: 2.2.0
 
-  axios@1.13.1:
+  axios@1.13.2:
     dependencies:
       follow-redirects: 1.15.11
       form-data: 4.0.4
@@ -4429,8 +4424,6 @@ snapshots:
       drawille-blessed-contrib: 1.0.0
       gl-matrix: 2.8.1
       x256: 0.0.2
-
-  dset@3.1.4: {}
 
   dunder-proto@1.0.1:
     dependencies:
@@ -5478,7 +5471,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sax@1.4.2: {}
+  sax@1.4.3: {}
 
   scrypt-js@3.0.1: {}
 
@@ -5925,7 +5918,7 @@ snapshots:
 
   xml2js@0.4.23:
     dependencies:
-      sax: 1.4.2
+      sax: 1.4.3
       xmlbuilder: 11.0.1
 
   xmlbuilder@11.0.1: {}

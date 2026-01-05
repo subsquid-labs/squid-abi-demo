@@ -2725,8 +2725,8 @@ packages:
       utf-8-validate:
         optional: true
 
-  ws@8.18.3:
-    resolution: {integrity: sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg==}
+  ws@8.19.0:
+    resolution: {integrity: sha512-blAT2mjOEIi0ZzruJfIhb3nps74PRWTCz1IjglWEEpQl5XS/UNama6u2/rjFkDDouqr4L67ry+1aGIALViWjDg==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -3574,7 +3574,7 @@ snapshots:
       graphql-ws: 5.16.2(graphql@15.10.1)
       keyv: 4.5.4
       pg: 8.16.0
-      ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      ws: 8.19.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     optionalDependencies:
       '@subsquid/big-decimal': 1.0.0
       typeorm: 0.3.24(ioredis@5.9.0)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5))
@@ -3662,7 +3662,7 @@ snapshots:
       graphql-ws: 5.16.2(graphql@15.10.1)
       inflected: 2.1.0
       pg: 8.16.0
-      ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      ws: 8.19.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     optionalDependencies:
       '@subsquid/big-decimal': 1.0.0
     transitivePeerDependencies:
@@ -6074,7 +6074,7 @@ snapshots:
       bufferutil: 4.0.9
       utf-8-validate: 5.0.10
 
-  ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10):
+  ws@8.19.0(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     optionalDependencies:
       bufferutil: 4.0.9
       utf-8-validate: 5.0.10

@@ -1418,8 +1418,8 @@ packages:
     resolution: {integrity: sha512-7yAQpD2UMJzLi1Dqv7qFYnPbaPx7ZfFK6PiIxQ4PfkGPyNyl2Ugx+a/umUonmKqjhM4DnfbMvdX6otXq83soQQ==}
     engines: {node: ^12.20 || >= 14.13}
 
-  figlet@1.9.4:
-    resolution: {integrity: sha512-uN6QE+TrzTAHC1IWTyrc4FfGo2KH/82J8Jl1tyKB7+z5DBit/m3D++Iu5lg91qJMnQQ3vpJrj5gxcK/pk4R9tQ==}
+  figlet@1.10.0:
+    resolution: {integrity: sha512-aktIwEZZ6Gp9AWdMXW4YCi0J2Ahuxo67fNJRUIWD81w8pQ0t9TS8FFpbl27ChlTLF06VkwjDesZSzEVzN75rzA==}
     engines: {node: '>= 17.0.0'}
     hasBin: true
 
@@ -3503,7 +3503,7 @@ snapshots:
       date-fns: 3.6.0
       dotenv: 16.5.0
       fast-levenshtein: 3.0.0
-      figlet: 1.9.4
+      figlet: 1.10.0
       form-data: 4.0.5
       glob: 10.5.0
       ignore: 5.3.2
@@ -4777,7 +4777,7 @@ snapshots:
       node-domexception: 1.0.0
       web-streams-polyfill: 3.3.3
 
-  figlet@1.9.4:
+  figlet@1.10.0:
     dependencies:
       commander: 14.0.2
 

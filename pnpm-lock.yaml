@@ -13,10 +13,10 @@ importers:
         version: 3.3.2
       '@subsquid/evm-processor':
         specifier: ^1.0.0
-        version: 1.27.1
+        version: 1.28.0
       '@subsquid/graphql-server':
         specifier: ^4.0.0
-        version: 4.11.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))(utf-8-validate@5.0.10)
+        version: 4.11.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.1.0)(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))(utf-8-validate@5.0.10)
       '@subsquid/typeorm-migration':
         specifier: ^1.0.0
         version: 1.3.0(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))
@@ -31,7 +31,7 @@ importers:
         version: 16.5.0
       ethers:
         specifier: ^5.7.2
-        version: 5.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+        version: 5.8.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)
       pg:
         specifier: ^8.7.3
         version: 8.16.0
@@ -47,10 +47,10 @@ importers:
         version: 4.4.0
       '@subsquid/squid-gen':
         specifier: ^0.4.0
-        version: 0.4.3(@subsquid/archive-registry@3.3.2)(@subsquid/evm-processor@1.27.1)(@subsquid/evm-typegen@4.4.0)(@subsquid/typeorm-codegen@2.0.2(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@subsquid/typeorm-store@1.5.1(@subsquid/big-decimal@1.0.0)(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5))))(@subsquid/util-internal-json@1.2.3)(@types/node@18.19.110)(ethers@5.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@4.9.5)
+        version: 0.4.3(@subsquid/archive-registry@3.3.2)(@subsquid/evm-processor@1.28.0)(@subsquid/evm-typegen@4.4.0)(@subsquid/typeorm-codegen@2.0.2(@subsquid/big-decimal@1.0.0)(bufferutil@4.1.0)(utf-8-validate@5.0.10))(@subsquid/typeorm-store@1.5.1(@subsquid/big-decimal@1.0.0)(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5))))(@subsquid/util-internal-json@1.2.3)(@types/node@18.19.110)(ethers@5.8.0(bufferutil@4.1.0)(utf-8-validate@5.0.10))(typescript@4.9.5)
       '@subsquid/typeorm-codegen':
         specifier: ^2.0.0
-        version: 2.0.2(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+        version: 2.0.2(@subsquid/big-decimal@1.0.0)(bufferutil@4.1.0)(utf-8-validate@5.0.10)
       '@types/node':
         specifier: ^18.0.0
         version: 18.19.110
@@ -462,8 +462,8 @@ packages:
   '@subsquid/evm-codec@0.3.0':
     resolution: {integrity: sha512-W6EIiC7MJN2oWdbgzpUSDop+UtROdFAlvsrzc10g3AnCAaK31nH59tkTjylRxgECewWFCFWZrwsVp+a+lwvXMA==}
 
-  '@subsquid/evm-processor@1.27.1':
-    resolution: {integrity: sha512-dQBDbztfPikHTerKRdKwJrNC0pdDW71Z1QHn6tVjCT7RDNZGteMxp062gZ+09OzKQMS4R3J57yXoHXK4BNeemw==}
+  '@subsquid/evm-processor@1.28.0':
+    resolution: {integrity: sha512-z96MeofwmaWveyChDVC31/DcP5TL4WPL2Ck5STkdcipnTMlFquCe3p+pfbeyFZzmje+TmrAcoaU+6a6eUbeG9w==}
 
   '@subsquid/evm-typegen@4.4.0':
     resolution: {integrity: sha512-NcrmHRALoduuJcTk7MZIuY9ld3ltI5d/192mv7F4AnZwCzmEJpzeIq1taIvyDiFI4KALPZUokVjm+QZSaU/6iQ==}
@@ -492,6 +492,9 @@ packages:
 
   '@subsquid/http-client@1.6.0':
     resolution: {integrity: sha512-0QnOiMLTjR7j5RA33qJpAEOj2Eu9SIEqOp773ItbMObdAhWVNXL54Tu0a/p2Gk3Rq5+lYa4oFEpeFGbEdjtajg==}
+
+  '@subsquid/http-client@1.8.0':
+    resolution: {integrity: sha512-HEwKjxBWoFdOT+BeC8j0aKCsNsNq8M4YO8peGlqAAYFw2Uhaztd5bWtygOhOYNrku9E8xm1mnH9p4ciKdyIK/Q==}
 
   '@subsquid/logger@0.3.1':
     resolution: {integrity: sha512-Hi0aWeVgK0OZ3L2KxRejLCHIBIs6k3AR8FEb9RCKgQvqHK8DDNuMFANo4obHqXDZpDF+Ef+T050Oz5n4O1u3lA==}
@@ -523,8 +526,8 @@ packages:
       '@subsquid/big-decimal':
         optional: true
 
-  '@subsquid/rpc-client@4.11.0':
-    resolution: {integrity: sha512-0vVCqNEsi7OW/9sAEAQL6ljxQ2qmowtfMBVOBefw/l4AAib9e/PR1aS7EuBaiKq56e/iKzMOJigqvnEiS3EwFQ==}
+  '@subsquid/rpc-client@4.14.0':
+    resolution: {integrity: sha512-YquFxFWc517A3G2peQYvSyK3ksmGYvlErOCMyREEGQTb9GwUl4DBaTi/+NO9ioy6Hk9Acg5hTeZzKxGnzqhBdQ==}
 
   '@subsquid/squid-gen@0.4.3':
     resolution: {integrity: sha512-Tg886NjGlYbgpPJhxXE4gYyr+XOfgCD05xogoRzhGbkk0IfD96FzhanfPwK8SuwnSuHSRS6VEVdB9NEuBp789g==}
@@ -650,10 +653,10 @@ packages:
   '@subsquid/util-internal-ts-node@0.0.0':
     resolution: {integrity: sha512-VBnrKrkNcqbT3hMLrjpEPuwMAihFhW9oUmK53bccBCCXrUiATNUblQD2S4IWd9/UBO5Q33ohpbE9sAodDq2DXw==}
 
-  '@subsquid/util-internal-validation@0.7.0':
-    resolution: {integrity: sha512-Y8o7am+btlHxJuPtS/0+qNe+QkyAOuxSSXhccRwj2mRUlYG81MnxWFgYs4ac+pWeayLfU/3SBvQJH5g7L82fTQ==}
+  '@subsquid/util-internal-validation@0.8.0':
+    resolution: {integrity: sha512-qrQ1L871pAtVy0LJ+JLTZk6x4QyHZqgMGCrlSJvXw3VZLBXDBDycTcKlZ96p5VcQRp6xFnYmVSPy9dl9SPXZHQ==}
     peerDependencies:
-      '@subsquid/logger': ^1.3.3
+      '@subsquid/logger': ^1.4.0
     peerDependenciesMeta:
       '@subsquid/logger':
         optional: true
@@ -990,8 +993,8 @@ packages:
     resolution: {integrity: sha512-9q/rDEGSb/Qsvv2qvzIzdluL5k7AaJOTrw23z9reQthrbF7is4CtlT0DXyO1oei2DCp4uojjzQ7igaSHp1kAEQ==}
     engines: {node: '>=0.2.0'}
 
-  bufferutil@4.0.9:
-    resolution: {integrity: sha512-WDtdLmJvAuNNPzByAYpRo2rF1Mmradw6gvWsQKf63476DDXmomT9zUiGypLcG4ibIM67vhAj8jJRdbmEws2Aqw==}
+  bufferutil@4.1.0:
+    resolution: {integrity: sha512-ZMANVnAixE6AWWnPzlW2KpUrxhm9woycYvPOo67jWHyFowASTEd9s+QN1EIMsSDtwhIxN4sWE1jotpuDUIgyIw==}
     engines: {node: '>=6.14.2'}
 
   bytes@3.1.2:
@@ -3040,7 +3043,7 @@ snapshots:
     dependencies:
       '@ethersproject/logger': 5.8.0
 
-  '@ethersproject/providers@5.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
+  '@ethersproject/providers@5.8.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)':
     dependencies:
       '@ethersproject/abstract-provider': 5.8.0
       '@ethersproject/abstract-signer': 5.8.0
@@ -3061,7 +3064,7 @@ snapshots:
       '@ethersproject/transactions': 5.8.0
       '@ethersproject/web': 5.8.0
       bech32: 1.1.4
-      ws: 8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      ws: 8.18.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -3549,18 +3552,18 @@ snapshots:
     dependencies:
       '@subsquid/util-internal-hex': 1.2.2
 
-  '@subsquid/evm-processor@1.27.1':
+  '@subsquid/evm-processor@1.28.0':
     dependencies:
-      '@subsquid/http-client': 1.6.0
+      '@subsquid/http-client': 1.8.0
       '@subsquid/logger': 1.4.0
-      '@subsquid/rpc-client': 4.11.0
+      '@subsquid/rpc-client': 4.14.0
       '@subsquid/util-internal': 3.2.0
-      '@subsquid/util-internal-archive-client': 0.1.2(@subsquid/http-client@1.6.0)(@subsquid/logger@1.4.0)
+      '@subsquid/util-internal-archive-client': 0.1.2(@subsquid/http-client@1.8.0)(@subsquid/logger@1.4.0)
       '@subsquid/util-internal-hex': 1.2.2
-      '@subsquid/util-internal-ingest-tools': 1.1.4(@subsquid/util-internal-archive-client@0.1.2(@subsquid/http-client@1.6.0)(@subsquid/logger@1.4.0))
+      '@subsquid/util-internal-ingest-tools': 1.1.4(@subsquid/util-internal-archive-client@0.1.2(@subsquid/http-client@1.8.0)(@subsquid/logger@1.4.0))
       '@subsquid/util-internal-processor-tools': 4.2.1
       '@subsquid/util-internal-range': 0.3.0
-      '@subsquid/util-internal-validation': 0.7.0(@subsquid/logger@1.4.0)
+      '@subsquid/util-internal-validation': 0.8.0(@subsquid/logger@1.4.0)
       '@subsquid/util-timeout': 2.3.2
     transitivePeerDependencies:
       - supports-color
@@ -3578,7 +3581,7 @@ snapshots:
 
   '@subsquid/graphiql-console@0.3.0': {}
 
-  '@subsquid/graphql-server@4.11.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))(utf-8-validate@5.0.10)':
+  '@subsquid/graphql-server@4.11.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.1.0)(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))(utf-8-validate@5.0.10)':
     dependencies:
       '@apollo/utils.keyvadapter': 1.1.2
       '@apollo/utils.keyvaluecache': 1.0.2
@@ -3589,7 +3592,7 @@ snapshots:
       '@subsquid/apollo-server-core': 3.14.0(graphql@15.10.1)
       '@subsquid/apollo-server-express': 3.14.1(express@4.22.1)(graphql@15.10.1)
       '@subsquid/logger': 1.4.0
-      '@subsquid/openreader': 5.3.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@subsquid/openreader': 5.3.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.1.0)(utf-8-validate@5.0.10)
       '@subsquid/typeorm-config': 4.1.1(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))
       '@subsquid/util-internal': 3.2.0
       '@subsquid/util-internal-commander': 1.4.0(commander@11.1.0)
@@ -3603,7 +3606,7 @@ snapshots:
       graphql-ws: 5.16.2(graphql@15.10.1)
       keyv: 4.5.4
       pg: 8.16.0
-      ws: 8.19.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      ws: 8.19.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)
     optionalDependencies:
       '@subsquid/big-decimal': 1.0.0
       typeorm: 0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5))
@@ -3615,6 +3618,12 @@ snapshots:
       - utf-8-validate
 
   '@subsquid/http-client@1.6.0':
+    dependencies:
+      '@subsquid/logger': 1.4.0
+      '@subsquid/util-internal': 3.2.0
+      node-fetch: 3.3.2
+
+  '@subsquid/http-client@1.8.0':
     dependencies:
       '@subsquid/logger': 1.4.0
       '@subsquid/util-internal': 3.2.0
@@ -3641,7 +3650,7 @@ snapshots:
       js-yaml: 4.1.1
       lodash: 4.17.23
 
-  '@subsquid/openreader@5.2.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
+  '@subsquid/openreader@5.2.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.1.0)(utf-8-validate@5.0.10)':
     dependencies:
       '@graphql-tools/merge': 9.0.24(graphql@15.10.1)
       '@subsquid/graphiql-console': 0.3.0
@@ -3661,7 +3670,7 @@ snapshots:
       graphql-ws: 5.16.2(graphql@15.10.1)
       inflected: 2.1.0
       pg: 8.16.0
-      ws: 8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      ws: 8.18.2(bufferutil@4.1.0)(utf-8-validate@5.0.10)
     optionalDependencies:
       '@subsquid/big-decimal': 1.0.0
     transitivePeerDependencies:
@@ -3671,7 +3680,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@subsquid/openreader@5.3.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
+  '@subsquid/openreader@5.3.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.1.0)(utf-8-validate@5.0.10)':
     dependencies:
       '@graphql-tools/merge': 9.1.7(graphql@15.10.1)
       '@subsquid/apollo-server-core': 3.14.0(graphql@15.10.1)
@@ -3691,7 +3700,7 @@ snapshots:
       graphql-ws: 5.16.2(graphql@15.10.1)
       inflected: 2.1.0
       pg: 8.16.0
-      ws: 8.19.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      ws: 8.19.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)
     optionalDependencies:
       '@subsquid/big-decimal': 1.0.0
     transitivePeerDependencies:
@@ -3701,9 +3710,9 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@subsquid/rpc-client@4.11.0':
+  '@subsquid/rpc-client@4.14.0':
     dependencies:
-      '@subsquid/http-client': 1.6.0
+      '@subsquid/http-client': 1.8.0
       '@subsquid/logger': 1.4.0
       '@subsquid/util-internal': 3.2.0
       '@subsquid/util-internal-binary-heap': 1.0.0
@@ -3713,13 +3722,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@subsquid/squid-gen@0.4.3(@subsquid/archive-registry@3.3.2)(@subsquid/evm-processor@1.27.1)(@subsquid/evm-typegen@4.4.0)(@subsquid/typeorm-codegen@2.0.2(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@subsquid/typeorm-store@1.5.1(@subsquid/big-decimal@1.0.0)(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5))))(@subsquid/util-internal-json@1.2.3)(@types/node@18.19.110)(ethers@5.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@4.9.5)':
+  '@subsquid/squid-gen@0.4.3(@subsquid/archive-registry@3.3.2)(@subsquid/evm-processor@1.28.0)(@subsquid/evm-typegen@4.4.0)(@subsquid/typeorm-codegen@2.0.2(@subsquid/big-decimal@1.0.0)(bufferutil@4.1.0)(utf-8-validate@5.0.10))(@subsquid/typeorm-store@1.5.1(@subsquid/big-decimal@1.0.0)(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5))))(@subsquid/util-internal-json@1.2.3)(@types/node@18.19.110)(ethers@5.8.0(bufferutil@4.1.0)(utf-8-validate@5.0.10))(typescript@4.9.5)':
     dependencies:
       '@subsquid/archive-registry': 3.3.2
-      '@subsquid/evm-processor': 1.27.1
+      '@subsquid/evm-processor': 1.28.0
       '@subsquid/evm-typegen': 4.4.0
       '@subsquid/logger': 0.3.1
-      '@subsquid/typeorm-codegen': 2.0.2(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@subsquid/typeorm-codegen': 2.0.2(@subsquid/big-decimal@1.0.0)(bufferutil@4.1.0)(utf-8-validate@5.0.10)
       '@subsquid/typeorm-store': 1.5.1(@subsquid/big-decimal@1.0.0)(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))
       '@subsquid/util-internal': 1.1.0
       '@subsquid/util-internal-code-printer': 0.1.1
@@ -3728,7 +3737,7 @@ snapshots:
       '@subsquid/util-internal-json': 1.2.3
       '@subsquid/util-naming': 0.0.2
       commander: 10.0.0
-      ethers: 5.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      ethers: 5.8.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)
       ts-node: 10.9.1(@types/node@18.19.110)(typescript@4.9.5)
       upath: 2.0.1
       yaml: 2.2.1
@@ -3738,9 +3747,9 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@subsquid/typeorm-codegen@2.0.2(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
+  '@subsquid/typeorm-codegen@2.0.2(@subsquid/big-decimal@1.0.0)(bufferutil@4.1.0)(utf-8-validate@5.0.10)':
     dependencies:
-      '@subsquid/openreader': 5.2.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@subsquid/openreader': 5.2.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.1.0)(utf-8-validate@5.0.10)
       '@subsquid/util-internal': 3.2.0
       '@subsquid/util-internal-code-printer': 1.2.2
       '@subsquid/util-naming': 1.3.0
@@ -3786,9 +3795,9 @@ snapshots:
       '@subsquid/util-internal': 3.2.0
       typeorm: 0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5))
 
-  '@subsquid/util-internal-archive-client@0.1.2(@subsquid/http-client@1.6.0)(@subsquid/logger@1.4.0)':
+  '@subsquid/util-internal-archive-client@0.1.2(@subsquid/http-client@1.8.0)(@subsquid/logger@1.4.0)':
     dependencies:
-      '@subsquid/http-client': 1.6.0
+      '@subsquid/http-client': 1.8.0
       '@subsquid/util-internal': 3.2.0
       '@subsquid/util-internal-range': 0.3.0
     optionalDependencies:
@@ -3829,13 +3838,13 @@ snapshots:
       '@subsquid/logger': 1.4.0
       stoppable: 1.1.0
 
-  '@subsquid/util-internal-ingest-tools@1.1.4(@subsquid/util-internal-archive-client@0.1.2(@subsquid/http-client@1.6.0)(@subsquid/logger@1.4.0))':
+  '@subsquid/util-internal-ingest-tools@1.1.4(@subsquid/util-internal-archive-client@0.1.2(@subsquid/http-client@1.8.0)(@subsquid/logger@1.4.0))':
     dependencies:
       '@subsquid/logger': 1.4.0
       '@subsquid/util-internal': 3.2.0
       '@subsquid/util-internal-range': 0.3.0
     optionalDependencies:
-      '@subsquid/util-internal-archive-client': 0.1.2(@subsquid/http-client@1.6.0)(@subsquid/logger@1.4.0)
+      '@subsquid/util-internal-archive-client': 0.1.2(@subsquid/http-client@1.8.0)(@subsquid/logger@1.4.0)
 
   '@subsquid/util-internal-json-fix-unsafe-integers@0.0.0': {}
 
@@ -3871,7 +3880,7 @@ snapshots:
 
   '@subsquid/util-internal-ts-node@0.0.0': {}
 
-  '@subsquid/util-internal-validation@0.7.0(@subsquid/logger@1.4.0)':
+  '@subsquid/util-internal-validation@0.8.0(@subsquid/logger@1.4.0)':
     optionalDependencies:
       '@subsquid/logger': 1.4.0
 
@@ -4267,7 +4276,7 @@ snapshots:
 
   buffers@0.1.1: {}
 
-  bufferutil@4.0.9:
+  bufferutil@4.1.0:
     dependencies:
       node-gyp-build: 4.8.4
 
@@ -4633,7 +4642,7 @@ snapshots:
 
   etag@1.8.1: {}
 
-  ethers@5.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10):
+  ethers@5.8.0(bufferutil@4.1.0)(utf-8-validate@5.0.10):
     dependencies:
       '@ethersproject/abi': 5.8.0
       '@ethersproject/abstract-provider': 5.8.0
@@ -4653,7 +4662,7 @@ snapshots:
       '@ethersproject/networks': 5.8.0
       '@ethersproject/pbkdf2': 5.8.0
       '@ethersproject/properties': 5.8.0
-      '@ethersproject/providers': 5.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@ethersproject/providers': 5.8.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)
       '@ethersproject/random': 5.8.0
       '@ethersproject/rlp': 5.8.0
       '@ethersproject/sha2': 5.8.0
@@ -6029,7 +6038,7 @@ snapshots:
 
   websocket@1.0.35:
     dependencies:
-      bufferutil: 4.0.9
+      bufferutil: 4.1.0
       debug: 2.6.9
       es5-ext: 0.10.64
       typedarray-to-buffer: 3.1.5
@@ -6112,19 +6121,19 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10):
+  ws@8.18.0(bufferutil@4.1.0)(utf-8-validate@5.0.10):
     optionalDependencies:
-      bufferutil: 4.0.9
+      bufferutil: 4.1.0
       utf-8-validate: 5.0.10
 
-  ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10):
+  ws@8.18.2(bufferutil@4.1.0)(utf-8-validate@5.0.10):
     optionalDependencies:
-      bufferutil: 4.0.9
+      bufferutil: 4.1.0
       utf-8-validate: 5.0.10
 
-  ws@8.19.0(bufferutil@4.0.9)(utf-8-validate@5.0.10):
+  ws@8.19.0(bufferutil@4.1.0)(utf-8-validate@5.0.10):
     optionalDependencies:
-      bufferutil: 4.0.9
+      bufferutil: 4.1.0
       utf-8-validate: 5.0.10
 
   x256@0.0.2: {}

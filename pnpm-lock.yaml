@@ -542,14 +542,6 @@ packages:
     resolution: {integrity: sha512-MDeA4LrqbRIYpmlwRdO1GyPzq+pfIS17VAgkMbYx2LtyqMbSvIaYU5D+iE0QMJr/XvO4bXC8+qZ6Fx4kIMuvfw==}
     hasBin: true
 
-  '@subsquid/typeorm-config@4.1.0':
-    resolution: {integrity: sha512-onZsHQIypCTRguOeec1Gmm+6EPlTg63QNE7Y74nrbBb4sabZtrK3K+EQJId4KIdk/kxA2Wi/g5H/VDNZNFSe9A==}
-    peerDependencies:
-      typeorm: ^0.3.17
-    peerDependenciesMeta:
-      typeorm:
-        optional: true
-
   '@subsquid/typeorm-config@4.1.1':
     resolution: {integrity: sha512-3T2L2jmFIRYxWHL/w4rMuaSiHLhDywQWPKtfD3TaSohjXR+VdDG5XimDMmSwM4dzQTBToGpnfUEkzH3v1+EnCg==}
     peerDependencies:
@@ -660,9 +652,6 @@ packages:
 
   '@subsquid/util-internal@1.1.0':
     resolution: {integrity: sha512-O6m666RDcWEw4vb3bmeNZKlAa1rGOHQvS0nhZFTBXnxZpqK/pU5N0jrQ7X/3is0pY2RKxFoxTurZjhv4QdxtqA==}
-
-  '@subsquid/util-internal@3.0.0':
-    resolution: {integrity: sha512-aGPTiLF21N9f67DgHS4PBR8d6mdvXHTOIhr2mFQPX7GQCgZhNlCZDM/1Sqn+teJawCy3w6Y9f6KOtVbN4T5SFQ==}
 
   '@subsquid/util-internal@3.2.0':
     resolution: {integrity: sha512-foNCjOmZaP8MKMa9sNe2GXTjFSDM9UqA0I0C0/ZvCxM1lCmG3mxZb70f8Wyi7TePXC/eV8eARbIqFyz0GjQmzA==}
@@ -3753,14 +3742,6 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@subsquid/typeorm-config@4.1.0(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))':
-    dependencies:
-      '@subsquid/logger': 1.4.0
-      '@subsquid/util-internal-ts-node': 0.0.0
-      '@subsquid/util-naming': 1.3.0
-    optionalDependencies:
-      typeorm: 0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5))
-
   '@subsquid/typeorm-config@4.1.1(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))':
     dependencies:
       '@subsquid/logger': 1.4.0
@@ -3771,8 +3752,8 @@ snapshots:
 
   '@subsquid/typeorm-migration@1.3.0(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))':
     dependencies:
-      '@subsquid/typeorm-config': 4.1.0(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))
-      '@subsquid/util-internal': 3.0.0
+      '@subsquid/typeorm-config': 4.1.1(typeorm@0.3.24(ioredis@5.9.3)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))
+      '@subsquid/util-internal': 3.2.0
       '@subsquid/util-internal-code-printer': 1.2.2
       '@subsquid/util-internal-ts-node': 0.0.0
       commander: 11.1.0
@@ -3876,8 +3857,6 @@ snapshots:
       '@subsquid/logger': 1.4.0
 
   '@subsquid/util-internal@1.1.0': {}
-
-  '@subsquid/util-internal@3.0.0': {}
 
   '@subsquid/util-internal@3.2.0': {}
 

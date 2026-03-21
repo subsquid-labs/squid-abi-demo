@@ -357,16 +357,16 @@ packages:
     resolution: {integrity: sha512-TpMdfD4tfA2tVVbd4l0PrP02o5KoUXYmudBbTC7CeguDo/GLoprw4uL8cMsaVA26+cbcy7WYtOEydQiHVtJixA==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/core@4.10.1':
-    resolution: {integrity: sha512-SeT6K9arGKh6IJ585gC+ueCS9xZfbsO+k6UEjVO6H3vElrOEWOWLI0KYnSl0rmg6MOXqM5fSiqIQZtDeJuIXlw==}
+  '@oclif/core@4.10.2':
+    resolution: {integrity: sha512-3GvDh5nqpIE8566qUF5cBHKog9DFV9XgBeuR0nUrz0OMuz2FPYHat1AZHOwyQbvH9OKL4gJNQZHcsDOqDM/FRA==}
     engines: {node: '>=18.0.0'}
 
   '@oclif/plugin-autocomplete@3.0.13':
     resolution: {integrity: sha512-iRfRZmONzODC34/uyRjYitLOd0z7yD3+uDNMPn3bI8LuWgKPp15SXKdvdE3Cc1i1jdb5HHTwc0LQJuRJEpd8vg==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-warn-if-update-available@3.1.55':
-    resolution: {integrity: sha512-VIEBoaoMOCjl3y+w/kdfZMODi0mVMnDuM0vkBf3nqeidhRXVXq87hBqYDdRwN1XoD+eDfE8tBbOP7qtSOONztQ==}
+  '@oclif/plugin-warn-if-update-available@3.1.56':
+    resolution: {integrity: sha512-dGEXGmAX394ZjhAkkLQTL1vv2HWIdx4GYbbRJv+/8DJcXW7K5pG9INh5yPhuzP2h5Hx2gT3Qa70sv9GNRCvU/g==}
     engines: {node: '>=18.0.0'}
 
   '@pkgjs/parseargs@0.11.0':
@@ -3364,7 +3364,7 @@ snapshots:
       wordwrap: 1.0.0
       wrap-ansi: 7.0.0
 
-  '@oclif/core@4.10.1':
+  '@oclif/core@4.10.2':
     dependencies:
       ansi-escapes: 4.3.2
       ansis: 3.17.0
@@ -3394,9 +3394,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@oclif/plugin-warn-if-update-available@3.1.55':
+  '@oclif/plugin-warn-if-update-available@3.1.56':
     dependencies:
-      '@oclif/core': 4.10.1
+      '@oclif/core': 4.10.2
       ansis: 3.17.0
       debug: 4.4.3(supports-color@8.1.1)
       http-call: 5.3.0
@@ -3518,7 +3518,7 @@ snapshots:
     dependencies:
       '@oclif/core': 3.26.0
       '@oclif/plugin-autocomplete': 3.0.13
-      '@oclif/plugin-warn-if-update-available': 3.1.55
+      '@oclif/plugin-warn-if-update-available': 3.1.56
       '@subsquid/commands': 2.3.1
       '@subsquid/manifest': 1.0.0-beta.14
       '@subsquid/manifest-expr': 0.0.1

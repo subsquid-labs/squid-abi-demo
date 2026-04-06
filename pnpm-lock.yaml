@@ -424,11 +424,11 @@ packages:
   '@sideway/pinpoint@2.0.0':
     resolution: {integrity: sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==}
 
-  '@simple-git/args-pathspec@1.0.1':
-    resolution: {integrity: sha512-lpHyxg2BpMT17oj2kyTfQefuCi8S5SMF2QTIm9IlWCTyqAzDa5sfdL725a4QqP//ReZYyT+Ym7cE8DxFEIryOw==}
+  '@simple-git/args-pathspec@1.0.2':
+    resolution: {integrity: sha512-nEFVejViHUoL8wU8GTcwqrvqfUG40S5ts6S4fr1u1Ki5CklXlRDYThPVA/qurTmCYFGnaX3XpVUmICLHdvhLaA==}
 
-  '@simple-git/argv-parser@1.0.2':
-    resolution: {integrity: sha512-2ePPyzXESoRsPfw4IN6LEXBh3M8Y4gcz3NZ6IBsPb8hISW9rT9WgUeRjL6Xs+zK603DY/jTkQvWB9O71/9mWYg==}
+  '@simple-git/argv-parser@1.0.3':
+    resolution: {integrity: sha512-NMKv9sJcSN2VvnPT9Ja7eKfGy8Q8mMFLwPTCcuZMtv3+mYcLIZflg31S/tp2XCCyiY7YAx6cgBHQ0fwA2fWHpQ==}
 
   '@sqltools/formatter@1.2.5':
     resolution: {integrity: sha512-Uy0+khmZqUrUGm5dmMqVlnvufZRSK0FbYzVgp0UMstm+F5+W2/jnEEQyc9vo1ZR/E5ZI/B1WjjoTqBqwJL6Krw==}
@@ -2410,8 +2410,8 @@ packages:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
     engines: {node: '>=14'}
 
-  simple-git@3.35.1:
-    resolution: {integrity: sha512-pAG7pC3x5ATFGLN/dmV4eVazL9Lf03MWa01vyi6fsSXMn/j8ypoWUKvVAyv8Inh5X/zbDOcFA7FnQTQ8S1wErA==}
+  simple-git@3.35.2:
+    resolution: {integrity: sha512-ZMjl06lzTm1EScxEGuM6+mEX+NQd14h/B3x0vWU+YOXAMF8sicyi1K4cjTfj5is+35ChJEHDl1EjypzYFWH2FA==}
 
   simple-swizzle@0.2.4:
     resolution: {integrity: sha512-nAu1WFPQSMNr2Zn9PGSZK9AGn4t/y97lEm+MXTtUDwfP0ksAIX4nO+6ruD9Jwut4C49SB1Ws+fbXsm/yScWOHw==}
@@ -3562,11 +3562,11 @@ snapshots:
 
   '@sideway/pinpoint@2.0.0': {}
 
-  '@simple-git/args-pathspec@1.0.1': {}
+  '@simple-git/args-pathspec@1.0.2': {}
 
-  '@simple-git/argv-parser@1.0.2':
+  '@simple-git/argv-parser@1.0.3':
     dependencies:
-      '@simple-git/args-pathspec': 1.0.1
+      '@simple-git/args-pathspec': 1.0.2
 
   '@sqltools/formatter@1.2.5': {}
 
@@ -3665,7 +3665,7 @@ snapshots:
       pretty-bytes: 5.6.0
       qs: 6.15.0
       reblessed: 0.2.1
-      simple-git: 3.35.1
+      simple-git: 3.35.2
       split2: 4.2.0
       targz: 1.0.1
       tree-kill: 1.2.2
@@ -5990,12 +5990,12 @@ snapshots:
 
   signal-exit@4.1.0: {}
 
-  simple-git@3.35.1:
+  simple-git@3.35.2:
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
-      '@simple-git/args-pathspec': 1.0.1
-      '@simple-git/argv-parser': 1.0.2
+      '@simple-git/args-pathspec': 1.0.2
+      '@simple-git/argv-parser': 1.0.3
       debug: 4.4.3(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color

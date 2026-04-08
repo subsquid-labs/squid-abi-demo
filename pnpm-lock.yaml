@@ -16,7 +16,7 @@ importers:
         version: 1.27.1
       '@subsquid/graphql-server':
         specifier: ^4.0.0
-        version: 4.11.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(typeorm@0.3.24(ioredis@5.10.1)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))(utf-8-validate@5.0.10)
+        version: 4.12.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(typeorm@0.3.24(ioredis@5.10.1)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))(utf-8-validate@5.0.10)
       '@subsquid/typeorm-migration':
         specifier: ^1.0.0
         version: 1.3.0(typeorm@0.3.24(ioredis@5.10.1)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))
@@ -478,8 +478,8 @@ packages:
   '@subsquid/graphiql-console@0.3.0':
     resolution: {integrity: sha512-C89mus6IXnNi0xMQrZqUFBZwLj8tbuq9lye8Gq/lHmmERAUpi6UsWEyLdJLx2mneZzF3JtY8eNiiZ16jmjtvfw==}
 
-  '@subsquid/graphql-server@4.11.0':
-    resolution: {integrity: sha512-QXQxT1zP2optQKaJU53Y4XxNEhrFO3F2KPPN6ZN/0C/hYui50wdtMAS6HTzeCKvlUTvqRio0fzzSEtFmNpjg/A==}
+  '@subsquid/graphql-server@4.12.0':
+    resolution: {integrity: sha512-42UOU9L5eKV8sZEbShH0g/fao1BoNhVP0XqxvbJJTOVBO6pvp7Bimrv3i6UVTCXZpKRHYNUh4UuJsjsoda2xFQ==}
     hasBin: true
     peerDependencies:
       '@subsquid/big-decimal': ^1.0.0
@@ -523,8 +523,8 @@ packages:
       '@subsquid/big-decimal':
         optional: true
 
-  '@subsquid/openreader@5.4.0':
-    resolution: {integrity: sha512-hViF7jPCQLM8Lkzum9HeB/mjXuTuyl1OGtr0eFQczrIvv+L6c2IbYtFNDJ74Xp+fihN1LWKo4zo9O5V3cBjsbQ==}
+  '@subsquid/openreader@5.5.0':
+    resolution: {integrity: sha512-+O+rQIxGPFeGC1R+IzeoAvNmufJ6QXUzGB+Exi3aTGoddbqjSnuUc3qiNa/lIIOuKGtJT3qK8wbA5vMsv5pGmQ==}
     hasBin: true
     peerDependencies:
       '@subsquid/big-decimal': ^1.0.0
@@ -2527,8 +2527,8 @@ packages:
   through@2.3.8:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
 
-  tinyglobby@0.2.15:
-    resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
+  tinyglobby@0.2.16:
+    resolution: {integrity: sha512-pn99VhoACYR8nFHhxqix+uvsbXineAasWm5ojXoN8xEwK5Kd3/TrhNn1wByuD52UxWRLy8pu+kRMniEi6Eq9Zg==}
     engines: {node: '>=12.0.0'}
 
   to-buffer@1.2.2:
@@ -3491,7 +3491,7 @@ snapshots:
       semver: 7.7.4
       string-width: 4.2.3
       supports-color: 8.1.1
-      tinyglobby: 0.2.15
+      tinyglobby: 0.2.16
       widest-line: 3.1.0
       wordwrap: 1.0.0
       wrap-ansi: 7.0.0
@@ -3721,7 +3721,7 @@ snapshots:
 
   '@subsquid/graphiql-console@0.3.0': {}
 
-  '@subsquid/graphql-server@4.11.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(typeorm@0.3.24(ioredis@5.10.1)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))(utf-8-validate@5.0.10)':
+  '@subsquid/graphql-server@4.12.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(typeorm@0.3.24(ioredis@5.10.1)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))(utf-8-validate@5.0.10)':
     dependencies:
       '@apollo/utils.keyvadapter': 1.1.2
       '@apollo/utils.keyvaluecache': 1.0.2
@@ -3732,7 +3732,7 @@ snapshots:
       '@subsquid/apollo-server-core': 3.14.0(graphql@15.10.2)
       '@subsquid/apollo-server-express': 3.14.1(express@4.22.1)(graphql@15.10.2)
       '@subsquid/logger': 1.5.0
-      '@subsquid/openreader': 5.4.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@subsquid/openreader': 5.5.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@subsquid/typeorm-config': 4.1.1(typeorm@0.3.24(ioredis@5.10.1)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))
       '@subsquid/util-internal': 3.2.0
       '@subsquid/util-internal-commander': 1.4.0(commander@11.1.0)
@@ -3820,7 +3820,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@subsquid/openreader@5.4.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
+  '@subsquid/openreader@5.5.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
       '@graphql-tools/merge': 9.1.7(graphql@15.10.2)
       '@subsquid/apollo-server-core': 3.14.0(graphql@15.10.2)
@@ -6120,7 +6120,7 @@ snapshots:
 
   through@2.3.8: {}
 
-  tinyglobby@0.2.15:
+  tinyglobby@0.2.16:
     dependencies:
       fdir: 6.5.0(picomatch@4.0.4)
       picomatch: 4.0.4

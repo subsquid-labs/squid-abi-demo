@@ -47,10 +47,10 @@ importers:
         version: 4.4.0
       '@subsquid/squid-gen':
         specifier: ^0.4.0
-        version: 0.4.3(@subsquid/archive-registry@3.3.2)(@subsquid/evm-processor@1.27.1)(@subsquid/evm-typegen@4.4.0)(@subsquid/typeorm-codegen@2.0.2(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@subsquid/typeorm-store@1.5.1(@subsquid/big-decimal@1.0.0)(typeorm@0.3.24(ioredis@5.10.1)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5))))(@subsquid/util-internal-json@1.2.3)(@types/node@18.19.110)(ethers@5.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@4.9.5)
+        version: 0.4.3(@subsquid/archive-registry@3.3.2)(@subsquid/evm-processor@1.27.1)(@subsquid/evm-typegen@4.4.0)(@subsquid/typeorm-codegen@2.2.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@subsquid/typeorm-store@1.5.1(@subsquid/big-decimal@1.0.0)(typeorm@0.3.24(ioredis@5.10.1)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5))))(@subsquid/util-internal-json@1.2.3)(@types/node@18.19.110)(ethers@5.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@4.9.5)
       '@subsquid/typeorm-codegen':
         specifier: ^2.0.0
-        version: 2.0.2(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+        version: 2.2.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@types/node':
         specifier: ^18.0.0
         version: 18.19.110
@@ -233,12 +233,6 @@ packages:
 
   '@graphql-tools/merge@8.4.2':
     resolution: {integrity: sha512-XbrHAaj8yDuINph+sAfuq3QCZ/tKblrTLOpirK0+CAgNlZUCHs0Fa+xtMUURgwCVThLle1AF7svJCxFizygLsw==}
-    peerDependencies:
-      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
-
-  '@graphql-tools/merge@9.0.24':
-    resolution: {integrity: sha512-NzWx/Afl/1qHT3Nm1bghGG2l4jub28AdvtG11PoUlmjcIjnFBJMv4vqL0qnxWe8A82peWo4/TkVdjJRLXwgGEw==}
-    engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
@@ -514,15 +508,6 @@ packages:
   '@subsquid/manifest@1.0.0-beta.14':
     resolution: {integrity: sha512-03AX/orQFAwaDrIaDe63UEwXpQ8DjOZaR1RYqlsXdnzsdRcdKy4iSe5UAOVPutvw7hBTCvtPQ6EIbIoG7noW3A==}
 
-  '@subsquid/openreader@5.2.0':
-    resolution: {integrity: sha512-JbWkqZn0jcperAY27OialS6iZ2mhCXbkR1cVyYOaWbUBo2qqA4IJWa/UJnRIXiAO5jTLKUHtJjN/e0h9OCu3rg==}
-    hasBin: true
-    peerDependencies:
-      '@subsquid/big-decimal': ^1.0.0
-    peerDependenciesMeta:
-      '@subsquid/big-decimal':
-        optional: true
-
   '@subsquid/openreader@5.5.0':
     resolution: {integrity: sha512-+O+rQIxGPFeGC1R+IzeoAvNmufJ6QXUzGB+Exi3aTGoddbqjSnuUc3qiNa/lIIOuKGtJT3qK8wbA5vMsv5pGmQ==}
     hasBin: true
@@ -547,8 +532,8 @@ packages:
       '@subsquid/util-internal-json': ^0.2.0
       ethers: ^5.7.2
 
-  '@subsquid/typeorm-codegen@2.0.2':
-    resolution: {integrity: sha512-MDeA4LrqbRIYpmlwRdO1GyPzq+pfIS17VAgkMbYx2LtyqMbSvIaYU5D+iE0QMJr/XvO4bXC8+qZ6Fx4kIMuvfw==}
+  '@subsquid/typeorm-codegen@2.2.0':
+    resolution: {integrity: sha512-ZW0U9bSghzZjEiFqxtWWU7b95TZGJLC00C+QvEcWfc5y1Wx/RPIjhu1+x/z6djRgO1p1UzKNhoXe/652OftdDg==}
     hasBin: true
 
   '@subsquid/typeorm-config@4.1.0':
@@ -621,9 +606,6 @@ packages:
 
   '@subsquid/util-internal-hex@1.2.2':
     resolution: {integrity: sha512-E43HVqf23jP5hvtWF9GsiN8luANjnJ1daR2SVTwaIUAYU/uNjv1Bi6tHz2uexlflBhyxAgBDmHgunXZ45wQTIw==}
-
-  '@subsquid/util-internal-http-server@2.0.0':
-    resolution: {integrity: sha512-MUAJGMuDjbA3B+KQFZmMkm9FuWVx067pINt+EWuq3fSZqYPr1kRkTCTSJK7uT6Q8omqJtJFRWveyOWlXmixvfg==}
 
   '@subsquid/util-internal-http-server@2.0.1':
     resolution: {integrity: sha512-qDR1k+vCoLTtQX0O9cXg5kFmBqHf4708EKQLqH3IaQ4XiK1d/QFBQy8cDNZxXA6WxmkwJy4u9jaCZcpd2BrBQw==}
@@ -835,13 +817,6 @@ packages:
     resolution: {integrity: sha512-h0u3EbC/9RpihWOmcSsvTW2O6RXVaD/mPEjfrPkxRPTEPWqncsgOoRJw+wih4OqfH3PvTJvoEIf4LwKrUaqWog==}
     deprecated: The `apollo-reporting-protobuf` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/usage-reporting-protobuf` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
 
-  apollo-server-core@3.13.0:
-    resolution: {integrity: sha512-v/g6DR6KuHn9DYSdtQijz8dLOkP78I5JSVJzPkARhDbhpH74QNwrQ2PP2URAPPEDJ2EeZNQDX8PvbYkAKqg+kg==}
-    engines: {node: '>=12.0'}
-    deprecated: The `apollo-server-core` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
-    peerDependencies:
-      graphql: ^15.3.0 || ^16.0.0
-
   apollo-server-env@4.2.1:
     resolution: {integrity: sha512-vm/7c7ld+zFMxibzqZ7SSa5tBENc4B0uye9LTfjJwGoQFY5xsUPH5FpO5j0bMUDZ8YYNbrF9SNtzc5Cngcr90g==}
     engines: {node: '>=12.0'}
@@ -852,14 +827,6 @@ packages:
     engines: {node: '>=12.0'}
     deprecated: The `apollo-server-errors` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
     peerDependencies:
-      graphql: ^15.3.0 || ^16.0.0
-
-  apollo-server-express@3.13.0:
-    resolution: {integrity: sha512-iSxICNbDUyebOuM8EKb3xOrpIwOQgKxGbR2diSr4HP3IW8T3njKFOoMce50vr+moOCe1ev8BnLcw9SNbuUtf7g==}
-    engines: {node: '>=12.0'}
-    deprecated: The `apollo-server-express` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
-    peerDependencies:
-      express: ^4.17.1
       graphql: ^15.3.0 || ^16.0.0
 
   apollo-server-plugin-base@3.7.2:
@@ -965,10 +932,6 @@ packages:
 
   bn.js@5.2.1:
     resolution: {integrity: sha512-eXRvHzWyYPBuB4NBy0cmYQjGitUrtqwbvlzP3G6VFnNRbsZQIxQ10PbKKHt8gZ/HW/D/747aDl+QkDqg3KQLMQ==}
-
-  body-parser@1.20.3:
-    resolution: {integrity: sha512-7rAxByjUMqQ3/bHJy7D6OGXvx/MMc4IqBn/X0fcM1QUcAItpZrBEYhWGem+tzXH90c+G01ypMcYJBO9Y30203g==}
-    engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
 
   body-parser@1.20.4:
     resolution: {integrity: sha512-ZTgYYLMOXY9qKU/57FAo8F+HA2dGX7bqGc71txDRC1rS4frdFI5R7NhluHxH6M0YItAP0sHB4uqAOcYKxO6uGA==}
@@ -1150,15 +1113,8 @@ packages:
     resolution: {integrity: sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==}
     engines: {node: '>= 0.6'}
 
-  cookie-signature@1.0.6:
-    resolution: {integrity: sha512-QADzlaHc8icV8I7vbaJXJwod9HWYp8uCqf1xa4OfNu1T7JVxQIrUgOWtHdNDtPiywmFbiS12VjotIXLrKM3orQ==}
-
   cookie-signature@1.0.7:
     resolution: {integrity: sha512-NXdYc3dLr47pBkpUCHtKSwIOQXLVn8dZEuywboCOJY/osA0wFSLlSawr3KN8qXJEyX66FcONTH8EIlVuK0yyFA==}
-
-  cookie@0.7.1:
-    resolution: {integrity: sha512-6DnInpx7SJ2AK3+CTUE/ZM0vWTUboZCegxhC2xiIydHR9jNuTAASBrfEpHhiGOZw/nX51bHt6YQl8jsGo4y/0w==}
-    engines: {node: '>= 0.6'}
 
   cookie@0.7.2:
     resolution: {integrity: sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==}
@@ -1166,10 +1122,6 @@ packages:
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
-
-  cors@2.8.5:
-    resolution: {integrity: sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==}
-    engines: {node: '>= 0.10'}
 
   cors@2.8.6:
     resolution: {integrity: sha512-tJtZBBHA6vjIAaF6EnIaq6laBBP9aq/Y3ouVJjEfoHbRBcHBAHYcMh/w8LDrk2PvIMMq8gmopa5D4V8RmbrxGw==}
@@ -1320,10 +1272,6 @@ packages:
   emoji-regex@9.2.2:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
 
-  encodeurl@1.0.2:
-    resolution: {integrity: sha512-TPJXq8JqFaVYm2CWmPvnP2Iyo4ZSM7/QKcSmuMLDObfpH5fi7RUGmd/rTDf+rut/saiDiQEeVTNgAmJEdAOx0w==}
-    engines: {node: '>= 0.8'}
-
   encodeurl@2.0.0:
     resolution: {integrity: sha512-Q0n9HRi4m6JuGIV1eFlmvJB7ZEVxu93IrMyiMsGC0lrMJMWzRgx6WGquyfQgZVb31vhGgXnfmPNNXmxnOkRBrg==}
     engines: {node: '>= 0.8'}
@@ -1401,10 +1349,6 @@ packages:
   event-stream@0.9.8:
     resolution: {integrity: sha512-o5h0Mp1bkoR6B0i7pTCAzRy+VzdsRWH997KQD4Psb0EOPoKEIiaRx/EsOdUl7p1Ktjw7aIWvweI/OY1R9XrlUg==}
 
-  express@4.21.2:
-    resolution: {integrity: sha512-28HqgMZAmih1Czt9ny7qr6ek2qddF4FclbMzwhCREB6OFfH+rXAnuNCwo1/wFvrtbgsQDb4kSbX9de9lFbrXnA==}
-    engines: {node: '>= 0.10.0'}
-
   express@4.22.1:
     resolution: {integrity: sha512-F2X8g9P1X7uCPZMA3MVf9wcTqlyNp7IhH5qPCI0izhaOIYXaW9L535tGA3qmjRzpH+bZczqq7hVKxTR4NWnu+g==}
     engines: {node: '>= 0.10.0'}
@@ -1457,10 +1401,6 @@ packages:
   fill-range@7.1.1:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
     engines: {node: '>=8'}
-
-  finalhandler@1.3.1:
-    resolution: {integrity: sha512-6BN9trH7bp3qvnrRyzsBz+g3lZxTNZTbVO2EV1CS0WIcDbawYVdYvGflME/9QP0h0pYlCDBCTjYa9nZzMDpyxQ==}
-    engines: {node: '>= 0.8'}
 
   finalhandler@1.3.2:
     resolution: {integrity: sha512-aA4RyPcd3badbdABGDuTXCMTtOneUCAYH/gxoYRTZlIJdF0YPWuGqiAsIrhNnnqdXGswYk6dGujem4w80UJFhg==}
@@ -1570,10 +1510,6 @@ packages:
     peerDependencies:
       graphql: '>=0.11 <=16'
 
-  graphql@15.10.1:
-    resolution: {integrity: sha512-BL/Xd/T9baO6NFzoMpiMD7YUZ62R6viR5tp/MULVEnbYJXZA//kRNW7J0j1w/wXArgL0sCxhDfK5dczSKn3+cg==}
-    engines: {node: '>= 10.x'}
-
   graphql@15.10.2:
     resolution: {integrity: sha512-1PRqdDPAmViWr4h1GVBT8RoPZfWSGZa7kDzleTilOfVIslsgf+cia3Nl95v1KDmR4iERPaT7WzQ+tN4MJmbg3w==}
     engines: {node: '>= 10.x'}
@@ -1617,10 +1553,6 @@ packages:
   http-call@5.3.0:
     resolution: {integrity: sha512-ahwimsC23ICE4kPl9xTBjKB4inbRaeLyZeRunC/1Jy/Z6X8tv22MEAjK+KBOMSVLaqXPTTmd8638waVIKLGx2w==}
     engines: {node: '>=8.0.0'}
-
-  http-errors@2.0.0:
-    resolution: {integrity: sha512-FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ==}
-    engines: {node: '>= 0.8'}
 
   http-errors@2.0.1:
     resolution: {integrity: sha512-4FbRdAX+bSdmo4AUFuS0WNiPz8NgFt+r8ThgNWmlrjQjt1Q7ZR9+zTlce2859x4KSXrwIsaeTqDoKQmtP8pLmQ==}
@@ -2120,9 +2052,6 @@ packages:
     resolution: {integrity: sha512-Xa4Nw17FS9ApQFJ9umLiJS4orGjm7ZzwUrwamcGQuHSzDyth9boKDaycYdDcZDuqYATXw4HFXgaqWTctW/v1HA==}
     engines: {node: '>=16 || 14 >=14.18'}
 
-  path-to-regexp@0.1.12:
-    resolution: {integrity: sha512-RA1GjUVMnvYFxuqovrEqZoxxW5NUZqbwKtYz/Tt7nXerk0LbLblQmrsgdeOxV5SFHf0UDggjS/bSeOZwt1pmEQ==}
-
   path-to-regexp@0.1.13:
     resolution: {integrity: sha512-A/AGNMFN3c8bOlvV9RreMdrv7jsmF9XIfDeCd87+I8RNg6s78BhJxMu69NEMHBSJFxKidViTEdruRwEk/WIKqA==}
 
@@ -2228,10 +2157,6 @@ packages:
   pump@1.0.3:
     resolution: {integrity: sha512-8k0JupWme55+9tCVE+FS5ULT3K6AbgqrGa58lTT49RpyfwwcGedHqaC5LlQNdEAumn/wFsu6aPwkuPMioy8kqw==}
 
-  qs@6.13.0:
-    resolution: {integrity: sha512-+38qI9SOr8tfZ4QmJNplMUxqjbe7LKvvZgWdExBOmd+egZTtjLB67Gu0HRX3u/XOq7UU2Nx6nsjvS16Z9uwfpg==}
-    engines: {node: '>=0.6'}
-
   qs@6.14.2:
     resolution: {integrity: sha512-V/yCWTTF7VJ9hIh18Ugr2zhJMP01MY7c5kh4J870L7imm6/DIzBsNLTXzMwUA3yZ5b/KBqLx8Kp3uRvd7xSe3Q==}
     engines: {node: '>=0.6'}
@@ -2246,10 +2171,6 @@ packages:
   range-parser@1.2.1:
     resolution: {integrity: sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==}
     engines: {node: '>= 0.6'}
-
-  raw-body@2.5.2:
-    resolution: {integrity: sha512-8zGqypfENjCIqGhgXToC8aB2r7YrBX+AQAfIPs/Mlk+BtPTztOvTS01NRW/3Eh60J+a48lt8qsCzirQ6loCVfA==}
-    engines: {node: '>= 0.8'}
 
   raw-body@2.5.3:
     resolution: {integrity: sha512-s4VSOf6yN0rvbRZGxs8Om5CWj6seneMwK3oDb4lWDH0UPhWcxwOWw5+qk24bxq87szX1ydrwylIOp2uG1ojUpA==}
@@ -2343,16 +2264,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  send@0.19.0:
-    resolution: {integrity: sha512-dW41u5VfLXu8SJh5bwRmyYUbAoSB3c9uQh6L8h/KtsFREPWpbX1lrljJo186Jc4nmci/sGUZ9a0a0J2zgfq2hw==}
-    engines: {node: '>= 0.8.0'}
-
   send@0.19.2:
     resolution: {integrity: sha512-VMbMxbDeehAxpOtWJXlcUS5E8iXh6QmN+BkRX1GARS3wRaXEEgzCcB10gTQazO42tpNIya8xIyNx8fll1OFPrg==}
-    engines: {node: '>= 0.8.0'}
-
-  serve-static@1.16.2:
-    resolution: {integrity: sha512-VqpjJZKadQB/PEbEwvFdO43Ax5dFBZ2UECszz8bQ7pi7wt//PWe1P6MN7eCnjsatYtBT6EuiClbjSWP2WrIoTw==}
     engines: {node: '>= 0.8.0'}
 
   serve-static@1.16.3:
@@ -2442,10 +2355,6 @@ packages:
 
   standard-as-callback@2.1.0:
     resolution: {integrity: sha512-qoRRSyROncaz1z0mvYqIE4lCd9p2R90i6GxW3uZv5ucSu8tU7B5HXUP1gG8pVZsYNVaXjk8ClXHPttLyxAL48A==}
-
-  statuses@2.0.1:
-    resolution: {integrity: sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==}
-    engines: {node: '>= 0.8'}
 
   statuses@2.0.2:
     resolution: {integrity: sha512-DvEy55V3DB7uknRo+4iOGT5fP1slR8wQohVdknigZPMpMstaKJQWhwiYBACJE3Ul2pTnATihhBYnRhZQHGBiRw==}
@@ -2777,18 +2686,6 @@ packages:
       utf-8-validate:
         optional: true
 
-  ws@8.18.2:
-    resolution: {integrity: sha512-DMricUmwGZUVr++AEAe2uiVM7UoO9MAVZMDu05UQOaUII0lp+zOzLLU4Xqh/JvTqklB1T4uELaaPBKyjE1r4fQ==}
-    engines: {node: '>=10.0.0'}
-    peerDependencies:
-      bufferutil: ^4.0.1
-      utf-8-validate: '>=5.0.2'
-    peerDependenciesMeta:
-      bufferutil:
-        optional: true
-      utf-8-validate:
-        optional: true
-
   ws@8.20.0:
     resolution: {integrity: sha512-sAt8BhgNbzCtgGbt2OxmpuryO63ZoDk/sqaB/znQm94T4fCEsy/yV+7CdC1kJhOU9lboAEU7R3kquuycDoibVA==}
     engines: {node: '>=10.0.0'}
@@ -2887,10 +2784,6 @@ snapshots:
     dependencies:
       '@apollo/protobufjs': 1.2.7
 
-  '@apollo/utils.dropunuseddefinitions@1.1.0(graphql@15.10.1)':
-    dependencies:
-      graphql: 15.10.1
-
   '@apollo/utils.dropunuseddefinitions@1.1.0(graphql@15.10.2)':
     dependencies:
       graphql: 15.10.2
@@ -2908,49 +2801,22 @@ snapshots:
 
   '@apollo/utils.logger@1.0.1': {}
 
-  '@apollo/utils.printwithreducedwhitespace@1.1.0(graphql@15.10.1)':
-    dependencies:
-      graphql: 15.10.1
-
   '@apollo/utils.printwithreducedwhitespace@1.1.0(graphql@15.10.2)':
     dependencies:
       graphql: 15.10.2
 
-  '@apollo/utils.removealiases@1.0.0(graphql@15.10.1)':
-    dependencies:
-      graphql: 15.10.1
-
   '@apollo/utils.removealiases@1.0.0(graphql@15.10.2)':
     dependencies:
       graphql: 15.10.2
-
-  '@apollo/utils.sortast@1.1.0(graphql@15.10.1)':
-    dependencies:
-      graphql: 15.10.1
-      lodash.sortby: 4.7.0
 
   '@apollo/utils.sortast@1.1.0(graphql@15.10.2)':
     dependencies:
       graphql: 15.10.2
       lodash.sortby: 4.7.0
 
-  '@apollo/utils.stripsensitiveliterals@1.2.0(graphql@15.10.1)':
-    dependencies:
-      graphql: 15.10.1
-
   '@apollo/utils.stripsensitiveliterals@1.2.0(graphql@15.10.2)':
     dependencies:
       graphql: 15.10.2
-
-  '@apollo/utils.usagereporting@1.0.1(graphql@15.10.1)':
-    dependencies:
-      '@apollo/usage-reporting-protobuf': 4.1.1
-      '@apollo/utils.dropunuseddefinitions': 1.1.0(graphql@15.10.1)
-      '@apollo/utils.printwithreducedwhitespace': 1.1.0(graphql@15.10.1)
-      '@apollo/utils.removealiases': 1.0.0(graphql@15.10.1)
-      '@apollo/utils.sortast': 1.1.0(graphql@15.10.1)
-      '@apollo/utils.stripsensitiveliterals': 1.2.0(graphql@15.10.1)
-      graphql: 15.10.1
 
   '@apollo/utils.usagereporting@1.0.1(graphql@15.10.2)':
     dependencies:
@@ -2961,10 +2827,6 @@ snapshots:
       '@apollo/utils.sortast': 1.1.0(graphql@15.10.2)
       '@apollo/utils.stripsensitiveliterals': 1.2.0(graphql@15.10.2)
       graphql: 15.10.2
-
-  '@apollographql/apollo-tools@0.5.4(graphql@15.10.1)':
-    dependencies:
-      graphql: 15.10.1
 
   '@apollographql/apollo-tools@0.5.4(graphql@15.10.2)':
     dependencies:
@@ -3238,22 +3100,10 @@ snapshots:
 
   '@exodus/schemasafe@1.3.0': {}
 
-  '@graphql-tools/merge@8.3.1(graphql@15.10.1)':
-    dependencies:
-      '@graphql-tools/utils': 8.9.0(graphql@15.10.1)
-      graphql: 15.10.1
-      tslib: 2.8.1
-
   '@graphql-tools/merge@8.3.1(graphql@15.10.2)':
     dependencies:
       '@graphql-tools/utils': 8.9.0(graphql@15.10.2)
       graphql: 15.10.2
-      tslib: 2.8.1
-
-  '@graphql-tools/merge@8.4.2(graphql@15.10.1)':
-    dependencies:
-      '@graphql-tools/utils': 9.2.1(graphql@15.10.1)
-      graphql: 15.10.1
       tslib: 2.8.1
 
   '@graphql-tools/merge@8.4.2(graphql@15.10.2)':
@@ -3262,24 +3112,10 @@ snapshots:
       graphql: 15.10.2
       tslib: 2.8.1
 
-  '@graphql-tools/merge@9.0.24(graphql@15.10.1)':
-    dependencies:
-      '@graphql-tools/utils': 10.11.0(graphql@15.10.1)
-      graphql: 15.10.1
-      tslib: 2.8.1
-
   '@graphql-tools/merge@9.1.8(graphql@15.10.2)':
     dependencies:
       '@graphql-tools/utils': 11.0.1(graphql@15.10.2)
       graphql: 15.10.2
-      tslib: 2.8.1
-
-  '@graphql-tools/mock@8.7.20(graphql@15.10.1)':
-    dependencies:
-      '@graphql-tools/schema': 9.0.19(graphql@15.10.1)
-      '@graphql-tools/utils': 9.2.1(graphql@15.10.1)
-      fast-json-stable-stringify: 2.1.0
-      graphql: 15.10.1
       tslib: 2.8.1
 
   '@graphql-tools/mock@8.7.20(graphql@15.10.2)':
@@ -3297,14 +3133,6 @@ snapshots:
       graphql: 15.10.2
       tslib: 2.8.1
 
-  '@graphql-tools/schema@8.5.1(graphql@15.10.1)':
-    dependencies:
-      '@graphql-tools/merge': 8.3.1(graphql@15.10.1)
-      '@graphql-tools/utils': 8.9.0(graphql@15.10.1)
-      graphql: 15.10.1
-      tslib: 2.8.1
-      value-or-promise: 1.0.11
-
   '@graphql-tools/schema@8.5.1(graphql@15.10.2)':
     dependencies:
       '@graphql-tools/merge': 8.3.1(graphql@15.10.2)
@@ -3313,14 +3141,6 @@ snapshots:
       tslib: 2.8.1
       value-or-promise: 1.0.11
 
-  '@graphql-tools/schema@9.0.19(graphql@15.10.1)':
-    dependencies:
-      '@graphql-tools/merge': 8.4.2(graphql@15.10.1)
-      '@graphql-tools/utils': 9.2.1(graphql@15.10.1)
-      graphql: 15.10.1
-      tslib: 2.8.1
-      value-or-promise: 1.0.12
-
   '@graphql-tools/schema@9.0.19(graphql@15.10.2)':
     dependencies:
       '@graphql-tools/merge': 8.4.2(graphql@15.10.2)
@@ -3328,14 +3148,6 @@ snapshots:
       graphql: 15.10.2
       tslib: 2.8.1
       value-or-promise: 1.0.12
-
-  '@graphql-tools/utils@10.11.0(graphql@15.10.1)':
-    dependencies:
-      '@graphql-typed-document-node/core': 3.2.0(graphql@15.10.1)
-      '@whatwg-node/promise-helpers': 1.3.2
-      cross-inspect: 1.0.1
-      graphql: 15.10.1
-      tslib: 2.8.1
 
   '@graphql-tools/utils@10.11.0(graphql@15.10.2)':
     dependencies:
@@ -3353,20 +3165,9 @@ snapshots:
       graphql: 15.10.2
       tslib: 2.8.1
 
-  '@graphql-tools/utils@8.9.0(graphql@15.10.1)':
-    dependencies:
-      graphql: 15.10.1
-      tslib: 2.8.1
-
   '@graphql-tools/utils@8.9.0(graphql@15.10.2)':
     dependencies:
       graphql: 15.10.2
-      tslib: 2.8.1
-
-  '@graphql-tools/utils@9.2.1(graphql@15.10.1)':
-    dependencies:
-      '@graphql-typed-document-node/core': 3.2.0(graphql@15.10.1)
-      graphql: 15.10.1
       tslib: 2.8.1
 
   '@graphql-tools/utils@9.2.1(graphql@15.10.2)':
@@ -3374,10 +3175,6 @@ snapshots:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.10.2)
       graphql: 15.10.2
       tslib: 2.8.1
-
-  '@graphql-typed-document-node/core@3.2.0(graphql@15.10.1)':
-    dependencies:
-      graphql: 15.10.1
 
   '@graphql-typed-document-node/core@3.2.0(graphql@15.10.2)':
     dependencies:
@@ -3790,36 +3587,6 @@ snapshots:
       js-yaml: 4.1.1
       lodash: 4.18.1
 
-  '@subsquid/openreader@5.2.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@graphql-tools/merge': 9.0.24(graphql@15.10.1)
-      '@subsquid/graphiql-console': 0.3.0
-      '@subsquid/logger': 1.4.0
-      '@subsquid/util-internal': 3.2.0
-      '@subsquid/util-internal-commander': 1.4.0(commander@11.1.0)
-      '@subsquid/util-internal-hex': 1.2.2
-      '@subsquid/util-internal-http-server': 2.0.0
-      '@subsquid/util-naming': 1.3.0
-      apollo-server-core: 3.13.0(graphql@15.10.1)
-      apollo-server-express: 3.13.0(express@4.21.2)(graphql@15.10.1)
-      commander: 11.1.0
-      deep-equal: 2.2.3
-      express: 4.21.2
-      graphql: 15.10.1
-      graphql-parse-resolve-info: 4.14.1(graphql@15.10.1)
-      graphql-ws: 5.16.2(graphql@15.10.1)
-      inflected: 2.1.0
-      pg: 8.16.0
-      ws: 8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-    optionalDependencies:
-      '@subsquid/big-decimal': 1.0.0
-    transitivePeerDependencies:
-      - bufferutil
-      - encoding
-      - pg-native
-      - supports-color
-      - utf-8-validate
-
   '@subsquid/openreader@5.5.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
       '@graphql-tools/merge': 9.1.8(graphql@15.10.2)
@@ -3862,13 +3629,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@subsquid/squid-gen@0.4.3(@subsquid/archive-registry@3.3.2)(@subsquid/evm-processor@1.27.1)(@subsquid/evm-typegen@4.4.0)(@subsquid/typeorm-codegen@2.0.2(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@subsquid/typeorm-store@1.5.1(@subsquid/big-decimal@1.0.0)(typeorm@0.3.24(ioredis@5.10.1)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5))))(@subsquid/util-internal-json@1.2.3)(@types/node@18.19.110)(ethers@5.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@4.9.5)':
+  '@subsquid/squid-gen@0.4.3(@subsquid/archive-registry@3.3.2)(@subsquid/evm-processor@1.27.1)(@subsquid/evm-typegen@4.4.0)(@subsquid/typeorm-codegen@2.2.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@subsquid/typeorm-store@1.5.1(@subsquid/big-decimal@1.0.0)(typeorm@0.3.24(ioredis@5.10.1)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5))))(@subsquid/util-internal-json@1.2.3)(@types/node@18.19.110)(ethers@5.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@4.9.5)':
     dependencies:
       '@subsquid/archive-registry': 3.3.2
       '@subsquid/evm-processor': 1.27.1
       '@subsquid/evm-typegen': 4.4.0
       '@subsquid/logger': 0.3.1
-      '@subsquid/typeorm-codegen': 2.0.2(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@subsquid/typeorm-codegen': 2.2.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@subsquid/typeorm-store': 1.5.1(@subsquid/big-decimal@1.0.0)(typeorm@0.3.24(ioredis@5.10.1)(pg@8.16.0)(reflect-metadata@0.1.13)(ts-node@10.9.1(@types/node@18.19.110)(typescript@4.9.5)))
       '@subsquid/util-internal': 1.1.0
       '@subsquid/util-internal-code-printer': 0.1.1
@@ -3887,9 +3654,9 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@subsquid/typeorm-codegen@2.0.2(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
+  '@subsquid/typeorm-codegen@2.2.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@subsquid/openreader': 5.2.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@subsquid/openreader': 5.5.0(@subsquid/big-decimal@1.0.0)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@subsquid/util-internal': 3.2.0
       '@subsquid/util-internal-code-printer': 1.2.2
       '@subsquid/util-naming': 1.3.0
@@ -3972,11 +3739,6 @@ snapshots:
   '@subsquid/util-internal-hex@0.0.2': {}
 
   '@subsquid/util-internal-hex@1.2.2': {}
-
-  '@subsquid/util-internal-http-server@2.0.0':
-    dependencies:
-      '@subsquid/logger': 1.4.0
-      stoppable: 1.1.0
 
   '@subsquid/util-internal-http-server@2.0.1':
     dependencies:
@@ -4182,74 +3944,15 @@ snapshots:
     dependencies:
       '@apollo/protobufjs': 1.2.6
 
-  apollo-server-core@3.13.0(graphql@15.10.1):
-    dependencies:
-      '@apollo/utils.keyvaluecache': 1.0.2
-      '@apollo/utils.logger': 1.0.1
-      '@apollo/utils.usagereporting': 1.0.1(graphql@15.10.1)
-      '@apollographql/apollo-tools': 0.5.4(graphql@15.10.1)
-      '@apollographql/graphql-playground-html': 1.6.29
-      '@graphql-tools/mock': 8.7.20(graphql@15.10.1)
-      '@graphql-tools/schema': 8.5.1(graphql@15.10.1)
-      '@josephg/resolvable': 1.0.1
-      apollo-datasource: 3.3.2
-      apollo-reporting-protobuf: 3.4.0
-      apollo-server-env: 4.2.1
-      apollo-server-errors: 3.3.1(graphql@15.10.1)
-      apollo-server-plugin-base: 3.7.2(graphql@15.10.1)
-      apollo-server-types: 3.8.0(graphql@15.10.1)
-      async-retry: 1.3.3
-      fast-json-stable-stringify: 2.1.0
-      graphql: 15.10.1
-      graphql-tag: 2.12.6(graphql@15.10.1)
-      loglevel: 1.9.2
-      lru-cache: 6.0.0
-      node-abort-controller: 3.1.1
-      sha.js: 2.4.11
-      uuid: 9.0.1
-      whatwg-mimetype: 3.0.0
-    transitivePeerDependencies:
-      - encoding
-
   apollo-server-env@4.2.1:
     dependencies:
       node-fetch: 2.7.0
     transitivePeerDependencies:
       - encoding
 
-  apollo-server-errors@3.3.1(graphql@15.10.1):
-    dependencies:
-      graphql: 15.10.1
-
   apollo-server-errors@3.3.1(graphql@15.10.2):
     dependencies:
       graphql: 15.10.2
-
-  apollo-server-express@3.13.0(express@4.21.2)(graphql@15.10.1):
-    dependencies:
-      '@types/accepts': 1.3.7
-      '@types/body-parser': 1.19.2
-      '@types/cors': 2.8.12
-      '@types/express': 4.17.14
-      '@types/express-serve-static-core': 4.17.31
-      accepts: 1.3.8
-      apollo-server-core: 3.13.0(graphql@15.10.1)
-      apollo-server-types: 3.8.0(graphql@15.10.1)
-      body-parser: 1.20.3
-      cors: 2.8.5
-      express: 4.21.2
-      graphql: 15.10.1
-      parseurl: 1.3.3
-    transitivePeerDependencies:
-      - encoding
-      - supports-color
-
-  apollo-server-plugin-base@3.7.2(graphql@15.10.1):
-    dependencies:
-      apollo-server-types: 3.8.0(graphql@15.10.1)
-      graphql: 15.10.1
-    transitivePeerDependencies:
-      - encoding
 
   apollo-server-plugin-base@3.7.2(graphql@15.10.2):
     dependencies:
@@ -4264,16 +3967,6 @@ snapshots:
       apollo-server-plugin-base: 3.7.2(graphql@15.10.2)
       apollo-server-types: 3.8.0(graphql@15.10.2)
       graphql: 15.10.2
-    transitivePeerDependencies:
-      - encoding
-
-  apollo-server-types@3.8.0(graphql@15.10.1):
-    dependencies:
-      '@apollo/utils.keyvaluecache': 1.0.2
-      '@apollo/utils.logger': 1.0.1
-      apollo-reporting-protobuf: 3.4.0
-      apollo-server-env: 4.2.1
-      graphql: 15.10.1
     transitivePeerDependencies:
       - encoding
 
@@ -4376,23 +4069,6 @@ snapshots:
   bn.js@4.12.1: {}
 
   bn.js@5.2.1: {}
-
-  body-parser@1.20.3:
-    dependencies:
-      bytes: 3.1.2
-      content-type: 1.0.5
-      debug: 2.6.9
-      depd: 2.0.0
-      destroy: 1.2.0
-      http-errors: 2.0.0
-      iconv-lite: 0.4.24
-      on-finished: 2.4.1
-      qs: 6.13.0
-      raw-body: 2.5.2
-      type-is: 1.6.18
-      unpipe: 1.0.0
-    transitivePeerDependencies:
-      - supports-color
 
   body-parser@1.20.4:
     dependencies:
@@ -4580,20 +4256,11 @@ snapshots:
 
   content-type@1.0.5: {}
 
-  cookie-signature@1.0.6: {}
-
   cookie-signature@1.0.7: {}
-
-  cookie@0.7.1: {}
 
   cookie@0.7.2: {}
 
   core-util-is@1.0.3: {}
-
-  cors@2.8.5:
-    dependencies:
-      object-assign: 4.1.1
-      vary: 1.1.2
 
   cors@2.8.6:
     dependencies:
@@ -4742,8 +4409,6 @@ snapshots:
 
   emoji-regex@9.2.2: {}
 
-  encodeurl@1.0.2: {}
-
   encodeurl@2.0.0: {}
 
   end-of-stream@1.4.5:
@@ -4863,42 +4528,6 @@ snapshots:
     dependencies:
       optimist: 0.2.8
 
-  express@4.21.2:
-    dependencies:
-      accepts: 1.3.8
-      array-flatten: 1.1.1
-      body-parser: 1.20.3
-      content-disposition: 0.5.4
-      content-type: 1.0.5
-      cookie: 0.7.1
-      cookie-signature: 1.0.6
-      debug: 2.6.9
-      depd: 2.0.0
-      encodeurl: 2.0.0
-      escape-html: 1.0.3
-      etag: 1.8.1
-      finalhandler: 1.3.1
-      fresh: 0.5.2
-      http-errors: 2.0.0
-      merge-descriptors: 1.0.3
-      methods: 1.1.2
-      on-finished: 2.4.1
-      parseurl: 1.3.3
-      path-to-regexp: 0.1.12
-      proxy-addr: 2.0.7
-      qs: 6.13.0
-      range-parser: 1.2.1
-      safe-buffer: 5.2.1
-      send: 0.19.0
-      serve-static: 1.16.2
-      setprototypeof: 1.2.0
-      statuses: 2.0.1
-      type-is: 1.6.18
-      utils-merge: 1.0.1
-      vary: 1.1.2
-    transitivePeerDependencies:
-      - supports-color
-
   express@4.22.1:
     dependencies:
       accepts: 1.3.8
@@ -4983,18 +4612,6 @@ snapshots:
   fill-range@7.1.1:
     dependencies:
       to-regex-range: 5.0.1
-
-  finalhandler@1.3.1:
-    dependencies:
-      debug: 2.6.9
-      encodeurl: 2.0.0
-      escape-html: 1.0.3
-      on-finished: 2.4.1
-      parseurl: 1.3.3
-      statuses: 2.0.1
-      unpipe: 1.0.0
-    transitivePeerDependencies:
-      - supports-color
 
   finalhandler@1.3.2:
     dependencies:
@@ -5100,14 +4717,6 @@ snapshots:
 
   graceful-fs@4.2.10: {}
 
-  graphql-parse-resolve-info@4.14.1(graphql@15.10.1):
-    dependencies:
-      debug: 4.4.3(supports-color@8.1.1)
-      graphql: 15.10.1
-      tslib: 2.8.1
-    transitivePeerDependencies:
-      - supports-color
-
   graphql-parse-resolve-info@4.14.1(graphql@15.10.2):
     dependencies:
       debug: 4.4.3(supports-color@8.1.1)
@@ -5116,25 +4725,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  graphql-tag@2.12.6(graphql@15.10.1):
-    dependencies:
-      graphql: 15.10.1
-      tslib: 2.8.1
-
   graphql-tag@2.12.6(graphql@15.10.2):
     dependencies:
       graphql: 15.10.2
       tslib: 2.8.1
 
-  graphql-ws@5.16.2(graphql@15.10.1):
-    dependencies:
-      graphql: 15.10.1
-
   graphql-ws@5.16.2(graphql@15.10.2):
     dependencies:
       graphql: 15.10.2
-
-  graphql@15.10.1: {}
 
   graphql@15.10.2: {}
 
@@ -5183,14 +4781,6 @@ snapshots:
       tunnel-agent: 0.6.0
     transitivePeerDependencies:
       - supports-color
-
-  http-errors@2.0.0:
-    dependencies:
-      depd: 2.0.0
-      inherits: 2.0.4
-      setprototypeof: 1.2.0
-      statuses: 2.0.1
-      toidentifier: 1.0.1
 
   http-errors@2.0.1:
     dependencies:
@@ -5658,8 +5248,6 @@ snapshots:
       lru-cache: 10.4.3
       minipass: 7.1.3
 
-  path-to-regexp@0.1.12: {}
-
   path-to-regexp@0.1.13: {}
 
   path-type@4.0.0: {}
@@ -5750,10 +5338,6 @@ snapshots:
       end-of-stream: 1.4.5
       once: 1.4.0
 
-  qs@6.13.0:
-    dependencies:
-      side-channel: 1.1.0
-
   qs@6.14.2:
     dependencies:
       side-channel: 1.1.0
@@ -5765,13 +5349,6 @@ snapshots:
   queue-microtask@1.2.3: {}
 
   range-parser@1.2.1: {}
-
-  raw-body@2.5.2:
-    dependencies:
-      bytes: 3.1.2
-      http-errors: 2.0.0
-      iconv-lite: 0.4.24
-      unpipe: 1.0.0
 
   raw-body@2.5.3:
     dependencies:
@@ -5869,24 +5446,6 @@ snapshots:
 
   semver@7.7.4: {}
 
-  send@0.19.0:
-    dependencies:
-      debug: 2.6.9
-      depd: 2.0.0
-      destroy: 1.2.0
-      encodeurl: 1.0.2
-      escape-html: 1.0.3
-      etag: 1.8.1
-      fresh: 0.5.2
-      http-errors: 2.0.0
-      mime: 1.6.0
-      ms: 2.1.3
-      on-finished: 2.4.1
-      range-parser: 1.2.1
-      statuses: 2.0.1
-    transitivePeerDependencies:
-      - supports-color
-
   send@0.19.2:
     dependencies:
       debug: 2.6.9
@@ -5902,15 +5461,6 @@ snapshots:
       on-finished: 2.4.1
       range-parser: 1.2.1
       statuses: 2.0.2
-    transitivePeerDependencies:
-      - supports-color
-
-  serve-static@1.16.2:
-    dependencies:
-      encodeurl: 2.0.0
-      escape-html: 1.0.3
-      parseurl: 1.3.3
-      send: 0.19.0
     transitivePeerDependencies:
       - supports-color
 
@@ -6024,8 +5574,6 @@ snapshots:
   sql-highlight@6.0.0: {}
 
   standard-as-callback@2.1.0: {}
-
-  statuses@2.0.1: {}
 
   statuses@2.0.2: {}
 
@@ -6323,11 +5871,6 @@ snapshots:
   wrappy@1.0.2: {}
 
   ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10):
-    optionalDependencies:
-      bufferutil: 4.0.9
-      utf-8-validate: 5.0.10
-
-  ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     optionalDependencies:
       bufferutil: 4.0.9
       utf-8-validate: 5.0.10

@@ -64,12 +64,12 @@ packages:
     resolution: {integrity: sha512-Wqo1oSHNUj/jxmsVp4iR3I480p6qdqHikn38lKrFhfzcDJ7lwd7Ck7cHRl4JE81tWNArl77xhnG/OkZhxKBYOw==}
     hasBin: true
 
-  '@apollo/protobufjs@1.2.7':
-    resolution: {integrity: sha512-Lahx5zntHPZia35myYDBRuF58tlwPskwHc5CWBZC/4bMKB6siTBWwtMrkqXcsNwQiFSzSx5hKdRPUmemrEp3Gg==}
+  '@apollo/protobufjs@1.2.8':
+    resolution: {integrity: sha512-r7xNeUqZX+eBBEmyvaPw0/cSz6zgf5jdH8mjUz8ynKpNs/GU7vi2T7sNcZINk2ZID7wwjG91FCgdpCrQuJ8rzA==}
     hasBin: true
 
-  '@apollo/usage-reporting-protobuf@4.1.1':
-    resolution: {integrity: sha512-u40dIUePHaSKVshcedO7Wp+mPiZsaU6xjv9J+VyxpoU/zL6Jle+9zWeG98tr/+SZ0nZ4OXhrbb8SNr0rAPpIDA==}
+  '@apollo/usage-reporting-protobuf@4.1.2':
+    resolution: {integrity: sha512-aTnAD41RYz0d5dawlyR5Iclkgzx0Xb0njUJmEfvZ6pS4f4HU8wCYyctPpWat/HWp2PmRwDfX5R1k4uVcDKZ4xA==}
 
   '@apollo/utils.dropunuseddefinitions@1.1.0':
     resolution: {integrity: sha512-jU1XjMr6ec9pPoL+BFWzEPW7VHHulVdGKMkPAMiCigpVIT11VmCbnij0bWob8uS3ODJ65tZLYKAh/55vLw2rbg==}
@@ -2869,7 +2869,7 @@ snapshots:
       '@types/node': 10.17.60
       long: 4.0.0
 
-  '@apollo/protobufjs@1.2.7':
+  '@apollo/protobufjs@1.2.8':
     dependencies:
       '@protobufjs/aspromise': 1.1.2
       '@protobufjs/base64': 1.1.2
@@ -2884,9 +2884,9 @@ snapshots:
       '@types/long': 4.0.2
       long: 4.0.0
 
-  '@apollo/usage-reporting-protobuf@4.1.1':
+  '@apollo/usage-reporting-protobuf@4.1.2':
     dependencies:
-      '@apollo/protobufjs': 1.2.7
+      '@apollo/protobufjs': 1.2.8
 
   '@apollo/utils.dropunuseddefinitions@1.1.0(graphql@15.10.1)':
     dependencies:
@@ -2945,7 +2945,7 @@ snapshots:
 
   '@apollo/utils.usagereporting@1.0.1(graphql@15.10.1)':
     dependencies:
-      '@apollo/usage-reporting-protobuf': 4.1.1
+      '@apollo/usage-reporting-protobuf': 4.1.2
       '@apollo/utils.dropunuseddefinitions': 1.1.0(graphql@15.10.1)
       '@apollo/utils.printwithreducedwhitespace': 1.1.0(graphql@15.10.1)
       '@apollo/utils.removealiases': 1.0.0(graphql@15.10.1)
@@ -2955,7 +2955,7 @@ snapshots:
 
   '@apollo/utils.usagereporting@1.0.1(graphql@15.10.2)':
     dependencies:
-      '@apollo/usage-reporting-protobuf': 4.1.1
+      '@apollo/usage-reporting-protobuf': 4.1.2
       '@apollo/utils.dropunuseddefinitions': 1.1.0(graphql@15.10.2)
       '@apollo/utils.printwithreducedwhitespace': 1.1.0(graphql@15.10.2)
       '@apollo/utils.removealiases': 1.0.0(graphql@15.10.2)

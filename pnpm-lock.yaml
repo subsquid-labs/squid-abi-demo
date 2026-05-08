@@ -357,8 +357,8 @@ packages:
     resolution: {integrity: sha512-TpMdfD4tfA2tVVbd4l0PrP02o5KoUXYmudBbTC7CeguDo/GLoprw4uL8cMsaVA26+cbcy7WYtOEydQiHVtJixA==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/core@4.11.0':
-    resolution: {integrity: sha512-nTkRMgxFlIKQIIYGvhO2JMsLSQ1aHPHblHfFgxgoBrGK8Ao/8wxc4eNOIv/+t8dMXliZd7mREVr6la4aXXXg5A==}
+  '@oclif/core@4.11.1':
+    resolution: {integrity: sha512-+N5yqeoOKPnT0p+ZJiNutMILsZukZrEpsVup24XERla594EkGSWS9tiCqRfvzr1xfvf/AhM9pb0yPaf8L3Y9Uw==}
     engines: {node: '>=18.0.0'}
 
   '@oclif/plugin-autocomplete@3.0.13':
@@ -739,8 +739,8 @@ packages:
   '@types/node@18.19.110':
     resolution: {integrity: sha512-WW2o4gTmREtSnqKty9nhqF/vA0GKd0V/rbC0OyjSk9Bz6bzlsXKT+i7WDdS/a0z74rfT2PO4dArVCSnapNLA5Q==}
 
-  '@types/qs@6.15.0':
-    resolution: {integrity: sha512-JawvT8iBVWpzTrz3EGw9BTQFg3BQNmwERdKE22vlTxawwtbyUSlMppvZYKLZzB5zgACXdXxbD3m1bXaMqP/9ow==}
+  '@types/qs@6.15.1':
+    resolution: {integrity: sha512-GZHUBZR9hckSUhrxmp1nG6NwdpM9fCunJwyThLW1X3AyHgd9IlHb6VANpQQqDr2o/qQp6McZ3y/IA2rVzKzSbw==}
 
   '@types/range-parser@1.2.7':
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
@@ -3476,7 +3476,7 @@ snapshots:
       wordwrap: 1.0.0
       wrap-ansi: 7.0.0
 
-  '@oclif/core@4.11.0':
+  '@oclif/core@4.11.1':
     dependencies:
       ansi-escapes: 4.3.2
       ansis: 3.17.0
@@ -3508,7 +3508,7 @@ snapshots:
 
   '@oclif/plugin-warn-if-update-available@3.1.62':
     dependencies:
-      '@oclif/core': 4.11.0
+      '@oclif/core': 4.11.1
       ansis: 3.17.0
       debug: 4.4.3(supports-color@8.1.1)
       http-call: 5.3.0
@@ -4078,14 +4078,14 @@ snapshots:
   '@types/express-serve-static-core@4.17.31':
     dependencies:
       '@types/node': 18.19.110
-      '@types/qs': 6.15.0
+      '@types/qs': 6.15.1
       '@types/range-parser': 1.2.7
 
   '@types/express@4.17.14':
     dependencies:
       '@types/body-parser': 1.19.2
       '@types/express-serve-static-core': 4.17.31
-      '@types/qs': 6.15.0
+      '@types/qs': 6.15.1
       '@types/serve-static': 2.2.0
 
   '@types/fast-levenshtein@0.0.4': {}
@@ -4102,7 +4102,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/qs@6.15.0': {}
+  '@types/qs@6.15.1': {}
 
   '@types/range-parser@1.2.7': {}
 

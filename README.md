@@ -4,7 +4,7 @@ An experimental template is used to generate a squid indexing EVM logs and trans
 
 ## Usage
 
-0. Install the [Squid CLI](https://docs.subsquid.io/squid-cli/)
+0. Install the [Squid CLI](https://docs.sqd.dev/en/sdk)
 
 1. Init the template and install the dependcies
 
@@ -46,7 +46,7 @@ make serve
 
 4. Inspect `schema.graphql`, `src/processor.ts` and start hacking!
 
-For more details how to build and deploy a squid, see the [docs](https://docs.subsquid.io).
+For more details how to build and deploy a squid, see the [docs](https://docs.sqd.dev/en/sdk).
 
 ## Example
 
